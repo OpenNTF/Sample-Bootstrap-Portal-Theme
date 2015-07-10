@@ -1,0 +1,294 @@
+{
+	"moduleIDs": [
+		"wp_theme_portal_85",
+		"wp_dynamicContentSpots_85",
+		"wp_toolbar_host",
+		"wp_admin_edit",
+		"wp_portlet_css",
+		"wp_one_ui",
+		"wp_one_ui_dijit",
+		"wp_legacy_layouts",
+		"wp_client_ext",
+		"wp_status_bar",
+		"wp_theme_menus",
+		"wp_theme_skin_region",
+		"wp_theme_high_contrast",
+		"wp_layout_windowstates",
+		"wp_portal",
+		"wp_liveobject_framework",
+		"dojo_dom",
+		"dijit_app",
+		"dijit_form",
+		"dijit_layout_basic",
+		"dijit_layout_ext",
+		"wp_wcm_modal_dialog",
+		"wp_dialog_main",
+		"wp_draft_page_ribbon"
+	],
+	"deferredModuleIDs": [
+		"wp_content_mapping_picker"
+	],
+	"metadata":{
+		"com.ibm.portal.Hidden":"true"
+	},
+	"titles": [
+		{
+			"value":"‏ادارة‏",
+			"lang":"ar"
+		},
+		{
+			"value":"Administració",
+			"lang":"ca"
+		},
+		{
+			"value":"Administrace",
+			"lang":"cs"
+		},
+		{
+			"value":"Administration",
+			"lang":"da"
+		},
+		{
+			"value":"Verwaltung",
+			"lang":"de"
+		},
+		{
+			"value":"Διαχείριση",
+			"lang":"el"
+		},
+		{
+			"value":"Administration",
+			"lang":"en"
+		},
+		{
+			"value":"Administración",
+			"lang":"es"
+		},
+		{
+			"value":"Hallinta",
+			"lang":"fi"
+		},
+		{
+			"value":"Administration",
+			"lang":"fr"
+		},
+		{
+			"value":"מנהלה",
+			"lang":"he"
+		},
+		{
+			"value":"Administracija",
+			"lang":"hr"
+		},
+		{
+			"value":"Adminisztráció",
+			"lang":"hu"
+		},
+		{
+			"value":"Gestione",
+			"lang":"it"
+		},
+		{
+			"value":"管理",
+			"lang":"ja"
+		},
+		{
+			"value":"Әкімшілік",
+			"lang":"kk"
+		},
+		{
+			"value":"관리",
+			"lang":"ko"
+		},
+		{
+			"value":"Beheer",
+			"lang":"nl"
+		},
+		{
+			"value":"Administrasjon",
+			"lang":"no"
+		},
+		{
+			"value":"Administrowanie",
+			"lang":"pl"
+		},
+		{
+			"value":"Administração",
+			"lang":"pt"
+		},
+		{
+			"value":"Administração",
+			"lang":"pt_BR"
+		},
+		{
+			"value":"Administrare",
+			"lang":"ro"
+		},
+		{
+			"value":"Администрирование",
+			"lang":"ru"
+		},
+		{
+			"value":"Administrácia",
+			"lang":"sk"
+		},
+		{
+			"value":"Skrbniški",
+			"lang":"sl"
+		},
+		{
+			"value":"Administration",
+			"lang":"sv"
+		},
+		{
+			"value":"การดูแลระบบ",
+			"lang":"th"
+		},
+		{
+			"value":"Denetim",
+			"lang":"tr"
+		},
+		{
+			"value":"Адміністрування",
+			"lang":"uk"
+		},
+		{
+			"value":"管理",
+			"lang":"zh"
+		},
+		{
+			"value":"管理",
+			"lang":"zh_TW"
+		}
+	],
+	"descriptions": [
+		{
+			"value":"لملف المواصفات هذا مجموعة من وحدات البرامج لصفحات الادارة من Portal.",
+			"lang":"ar"
+		},
+		{
+			"value":"Aquest perfil té un conjunt de mòduls per a les pàgines d'Administració del Portal.",
+			"lang":"ca"
+		},
+		{
+			"value":"Tento profil má sadu modulů pro stránky Administrace portálu.",
+			"lang":"cs"
+		},
+		{
+			"value":"Denne profil har et sæt moduler til portalens administrationssider.",
+			"lang":"da"
+		},
+		{
+			"value":"Dieses Profil enthält eine Gruppe von Modulen für die Verwaltungsseiten des Portals.",
+			"lang":"de"
+		},
+		{
+			"value":"Αυτό το προφίλ περιέχει ένα σύνολο λειτουργικών μονάδων για τις σελίδες διαχείρισης του Portal.",
+			"lang":"el"
+		},
+		{
+			"value":"This profile has a set of modules for the Administration pages of Portal.",
+			"lang":"en"
+		},
+		{
+			"value":"Este perfil tiene un conjunto de módulos para las páginas de Administración de Portal.",
+			"lang":"es"
+		},
+		{
+			"value":"Tässä profiilissa on portaalin hallintasivujen moduulijoukko.",
+			"lang":"fi"
+		},
+		{
+			"value":"Ce profil contient un ensemble de modules pour les pages d'administration du portail.",
+			"lang":"fr"
+		},
+		{
+			"value":"פרופיל זה כולל מערך של מודולים עבור דפי המנהלה של הפורטל.",
+			"lang":"he"
+		},
+		{
+			"value":"Ovaj profil ima skup modula za administracijske stranice portala.",
+			"lang":"hr"
+		},
+		{
+			"value":"A profil a portál adminisztrációs oldalainak moduljait tartalmazza.",
+			"lang":"hu"
+		},
+		{
+			"value":"Questo profilo ha un insieme di moduli per le pagine Gestione del portale.",
+			"lang":"it"
+		},
+		{
+			"value":"このプロファイルには、ポータルの管理ページのモジュール・セットが含まれています。",
+			"lang":"ja"
+		},
+		{
+			"value":"Бұл профильде Порталдың Әкімшілік беттеріне арналған модульдердің толық жиыны бар.",
+			"lang":"kk"
+		},
+		{
+			"value":"이 프로파일에는 포털의 관리 페이지에 필요한 모듈 세트가 있습니다.",
+			"lang":"ko"
+		},
+		{
+			"value":"Dit profiel heeft een set modules voor de beheerpagina's van Portal.",
+			"lang":"nl"
+		},
+		{
+			"value":"Denne profilen har et sett med moduler for administrasjonssidene i portalen.",
+			"lang":"no"
+		},
+		{
+			"value":"Ten profil zawiera zbiór modułów dla stron administracyjnych portalu.",
+			"lang":"pl"
+		},
+		{
+			"value":"Este perfil tem um conjunto de módulos para as páginas de administração do portal.",
+			"lang":"pt"
+		},
+		{
+			"value":"Esse perfil tem um conjunto de módulos para as páginas de Administração do Portal.",
+			"lang":"pt_BR"
+		},
+		{
+			"value":"Acest profil are un set de module pentru paginile Administrare ale portalului.",
+			"lang":"ro"
+		},
+		{
+			"value":"Этот профайл содержит ряд модулей для страниц администрирования портала.",
+			"lang":"ru"
+		},
+		{
+			"value":"Tento profil má množinu modulov pre administratívne stránky portálu.",
+			"lang":"sk"
+		},
+		{
+			"value":"Ta profil ima nabor modulov za skrbniške strani portala.",
+			"lang":"sl"
+		},
+		{
+			"value":"Profil med moduler för portalens administrationssidor.",
+			"lang":"sv"
+		},
+		{
+			"value":"โปรไฟล์นี้มีชุดของโมดูลสำหรับหน้าการควบคุมดูแลของพอร์ทัล",
+			"lang":"th"
+		},
+		{
+			"value":"Bu profil, Portal'ın Denetim sayfalarıyla ilgili bir modül kümesini içerir.",
+			"lang":"tr"
+		},
+		{
+			"value":"Цей профайл містить набір модулів для сторінок адміністрування порталу.",
+			"lang":"uk"
+		},
+		{
+			"value":"此概要文件具有一组门户网站“管理”页面的模块。",
+			"lang":"zh"
+		},
+		{
+			"value":"這個設定檔包含入口網站管理頁面的模組集。",
+			"lang":"zh_TW"
+		}
+	]
+}

@@ -1,0 +1,21 @@
+/* default style of portal 8 */
+.wpthemeMenu .wpthemeMenuBorder {
+	left: 0px;
+}
+
+.wpthemeMenu .wpthemeMenuInlineList li {
+    border-left: 1px solid #CCC;
+}
+
+.wpthemeMenu .wpthemeMenuInlineList li.wpthemeFirst {
+    padding-right: 3px;
+    margin-right: 4px;
+}
+
+.wpthemeMenu .wpthemeMenuInlineList li.wpthemeLast {
+    padding-left: 7px;
+    border-left: 0px;
+}
+.wpthemeMenuText {
+	text-align: right;
+}

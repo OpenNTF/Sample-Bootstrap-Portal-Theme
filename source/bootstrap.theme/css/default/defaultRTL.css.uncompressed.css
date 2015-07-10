@@ -1,0 +1,56 @@
+.wpthemeLeft {float: right;}
+.wpthemeRight {float: left;}
+.wpthemeHeader {text-align: right;}
+.wpthemeHeader .wpthemeNavContainer1,
+.wpthemeBanner .wpthemeNavContainer1 {float: right;}
+.wpthemeHeaderNav ul {padding: 0 5px 0 0;}
+.wpthemePrimaryNav li {margin: 0 0 0 1px;}
+ul.wpthemeCommonActions > li {float: right;}
+.wpthemeBanner ul.wpthemeCommonActions > li > span, 
+.wpthemeBanner ul.wpthemeCommonActions li a, 
+.wpthemeBanner ul.wpthemeCommonActions li a:link, 
+.wpthemeBanner ul.wpthemeCommonActions li a:active {border-left: 1px solid #4b4b4b;border-left: 1px solid rgba(255,255,255,.15);border-right: 0;padding: 0 0 0 10px;}
+.wpthemeCommonActions a.wpthemeHelp,
+.wpthemeCommonActions a.wpthemeHelp:focus,
+.wpthemeCommonActions a.wpthemeHelp:hover,
+.wpthemeCommonActions a.wpthemeHelp:active {margin-right: 10px;}
+.locale_ar .wpthemeCommonActions .wpthemeHelp img{background-position:0 -864px;}
+.locale_ar .wpthemeCommonActions .wpthemeHelp img:hover {background-position:0 -838px;}
+.wpthemeSecondaryNav li{margin: 0 0 0 -1px;}
+.wpthemeSearch {margin: 14px 5px 14px 20px;}
+.wpthemeSearch input.wpthemeSearchButton {	padding: 0 0 2px 2px;}
+.wpthemeControl .wpthemeControlHeader h2 {padding: 5px 0 5px 5px;}
+.edit-mode .wpthemeControl .wpthemeControlHeader .dndHandle {float: right; margin: 0 0 0 4px;}
+.wpthemeCol{margin: 0 20px 0 0;}
+.wpthemeRow {margin: 0 0 20px 20px; padding: 0 5px 0 0;}
+.wpthemeRow .wpthemeControl ,.hiddenWidgetsDiv .wpthemeControl {float: right; margin: 0 0 0 7.5px;}
+.wpthemeRow .component-control { float: right; }
+.wpthemeRow .ibmDndHorizontalGhost { margin: 7.5px 0 7.5px 7.5px; }
+.wpthemeMainContent .hiddenWidgetsDiv {padding: 0 7.5px 0 0;}
+.hiddenWidgetsDiv .hiddenWidgetMessage {margin:0 0 7.5px -7.5px;}
+.wptheme_ie7 body {overflow:hidden;}
+.wptheme_ie7 .wpthemeControl .wpthemeControlHeader h2 {float:right}
+.wptheme_ie7 .wpthemeControlHeader .wpthemeIcon {float:left}
+.wpthemeNavList .wpthemeClose,.wpthemeNavList .wpthemeClose:active {margin-right: -10px; margin-left: 20px;}
+.wpthemeHeaderNav .wpthemeClose,.wpthemeHeaderNav .wpthemeClose:active {margin-right: -2px;}
+.wpthemeHeaderNav .wpthemeSelected .wpthemeClose {background-color:transparent;}
+.wpthemePrimaryNav .wpthemeSelected .wpthemeClose,.wpthemePrimaryNav .wpthemeSelected .wpthemeClose:active {margin-right: -17px; margin-left: 0; background: none; border-style: none;}
+.wptheme_ie7 .wpthemeCommonActions.wpthemeRight {width: 50%;}
+.wptheme_ie7 .wpthemeBanner .wpthemeNavContainer1 {width: 66.5%;}
+.wptheme_ie7 .wpthemeHeader .wpthemeNavContainer1 {width: 70%;}
+.wptheme_ie7 .wpthemeHeader .wpthemeInner .wpthemeRight {width: 30%;}
+.wptheme_ie7 .wpthemeHeader .wpthemeNavContainer1 .wpthemeNavList,
+.wptheme_ie7 .wpthemeBanner .wpthemeNavContainer1 .wpthemePrimaryNav {width: 100%;}
+.wptheme_ie7 .wpthemeHeaderNav ul li a,
+.wptheme_ie7 .wpthemePrimaryNav li a,
+.wptheme_ie7 .wpthemeSecondaryNav a {float: none;}
+.wptheme_ie7 .wpthemeSecondaryNav a {display: inline;}
+.wptheme_ie7 .wpthemeNavList .wpthemeClose {margin: 0px;}
+.wpthemeFooterCol {text-align: right;}
+.wpthemeCrumbTrail {margin: 6px 20px 0 0;}
+.wpthemeCommonActions .wpthemeSearch {margin: 13px 0 12px 20px;}
+.wpthemeCommonActions a.wpthemeHelp, .wpthemeCommonActions a.wpthemeHelp:focus, .wpthemeCommonActions a.wpthemeHelp:hover, .wpthemeCommonActions a.wpthemeHelp:active {margin-right: 0px;}
+.wpthemeBannerPrimaryNavigation .wpthemeNavContainer1 {float: right;}
+.wpthemeOverlay .wpthemeOverlayImg {margin-right:49%;}
+.wpthemeLayoutContainers div.ibmDndColumn.ibmDndDropZonesActive .portal-drop-target section {right: -1px;}
+.wpthemeLayoutContainers div.ibmDndRow.ibmDndDropZonesActive .portal-drop-target section {right: -15px;}

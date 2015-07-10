@@ -1,0 +1,295 @@
+.contextMenu,.componentName,.componentId,.templateId {
+    display: none;
+}
+
+.wpthemeMenu {
+    color: #000;
+    position: absolute;
+    z-index: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+}
+
+/* default style of portal 8 */
+.wpthemeMenu .wpthemeMenuBorder {
+    top: -9999px;
+    border: 3px solid #4B4B4B /*this is needed for IE*/;
+    border: 3px solid rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.6); 
+    -webkit-box-shadow: 0 1px 12px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.6);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    margin: 0;
+    z-index: 501;
+    position: absolute;
+    padding: 0;
+    display: none;
+}
+
+.wpthemeMenu .wpthemeMenuBorder .wpthemeMenuDropDown {
+    list-style: none outside none;
+    margin: 0;
+    white-space: nowrap;
+    padding: 10px;
+    background-color: white;
+    cursor: default;
+}
+
+.wpthemeMenu .wpthemeMenuBorder .wpthemeMenuDropDown li {
+    color: #222;
+    margin: 1px;
+    padding: 2px 8px;
+    font-family: arial;
+    font-size: 1em;
+    text-align: left;
+    border:1px solid transparent;
+}
+
+.wpthemeMenu .wpthemeMenuBorder .wpthemeMenuDropDown li:focus,
+.wpthemeMenu .wpthemeMenuBorder .wpthemeMenuDropDown li:hover {
+    background-color: #F0FAFA;
+    text-decoration: underline;
+    border:1px solid #D7E6E8;
+}
+
+.wpthemeMenu .wpthemeMenuBorder .wpthemeMenuDropDown li.typeMenuitem {
+    cursor: pointer;
+}
+
+.wpthemeMenu .wpthemeMenuBorder .wpthemeMenuDropDown li.typeHeader {
+    font-weight: bold;
+    color: #000;
+    font-size: 1.05em;
+}
+
+.wpthemeMenu .wpthemeMenuBorder .wpthemeMenuDropDown li.wpthemeMenuError:focus {
+    background-color: transparent !important;
+}
+
+.wpthemeMenu .wpthemeMenuBorder .wpthemeMenuDropDown li.typeHeader:focus {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    text-decoration: none !important;
+}
+
+.wpthemeMenu .wpthemeMenuBorder .wpthemeMenuDropDown li.wpthemeMenuDisabled {
+    color: #CCCCCC;
+}
+
+.wpthemeMenu .wpthemeMenuBorder .wpthemeMenuDropDown li.typeSeparator {
+    border-top: thin solid #e0e0e0;
+    background-color: transparent;
+    padding: 0px 10px;
+    font-size: 0px;
+    line-height: 0;
+}
+
+.wpthemeMenu .wpthemeMenuBorder .wpthemeMenuDropDown .wpthemeMenuText {
+    display: block;
+    width: 100%;
+}
+
+.wpthemeMenu .wpthemeMenuLoading {
+    top: -9999px;
+    white-space: nowrap;
+    margin: 1px;
+    padding: 5px 10px 5px 25px;
+    position: absolute;
+    color: #444;
+    font-family: arial;
+    font-size: 1em;
+    background-image: url(../images/loading.gif);
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    background-color:#FFFFFF;
+}
+
+/* Submenu handling */
+.wpthemeMenu .wpthemeMenuShow .wpthemeAnchorSubmenu.wpthemeTemplateSubmenu .wpthemeMenuBorder.wpthemeMenuSubmenu
+    {
+    top: -9999px;
+}
+
+.wpthemeMenu .wpthemeMenuDropDown li.typeSubmenu {
+    
+}
+
+.wpthemeMenu .wpthemeMenuDropDown .wpthemeAnchorSubmenu {
+    position: relative;
+}
+
+.wpthemeMenu .wpthemeMenuShow .wpthemeMenuDropDown .typeSubmenu.wpthemeMenuShow .wpthemeAnchorSubmenu.wpthemeTemplateSubmenu .wpthemeMenuSubmenu
+    {
+    top: -2em;
+}
+
+.wpthemeMenu .wpthemeMenuSubmenu .wpthemeMenuDropDown li {
+    font-size: 1em;
+}
+
+.wpthemeMenu .wpthemeMenuSubmenu .wpthemeMenuDropDown .wpthemeMenuLoading {
+    font-size: 1em;
+}
+
+/* Overlay handling */
+.wpthemeMenuOverlay {
+    visibility: hidden;
+    position: absolute;
+}
+
+.wpthemeMenuShow .wpthemeMenuOverlay {
+    visibility: visible;
+}
+
+/* prevent OneUI elements from covering the menus */
+.lotusui_ie7 .wpthemeControlBody .lotusSection,.lotusui_ie7 .wpthemeControlBody .lotusWelcomeBox
+    {
+    position: static;
+}
+
+/* Plain HTML */
+.wpthemePlain .wpthemeControlHeader .wpthemeMenuFocus,.wptheme_ie7 .wpthemePlain .wpthemeControlHeader .wpthemeMenuFocus
+    {
+    display: none;
+}
+
+/* IE7 hasLayout issue fix */
+.wptheme_ie7 .wpthemeMenuDropDown {
+    min-height: 0;
+}
+
+.wpthemeMenuShow .wpthemeMenu .wpthemeMenuBorder {
+    top: 0px;
+    display: block;
+}
+
+.wpthemeMenuShow .wpthemeMenu {
+    display: block;
+}
+
+.wpthemeMenuShow .wpthemeMenu .wpthemeMenuLoading {
+    position: static;
+}
+
+.lotus_rtl .wpthemeMenuText {
+    text-align: right;
+}
+
+/* INLINE LIST MENU */
+
+/* horizontal menu stuff */
+.wpthemeMenu .wpthemeMenuInlineList {
+    display: none;
+    border: 2px solid #4B4B4B /*this is needed for IE*/;
+    border: 2px solid rgba(0, 0, 0, 0.7);
+    background-color: #fff;
+    padding: 5px 0px;
+    margin: 0;
+    cursor: default;
+    list-style-type: none;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+}
+
+.wpthemeMenu .wpthemeMenuInlineList li {
+    display: inline-block;
+    margin: 0;
+    padding: 3px 7px;
+}
+
+/*the next two lines are needed to fix text zoom for inline lists in IE7 (also fixes RTL display issues)*/
+.lotusui_ie7 .wpthemeMenu .wpthemeMenuInlineList li{display:inline-block;}
+.lotusui_ie .wpthemeMenu .wpthemeMenuInlineList li{display:inline;}
+
+.wpthemeMenuShow .wpthemeMenu .wpthemeMenuInlineList {
+    display: block
+}
+
+.wpthemeMenuShow .wpthemeMenu {
+    visibility: visible;
+}
+
+.wpthemeMenuShow .menuPointer {
+    visibility: visible;
+}
+
+.wpthemeMenu .wpthemeMenuInlineList a,.wpthemeMenu .wpthemeMenuInlineList a:link,.wpthemeMenu .wpthemeMenuInlineList a:visited
+    {
+    text-decoration: none;
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 3px 7px 3px 7px;
+}
+
+.wpthemeMenu .wpthemeMenuInlineList li:hover,.wpthemeMenu .wpthemeMenuInlineList li:focus,.wpthemeMenu .wpthemeMenuInlineList li:active
+    {
+    text-decoration: none;
+    color: #000;
+    background-color: #e1f4f9;
+}
+
+.wpthemeMenu .wpthemeMenuInlineList li.typeMenuitem {
+    cursor: pointer;
+}
+
+.wpthemeMenu .wpthemeMenuInlineList li.typeHeader {
+    font-weight: bold;
+    color: #000;
+    font-size: 1.05em;
+}
+
+.wpthemeMenu .horizontalMenuPointer {
+    position: absolute;
+    background-image: url(../images/cam_sharkfin_top.png);
+    width: 11px;
+    height: 9px;
+    display: none;
+}
+
+.wpthemeMenuShow .wpthemeMenu .horizontalMenuPointer {
+    display: block
+}
+
+.wpthemeMenu .verticalMenuPointer {
+    position: absolute;
+    display: none;
+}
+
+.wpthemeMenu .verticalMenuPointer.left , .wpthemeMenu .verticalMenuPointer.right {
+    width: 10px;
+    height: 13px;
+    margin-top: -3px;
+}
+
+.wpthemeMenu .verticalMenuPointer.left {
+    background-image: url(../images/cam_sharkfin_left.png);
+    left: -10px;
+}
+
+.wpthemeMenu .verticalMenuPointer.right {
+    background-image: url(../images/cam_sharkfin_right.png);
+    right: -10px;
+}
+
+.wpthemeMenu .verticalMenuPointer.top {
+    background-image: url(../images/cam_sharkfin_normal_top.png);
+    top: -10px;
+    width : 13px;
+    height: 10px;
+    margin-left: -3px;
+    margin-top: -2px;
+}
+
+.wpthemeMenuShow .wpthemeMenu .verticalMenuPointer {
+    display: block;
+}
+
+.wpthemeMenuActive {
+    border: 1px dashed lightblue;
+}

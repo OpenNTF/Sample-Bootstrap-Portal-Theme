@@ -1,0 +1,287 @@
+ [
+	{
+		"type":"ModuleRef",
+		"id":"wp_tagging_rating_menu",
+		"moduleArgs":"type=page"
+	},
+	{
+		"type":"ModuleRef",
+		"id":"wp_analytics_tags",
+		"moduleArgs":"type=page"
+	},
+	{
+		"type":"ModuleRef",
+		"id":"wp_analytics_overlay_reports"
+	},
+	{
+		"type":"Separator"
+	},
+	{
+		"type":"Header",
+		"titles": [
+			{
+				"value":"تصرفات اضافية",
+				"lang":"ar"
+			},
+			{
+				"value":"Accions addicionals",
+				"lang":"ca"
+			},
+			{
+				"value":"Další akce",
+				"lang":"cs"
+			},
+			{
+				"value":"Yderligere funktioner",
+				"lang":"da"
+			},
+			{
+				"value":"Zusätzliche Aktionen",
+				"lang":"de"
+			},
+			{
+				"value":"Πρόσθετες ενέργειες",
+				"lang":"el"
+			},
+			{
+				"value":"Additional Actions",
+				"lang":"en"
+			},
+			{
+				"value":"Acciones adicionales",
+				"lang":"es"
+			},
+			{
+				"value":"Lisätoiminnot",
+				"lang":"fi"
+			},
+			{
+				"value":"Actions supplémentaires",
+				"lang":"fr"
+			},
+			{
+				"value":"פעולות נוספות",
+				"lang":"he"
+			},
+			{
+				"value":"Dodatne akcije",
+				"lang":"hr"
+			},
+			{
+				"value":"További műveletek",
+				"lang":"hu"
+			},
+			{
+				"value":"Azioni aggiuntive",
+				"lang":"it"
+			},
+			{
+				"value":"追加のアクション",
+				"lang":"ja"
+			},
+			{
+				"value":"Қосымша әрекеттер",
+				"lang":"kk"
+			},
+			{
+				"value":"추가 조치",
+				"lang":"ko"
+			},
+			{
+				"value":"Aanvullende acties",
+				"lang":"nl"
+			},
+			{
+				"value":"Flere handlinger",
+				"lang":"no"
+			},
+			{
+				"value":"Działania dodatkowe",
+				"lang":"pl"
+			},
+			{
+				"value":"Acções adicionais",
+				"lang":"pt"
+			},
+			{
+				"value":"Ações adicionais",
+				"lang":"pt_BR"
+			},
+			{
+				"value":"Acţiuni suplimentare",
+				"lang":"ro"
+			},
+			{
+				"value":"Дополнительные действия",
+				"lang":"ru"
+			},
+			{
+				"value":"Ďalšie akcie",
+				"lang":"sk"
+			},
+			{
+				"value":"Dodatna dejanja",
+				"lang":"sl"
+			},
+			{
+				"value":"Fler åtgärder",
+				"lang":"sv"
+			},
+			{
+				"value":"แอ็คชันเพิ่มเติม",
+				"lang":"th"
+			},
+			{
+				"value":"Ek İşlemler",
+				"lang":"tr"
+			},
+			{
+				"value":"Додаткові дії",
+				"lang":"uk"
+			},
+			{
+				"value":"附加操作",
+				"lang":"zh"
+			},
+			{
+				"value":"其他動作",
+				"lang":"zh_TW"
+			}
+		]
+	},
+	{
+		"type":"DynamicMenuitem",
+		"id":"ibm.portal.operations.showImpersonationPage",
+		"visibilityFn":"wptheme.canImpersonate",
+		"titles": [
+			{
+				"value":"تمثيل شخصية مستخدم",
+				"lang":"ar"
+			},
+			{
+				"value":"Suplanta",
+				"lang":"ca"
+			},
+			{
+				"value":"Ztělesnit",
+				"lang":"cs"
+			},
+			{
+				"value":"Efterlign",
+				"lang":"da"
+			},
+			{
+				"value":"Identität annehmen",
+				"lang":"de"
+			},
+			{
+				"value":"Αντιπροσώπευση",
+				"lang":"el"
+			},
+			{
+				"value":"Impersonate",
+				"lang":"en"
+			},
+			{
+				"value":"Suplantar",
+				"lang":"es"
+			},
+			{
+				"value":"Esiinny toisena käyttäjänä",
+				"lang":"fi"
+			},
+			{
+				"value":"Imiter",
+				"lang":"fr"
+			},
+			{
+				"value":"התחפשות",
+				"lang":"he"
+			},
+			{
+				"value":"Oponašaj",
+				"lang":"hr"
+			},
+			{
+				"value":"Megszemélyesítés",
+				"lang":"hu"
+			},
+			{
+				"value":"Impersona",
+				"lang":"it"
+			},
+			{
+				"value":"偽名を使用",
+				"lang":"ja"
+			},
+			{
+				"value":"Еліктеу",
+				"lang":"kk"
+			},
+			{
+				"value":"위장",
+				"lang":"ko"
+			},
+			{
+				"value":"Imiteren",
+				"lang":"nl"
+			},
+			{
+				"value":"Representer",
+				"lang":"no"
+			},
+			{
+				"value":"Przełącz użytkownika",
+				"lang":"pl"
+			},
+			{
+				"value":"Simular",
+				"lang":"pt"
+			},
+			{
+				"value":"Personificar",
+				"lang":"pt_BR"
+			},
+			{
+				"value":"Impersonare",
+				"lang":"ro"
+			},
+			{
+				"value":"Работать от имени другого пользователя",
+				"lang":"ru"
+			},
+			{
+				"value":"Prevziať identitu",
+				"lang":"sk"
+			},
+			{
+				"value":"Poosebi",
+				"lang":"sl"
+			},
+			{
+				"value":"Ställföreträd",
+				"lang":"sv"
+			},
+			{
+				"value":"ปลอมตัว",
+				"lang":"th"
+			},
+			{
+				"value":"Başkasının Kimliğini Edin",
+				"lang":"tr"
+			},
+			{
+				"value":"Працювати від іншого імені",
+				"lang":"uk"
+			},
+			{
+				"value":"模拟",
+				"lang":"zh"
+			},
+			{
+				"value":"模擬",
+				"lang":"zh_TW"
+			}
+		]
+	}
+]

@@ -1,0 +1,203 @@
+/* start RTL exploit navigation */
+.wpthemeMobileNav {
+    box-shadow: -3px 5px 8px #000000;
+}
+
+.wpthemeNavToggleBtn {
+	/* button to open/close navigation */
+    float: right;
+}
+
+.wpthemeMobileNav > ul.wpthemeExpandNav > .wpthemeNavListItem a span {
+	/* first level phone indentation */
+	padding-left: 20px;
+	padding-right: 10px;
+}
+
+.wpthemeMobileNav > ul.wpthemeExpandNav ul.wpthemeExpandNav .wpthemeNavListItem a span {
+	/* second level phone indentation */
+	padding-left: none;
+	padding-right: 20px;
+}
+
+.wpthemeMobileNav > ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav .wpthemeNavListItem a span {
+	/* third level phone indentation */
+	padding-left: none;
+	padding-right: 30px;
+}
+
+.wpthemeMobileNav > ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav .wpthemeNavListItem a span {
+	/* fourth level phone indentation */
+	padding-left: none;
+	padding-right: 40px;
+}
+
+.wpthemeMobileNav > ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav .wpthemeNavListItem a span {
+	/* fifth level phone indentation */
+	padding-left: none;
+	padding-right: 50px;
+}
+
+.wpthemeMobileNav > ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav .wpthemeNavListItem a span {
+	/* sixth level phone indentation */
+	padding-left: none;
+	padding-right: 60px;
+}
+
+.wpthemeMobileNav ul.wpthemeExpandNav a,
+.wpthemeMobileNav ul.wpthemeExpandNav a:hover,
+.wpthemeMobileNav ul.wpthemeExpandNav a:active,
+.wpthemeMobileNav ul.wpthemeExpandNav a:focus  {
+	/* first level anchors */
+	float: right;
+	margin-left: 0;
+	margin-right: -1.8px;
+}
+
+.wpthemeMobileNav ul.wpthemeExpandNav .wpthemeSelected > a,
+.wpthemeMobileNav ul.wpthemeExpandNav .wpthemeSelected > a:hover,
+.wpthemeMobileNav ul.wpthemeExpandNav .wpthemeSelected > a:active,
+.wpthemeMobileNav ul.wpthemeExpandNav .wpthemeSelected > a:focus  {
+	/* first level selected anchors */
+	border-left: 1px solid black !important;
+	border-right: 1px solid #323232 !important;
+}
+
+.wpthemeMobileNav ul.wpthemeExpandNav .wpthemeAncestor > a span {
+	/* first level selected anchors */
+	border-left: none;
+	border-right: 6px solid #298ac3;
+}
+
+.wpthemeMobileNav ul.wpthemeExpandNav .wpthemeSelected > a span {
+	/* first level selected anchors */
+	border-left: none;
+	border-right: 6px solid #5cbaf0;
+}
+
+.wpthemeMobileNav ul.wpthemeExpandNav .wpthemeHasChildren > a {
+	/* all level anchors */
+	border-right: none;
+	border-left: 1px solid #404040;
+	margin-left: 0;
+	margin-right: -1px;
+}
+
+.wpthemeMobileNav.wpthemeMobileSide:nth-of-type(n) .wpthemeHasChildren a {
+	/* fourth+ levels anchors with children */
+	border-right: none;
+	border-left: 1px solid #404040;
+}
+
+.wpthemeMobileNav > ul.wpthemeExpandNav .wpthemeHasChildren a,
+.wpthemeMobileNav.wpthemeMobileSide:nth-of-type(1) .wpthemeHasChildren a {
+	/* first level anchors with children */
+	border-right: none;
+	border-left: 1px solid #1a1a1a;
+}
+
+.wpthemeMobileNav > ul.wpthemeExpandNav ul.wpthemeExpandNav .wpthemeHasChildren a,
+.wpthemeMobileNav.wpthemeMobileSide:nth-of-type(3) .wpthemeHasChildren a {
+	/* second level anchors with children */
+	border-right: none;
+	border-left: 1px solid #262626;
+}
+
+.wpthemeMobileNav > ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav .wpthemeHasChildren a,
+.wpthemeMobileNav.wpthemeMobileSide:nth-of-type(4) .wpthemeHasChildren a {
+	/* third level anchors with children */
+	border-right: none;
+	border-left: 1px solid #333;
+}
+
+.wpthemeMobileNav > ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav .wpthemeHasChildren a {
+	/* fourth level anchors with children */
+	border-right: none;
+	border-left: 1px solid #404040;
+}
+
+.wpthemeMobileNav ul.wpthemeExpandNav .wpthemeHasChildren > a.wpthemeExpandBtn {
+	/* expand/collapse button, all n levels */
+    float: left;
+    margin: 0 0 0 -1px;
+}
+
+.wpthemeMobileNav.wpthemeMobileSide:nth-of-type(n) .wpthemeHasChildren a.wpthemeExpandBtn {
+	/* expand/collapse button, fourth+ levels */
+    border-left: none;
+    border-right: 1px solid #595959;
+}
+
+.wpthemeMobileNav > ul.wpthemeExpandNav .wpthemeHasChildren a.wpthemeExpandBtn,
+.wpthemeMobileNav.wpthemeMobileSide:nth-of-type(1) .wpthemeHasChildren a.wpthemeExpandBtn {
+	/* expand/collapse button, first level */
+    border-left: none;
+    border-right: 1px solid #333;
+}
+
+.wpthemeMobileNav > ul.wpthemeExpandNav ul.wpthemeExpandNav .wpthemeHasChildren a.wpthemeExpandBtn,
+.wpthemeMobileNav.wpthemeMobileSide:nth-of-type(3) .wpthemeHasChildren a.wpthemeExpandBtn {
+	/* expand/collapse button, second level */
+    border-left: none;
+    border-right: 1px solid #404040;
+}
+
+.wpthemeMobileNav > ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav .wpthemeHasChildren a.wpthemeExpandBtn,
+.wpthemeMobileNav.wpthemeMobileSide:nth-of-type(4) .wpthemeHasChildren a.wpthemeExpandBtn {
+	/* expand/collapse button, third level */
+    border-left: none;
+    border-right: 1px solid #4d4d4d;
+}
+
+.wpthemeMobileNav > ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav .wpthemeHasChildren a.wpthemeExpandBtn {
+	/* expand/collapse button, fourth level */
+    border-left: none;
+    border-right: 1px solid #595959;
+}
+
+.wpthemeMobileNav ul.wpthemeExpandNav .wpthemeNavListItem.wpthemeAncestor > a {
+	/* all li a levels */
+	border-left: 1px solid #000 !important;
+	border-right: none !important;
+	margin-left: -2px;
+}
+
+.wpthemeMobileNav ul.wpthemeExpandNav .wpthemeNavListItem.wpthemeAncestor > a.wpthemeExpandBtn {
+	/* all li a levels */
+	border-left: none;
+	border-right: 1px solid #232323;
+}
+
+.wpthemeMobileNav .wpthemeNavListItem .wpthemeExpandBtn img {
+	/* all n levels, open */
+	background-position: 12px -1181px;
+}
+
+.wpthemeMobileNav .wpthemeNavListItem.wpthemeNavCollapsed .wpthemeExpandBtn img {
+	/* all n levels, closed */
+	background-position: 12px -1411px;
+}
+
+.wpthemeMobileNav ul.wpthemeExpandNav .wpthemeNavClose a,
+.wpthemeMobileNav ul.wpthemeExpandNav .wpthemeNavClose a:hover,
+.wpthemeMobileNav ul.wpthemeExpandNav .wpthemeNavClose a:active,
+.wpthemeMobileNav ul.wpthemeExpandNav .wpthemeNavClose a:focus {
+	/* close li text */
+	float: left;
+	text-align: left;
+}
+
+.wpthemeMobileNav ul.wpthemeExpandNav .wpthemeNavClose a span {
+	/* close li text */
+	margin-right: 0;
+	margin-left: 15px;
+}
+
+.wpthemeMobileNav .wpthemeSearch input.wpthemeSearchText {
+	float: right;
+}
+
+.wpthemeMobileNav .wpthemeSearch input.wpthemeSearchButton {
+	float: left;
+}
+/* end RTL exploit navigation */

@@ -1,0 +1,183 @@
+/* RTL style overrides */
+
+/* ************************************************************************************ */
+/* Layout Template '2 Column' */
+
+@media screen and (min-width:481px)
+{
+    .wptheme2Col .wpthemeSecondaryContainer.wpthemeCol {
+        float: left;
+    }
+}
+
+/* ************************************************************************************ */
+/* Layout Template '2 Column Left' */
+/* Layout Template '2 Column Right' */
+
+@media screen and (min-width:481px)
+{
+    .wptheme2Col.wpthemeUnequal .wpthemePrimaryContainer.wpthemeCol,
+    .wptheme2Col.wpthemeUnequal .wpthemeSecondaryContainer.wpthemeCol {
+        float: right;
+    }
+    .wptheme2Col.wpthemeUnequal div.wpthemeCol + div.wpthemeCol { /* select the second container to be right aligned */
+        float: left;
+    }
+}
+
+/* ************************************************************************************ */
+/* Layout Template '3 Column Equal' */
+
+@media screen and (min-width:769px)
+{
+    .wptheme3Col .wpthemeSecondaryContainer.wpthemeCol {
+        float: left;
+    }
+}
+@media screen and (min-width:1281px)
+{
+    .wptheme3Col .wpthemePrimaryContainer.wpthemeCol {
+        margin-left: 0;
+        margin-right: 1.48%;
+    }
+}
+@media screen and (min-width:1025px) and (max-width: 1280px)
+{
+    .wptheme3Col .wpthemePrimaryContainer.wpthemeCol {
+        margin-left: 0;
+        margin-right: 1.62%;
+    }
+}
+@media screen and (min-width:897px) and (max-width: 1024px)
+{
+    .wptheme3Col .wpthemePrimaryContainer.wpthemeCol {
+        margin-left: 0;
+        margin-right: 2.04%;
+    }
+}
+@media screen and (min-width:769px) and (max-width: 896px)
+{
+    .wptheme3Col .wpthemePrimaryContainer.wpthemeCol {
+        margin-left: 0;
+        margin-right: 2.34%;
+    }
+}
+@media screen and (min-width:481px) and (max-width: 768px)
+{
+    .wptheme3Col .wpthemeTertiaryContainer.wpthemeCol {
+        float: left;
+    }
+    .wptheme3Col .wpthemeSecondaryContainer.wpthemeCol {
+        float: left;
+        clear: left;
+    }
+}
+
+/* ************************************************************************************ */
+/* Layout Template '3 Column Center' */
+@media screen and (min-width:1281px)
+{
+    .wptheme3Col.wpthemeUnequal .wpthemePrimaryContainer.wpthemeCol {
+        margin-left: 0;
+        margin-right: 1.47%;
+    }
+}
+@media screen and (min-width:1025px) and (max-width: 1280px)
+{
+    .wptheme3Col.wpthemeUnequal .wpthemePrimaryContainer.wpthemeCol {
+        margin-left: 0;
+        margin-right: 1.61%;
+    }
+}
+@media screen and (min-width:897px) and (max-width: 1024px)
+{
+    .wptheme3Col.wpthemeUnequal .wpthemePrimaryContainer.wpthemeCol {
+        margin-left: 0;
+        margin-right: 2.03%;
+    }
+}
+@media screen and (min-width:769px) and (max-width: 896px)
+{
+    .wptheme3Col.wpthemeUnequal .wpthemePrimaryContainer.wpthemeCol {
+        margin-left: 0;
+        margin-right: 2.34%;
+    }
+}
+@media screen and (min-width:481px) and (max-width: 768px)
+{
+    .wptheme3Col.wpthemeUnequal .wpthemeTertiaryContainer.wpthemeCol {
+        float: left;
+    }
+    .wptheme3Col.wpthemeUnequal .wpthemeSecondaryContainer.wpthemeCol {
+        float: left;
+        clear: left;
+    }
+}
+
+/* ************************************************************************************ */
+/* Layout Template 'Top Column 3 Column Center' */
+/* mainly identical with 3 Column Center, just a few overrides */
+
+@media screen and (min-width:481px)
+{
+    .wptheme3Col.wpthemeTopCol .wpthemeSecondaryContainer.wpthemeCol {
+        float: right;
+    }
+    .wptheme3Col.wpthemeTopCol .wpthemeTertiaryContainer.wpthemeCol {
+        float: left;
+    }
+}
+@media screen and (min-width:1281px)
+{
+    .wptheme3Col.wpthemeTopCol .wpthemePrimaryContainer.wpthemeCol {
+        margin-left: 0;
+        margin-right: 1.47%;
+    }
+}
+@media screen and (min-width:1025px) and (max-width: 1280px)
+{
+    .wptheme3Col.wpthemeTopCol .wpthemePrimaryContainer.wpthemeCol {
+        margin-left: 0;
+        margin-right: 1.61%;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width: 1024px)
+{
+    .wptheme3Col.wpthemeTopCol .wpthemePrimaryContainer.wpthemeCol {
+        margin-left: 0;
+        margin-right: 2.03%;
+    }
+}
+/* inbetween size overwrite */
+@media screen and (min-width:769px) and (max-width: 896px)
+{
+    .wptheme3Col.wpthemeTopCol .wpthemePrimaryContainer.wpthemeCol {
+        margin-left: 0;
+        margin-right: 2.34%;
+    }
+}
+@media screen and (min-width:481px) and (max-width: 768px)
+{
+    .wptheme3Col.wpthemeTopCol .wpthemeTertiaryContainer.wpthemeCol {
+        float: left;
+    }
+    .wptheme3Col.wpthemeTopCol .wpthemeSecondaryContainer.wpthemeCol {
+        float: left;
+        clear: left;
+    }
+}
+
+/* ************************************************************************************ */
+/* Layout Template 'Top Column 2 Column Left' */
+/* mainly identical with 2 Column Left, just a few overrides */
+
+@media screen and (min-width:481px)
+{
+    .wptheme2Col.wpthemeUnequal.wpthemeTopCol .wpthemePrimaryContainer.wpthemeCol {
+        float:right;
+    }
+    .wptheme2Col.wpthemeUnequal.wpthemeTopCol .wpthemeSecondaryContainer.wpthemeCol {
+        float:left;
+    }
+}

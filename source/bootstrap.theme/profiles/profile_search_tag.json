@@ -1,0 +1,302 @@
+{
+	"moduleIDs": [
+		"getting_started_module",
+		"wp_theme_portal_85",
+		"wp_dynamicContentSpots_85",
+		"wp_toolbar_host_view",
+		"wp_portlet_css",
+		"wp_one_ui",
+		"wp_one_ui_dijit",
+		"wp_legacy_layouts",
+		"wp_client_ext",
+		"wp_status_bar",
+		"wp_theme_menus",
+		"wp_theme_skin_region",
+		"wp_theme_high_contrast",
+		"wp_layout_windowstates",
+		"wp_portal",
+		"wp_pagebuilder_ui",
+		"wp_tagging_rating_menu",
+		"wp_tagging_rating_tagcloud",
+		"wp_tagging_rating_opensearch",
+		"wp_social_rendering_85",
+		"wp_analytics_aggregator",
+		"wp_oob_sample_styles",
+		"wp_ic4_wai_resources",
+		"wp_worklight_ext",
+		"dojo",
+		"wp_draft_page_ribbon"
+	],
+	"deferredModuleIDs": [
+		"wp_toolbar_host_edit",
+		"wp_analytics_tags",
+		"wp_contextmenu_live_object",
+		"wp_content_targeting_cam",
+		"wcm_inplaceEdit",
+		"wp_skin_cam",
+		"wp_liveobject_framework"
+	],
+	"metadata":{
+		"com.ibm.portal.Hidden":"true"
+	},
+	"titles": [
+		{
+			"value":"مركز البحث وشارات التعليم",
+			"lang":"ar"
+		},
+		{
+			"value":"Search and Tag Center",
+			"lang":"ca"
+		},
+		{
+			"value":"Centrum vyhledávání a značek",
+			"lang":"cs"
+		},
+		{
+			"value":"Søge- og emneordscenter",
+			"lang":"da"
+		},
+		{
+			"value":"Such- und Tag-Center",
+			"lang":"de"
+		},
+		{
+			"value":"Κέντρο αναζήτησης και προσδιοριστικών",
+			"lang":"el"
+		},
+		{
+			"value":"Search and Tag Center",
+			"lang":"en"
+		},
+		{
+			"value":"Search and Tag Center",
+			"lang":"es"
+		},
+		{
+			"value":"Haku- ja tunnistetoiminnot",
+			"lang":"fi"
+		},
+		{
+			"value":"Centre de recherche et Centre d'étiquettes",
+			"lang":"fr"
+		},
+		{
+			"value":"מרכז החיפוש והתגים",
+			"lang":"he"
+		},
+		{
+			"value":"Centar pretraživanja i oznaka",
+			"lang":"hr"
+		},
+		{
+			"value":"Kereső- és Címkeközpont",
+			"lang":"hu"
+		},
+		{
+			"value":"Centro ricerca e tag",
+			"lang":"it"
+		},
+		{
+			"value":"検索およびタグ・センター",
+			"lang":"ja"
+		},
+		{
+			"value":"Іздеу және Тег орталығы",
+			"lang":"kk"
+		},
+		{
+			"value":"검색 및 태그 센터",
+			"lang":"ko"
+		},
+		{
+			"value":"Zoek- en tagcentrum",
+			"lang":"nl"
+		},
+		{
+			"value":"Søke- og kodesenter",
+			"lang":"no"
+		},
+		{
+			"value":"Centrum wyszukiwania i Centrum znaczników",
+			"lang":"pl"
+		},
+		{
+			"value":"Centro de procura e etiquetas",
+			"lang":"pt"
+		},
+		{
+			"value":"Centro de Procura e Identificação",
+			"lang":"pt_BR"
+		},
+		{
+			"value":"Centrul de căutare şi taguri",
+			"lang":"ro"
+		},
+		{
+			"value":"Центр поиска и тегов",
+			"lang":"ru"
+		},
+		{
+			"value":"Centrum hľadania a značiek",
+			"lang":"sk"
+		},
+		{
+			"value":"Središče za iskanje in označevanje",
+			"lang":"sl"
+		},
+		{
+			"value":"Sök- och märkordscenter",
+			"lang":"sv"
+		},
+		{
+			"value":"ศูนย์ค้นหาและแท็ก",
+			"lang":"th"
+		},
+		{
+			"value":"Arama ve Etiket Merkezi",
+			"lang":"tr"
+		},
+		{
+			"value":"Центри пошуку й тегів",
+			"lang":"uk"
+		},
+		{
+			"value":"搜索和标记中心",
+			"lang":"zh"
+		},
+		{
+			"value":"搜尋和標籤中心",
+			"lang":"zh_TW"
+		}
+	],
+	"descriptions": [
+		{
+			"value":"يتم استخدام ملف المواصفات هذا لصفحات مركز البحث ومركز شارات التعليم",
+			"lang":"ar"
+		},
+		{
+			"value":"Aquest perfil s'utilitza per les pàgines del Search Center and Tag Center",
+			"lang":"ca"
+		},
+		{
+			"value":"Tento profil se používá pro stránky centra vyhledávání a centra značek",
+			"lang":"cs"
+		},
+		{
+			"value":"Denne profil anvendes til sider med Søgecenter og Emneordscenter",
+			"lang":"da"
+		},
+		{
+			"value":"Dieses Profil wird für Suchcenter- und Tag-Center-Seiten verwendet",
+			"lang":"de"
+		},
+		{
+			"value":"Αυτό το προφίλ χρησιμοποιείται για τις σελίδες του κέντρου αναζήτησης και του κέντρου προσδιοριστικών.",
+			"lang":"el"
+		},
+		{
+			"value":"This profile is used for Search Center and Tag Center Pages",
+			"lang":"en"
+		},
+		{
+			"value":"Las páginas de Search Center and Tag utilizan este perfil",
+			"lang":"es"
+		},
+		{
+			"value":"Tätä profiilia käytetään Haku- ja tunnistetoimintojen sivuille",
+			"lang":"fi"
+		},
+		{
+			"value":"Ce profil est utilisé pour les pages Centre de recherche et Centre d'étiquettes",
+			"lang":"fr"
+		},
+		{
+			"value":"פרופיל זה משמש עבור הדף 'מרכז החיפוש' והדף 'מרכז התגים'",
+			"lang":"he"
+		},
+		{
+			"value":"Ovaj profil se koristi za stranice centra pretraživanja i centra oznaka",
+			"lang":"hr"
+		},
+		{
+			"value":"A profil a Keresőközpont és a Címkeközpont oldalakhoz használatos",
+			"lang":"hu"
+		},
+		{
+			"value":"Questo profilo è utilizzato per le pagine Centro ricerca e Centro tag",
+			"lang":"it"
+		},
+		{
+			"value":"このプロファイルは検索センターとタグ・センターに使用されます。",
+			"lang":"ja"
+		},
+		{
+			"value":"Бұл профайл Іздеу Орталығы және Тег Орталығы Беттері үшін қолданылады",
+			"lang":"kk"
+		},
+		{
+			"value":"이 프로파일은 검색 센터 및 태그 센터 페이지에 사용됩니다.",
+			"lang":"ko"
+		},
+		{
+			"value":"Dit profiel wordt gebruikt voor pagina's van het Zoekcentrum en het Tagcentrum",
+			"lang":"nl"
+		},
+		{
+			"value":"Denne profilen brukes for sidene Søkesenter og Kodesenter",
+			"lang":"no"
+		},
+		{
+			"value":"Ten profil jest używany dla stron Centrum wyszukiwania i Centrum znaczników.",
+			"lang":"pl"
+		},
+		{
+			"value":"Este perfil é utilizado para as páginas do Centro de procura e para o Centro de etiquetas",
+			"lang":"pt"
+		},
+		{
+			"value":"Este perfil é usado para as páginas Centro de Procura e Centro de Identificação",
+			"lang":"pt_BR"
+		},
+		{
+			"value":"Acest profil este folosit de Centru de căutare şi Centru de taguri.",
+			"lang":"ro"
+		},
+		{
+			"value":"Этот профайл используется для страниц Центра поиска и Центра тегов",
+			"lang":"ru"
+		},
+		{
+			"value":"Tento profil sa používa pre stránky Centrum hľadania a Centrum značiek",
+			"lang":"sk"
+		},
+		{
+			"value":"Ta profil se uporablja za strani centra za iskanje in centra za označevanje",
+			"lang":"sl"
+		},
+		{
+			"value":"Profil för sökcenter- och märkordscentersidor.",
+			"lang":"sv"
+		},
+		{
+			"value":"โปรไฟล์นี้ใช้สำหรับเพจศูนย์ค้นหาและศูนย์แท็ก",
+			"lang":"th"
+		},
+		{
+			"value":"Bu profil, Arama Merkezi ve Etiket Merkezi Sayfaları için kullanılır.",
+			"lang":"tr"
+		},
+		{
+			"value":"Цей профайл використовується для сторінок Центру пошуку та Центру тегів",
+			"lang":"uk"
+		},
+		{
+			"value":"此概要文件用于搜索中心和标记中心页面",
+			"lang":"zh"
+		},
+		{
+			"value":"此設定檔用於「搜尋中心」和「標籤中心頁面」",
+			"lang":"zh_TW"
+		}
+	]
+}

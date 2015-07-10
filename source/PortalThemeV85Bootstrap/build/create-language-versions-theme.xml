@@ -1,0 +1,177 @@
+<?xml version="1.0"?>
+
+<project default="main" basedir=".">
+	<property name="fileDIR" value="../../PortalThemeV85BootstrapStatic/WebContent/themes/Portal8.5/nls" />
+	<property name="filebasename" value="theme" />
+	
+	<property name="enLocale" value="en" />
+	
+	<property name="arLocale" value="ar" />
+	<property name="caLocale" value="ca" />
+	<property name="csLocale" value="cs" />
+	<property name="daLocale" value="da" />
+	<property name="deLocale" value="de" />
+	<property name="elLocale" value="el" />
+	<property name="esLocale" value="es" />
+	<property name="fiLocale" value="fi" />
+	<property name="frLocale" value="fr" />
+	<property name="hrLocale" value="hr" />
+	<property name="huLocale" value="hu" />
+	<property name="itLocale" value="it" />
+	<property name="iwLocale" value="iw" />
+	<property name="jaLocale" value="ja" />
+	<property name="kkLocale" value="kk" />
+	<property name="koLocale" value="ko" />
+	<property name="nlLocale" value="nl" />
+	<property name="noLocale" value="no" />
+	<property name="plLocale" value="pl" />
+	<property name="pt_BRLocale" value="pt_BR" />
+	<property name="ptLocale" value="pt" />
+	<property name="roLocale" value="ro" />
+	<property name="ruLocale" value="ru" />
+	<property name="skLocale" value="sk" />
+	<property name="slLocale" value="sl" />
+	<property name="svLocale" value="sv" />
+	<property name="thLocale" value="th" />
+	<property name="trLocale" value="tr" />
+	<property name="ukLocale" value="uk" />
+	<property name="zh_TWLocale" value="zh_TW" />
+	<property name="zhLocale" value="zh" />
+	
+	<echo message="Starting creating the localized files!" />
+	<target name="main">
+		
+		<copy file="${fileDIR}/${filebasename}_${enLocale}.html" tofile="${fileDIR}/${filebasename}_${arLocale}.html" />
+		<replace file="${fileDIR}/${filebasename}_${arLocale}.html" token='lang="en"' value='lang="ar"' />
+		<replace file="${fileDIR}/${filebasename}_${arLocale}.html" token='locale_en' value='locale_ar' />
+	
+		<copy file="${fileDIR}/${filebasename}_${enLocale}.html" tofile="${fileDIR}/${filebasename}_${caLocale}.html" />
+		<replace file="${fileDIR}/${filebasename}_${caLocale}.html" token='lang="en"' value='lang="ca"' />
+		<replace file="${fileDIR}/${filebasename}_${caLocale}.html" token='locale_en' value='locale_ca' />	
+	
+		<copy file="${fileDIR}/${filebasename}_${enLocale}.html" tofile="${fileDIR}/${filebasename}_${csLocale}.html" />
+		<replace file="${fileDIR}/${filebasename}_${csLocale}.html" token='lang="en"' value='lang="cs"' />
+		<replace file="${fileDIR}/${filebasename}_${csLocale}.html" token='locale_en' value='locale_cs' />	
+		
+		<copy file="${fileDIR}/${filebasename}_${enLocale}.html" tofile="${fileDIR}/${filebasename}_${daLocale}.html" />
+		<replace file="${fileDIR}/${filebasename}_${daLocale}.html" token='lang="en"' value='lang="da"' />
+		<replace file="${fileDIR}/${filebasename}_${daLocale}.html" token='locale_en' value='locale_da' />		
+		
+		<copy file="${fileDIR}/${filebasename}_${enLocale}.html" tofile="${fileDIR}/${filebasename}_${deLocale}.html" />
+		<replace file="${fileDIR}/${filebasename}_${deLocale}.html" token='lang="en"' value='lang="de"' />
+		<replace file="${fileDIR}/${filebasename}_${deLocale}.html" token='locale_en' value='locale_de' />		
+		
+		<copy file="${fileDIR}/${filebasename}_${enLocale}.html" tofile="${fileDIR}/${filebasename}_${elLocale}.html" />
+		<replace file="${fileDIR}/${filebasename}_${elLocale}.html" token='lang="en"' value='lang="el"' />
+		<replace file="${fileDIR}/${filebasename}_${elLocale}.html" token='locale_en' value='locale_el' />		
+		
+		<copy file="${fileDIR}/${filebasename}_${enLocale}.html" tofile="${fileDIR}/${filebasename}_${esLocale}.html" />
+		<replace file="${fileDIR}/${filebasename}_${esLocale}.html" token='lang="en"' value='lang="es"' />
+		<replace file="${fileDIR}/${filebasename}_${esLocale}.html" token='locale_en' value='locale_es' />
+
+		<copy file="${fileDIR}/${filebasename}_${enLocale}.html" tofile="${fileDIR}/${filebasename}_${fiLocale}.html" />
+		<replace file="${fileDIR}/${filebasename}_${fiLocale}.html" token='lang="en"' value='lang="fi"' />
+		<replace file="${fileDIR}/${filebasename}_${fiLocale}.html" token='locale_en' value='locale_fi' />
+		
+		<copy file="${fileDIR}/${filebasename}_${enLocale}.html" tofile="${fileDIR}/${filebasename}_${frLocale}.html" />
+		<replace file="${fileDIR}/${filebasename}_${frLocale}.html" token='lang="en"' value='lang="fr"' />
+		<replace file="${fileDIR}/${filebasename}_${frLocale}.html" token='locale_en' value='locale_fr' />
+		
+		<copy file="${fileDIR}/${filebasename}_${enLocale}.html" tofile="${fileDIR}/${filebasename}_${hrLocale}.html" />
+		<replace file="${fileDIR}/${filebasename}_${hrLocale}.html" token='lang="en"' value='lang="hr"' />
+		<replace file="${fileDIR}/${filebasename}_${hrLocale}.html" token='locale_en' value='locale_hr' />
+		
+		<copy file="${fileDIR}/${filebasename}_${enLocale}.html" tofile="${fileDIR}/${filebasename}_${huLocale}.html" />
+		<replace file="${fileDIR}/${filebasename}_${huLocale}.html" token='lang="en"' value='lang="hu"' />
+		<replace file="${fileDIR}/${filebasename}_${huLocale}.html" token='locale_en' value='locale_hu' />
+		
+		<copy file="${fileDIR}/${filebasename}_${enLocale}.html" tofile="${fileDIR}/${filebasename}_${itLocale}.html" />
+		<replace file="${fileDIR}/${filebasename}_${itLocale}.html" token='lang="en"' value='lang="it"' />
+		<replace file="${fileDIR}/${filebasename}_${itLocale}.html" token='locale_en' value='locale_it' />
+
+		<copy file="${fileDIR}/${filebasename}_${enLocale}.html" tofile="${fileDIR}/${filebasename}_${iwLocale}.html" />
+		<replace file="${fileDIR}/${filebasename}_${iwLocale}.html" token='lang="en"' value='lang="iw"' />
+		<replace file="${fileDIR}/${filebasename}_${iwLocale}.html" token='locale_en' value='locale_iw' />
+
+		<copy file="${fileDIR}/${filebasename}_${enLocale}.html" tofile="${fileDIR}/${filebasename}_${jaLocale}.html" />
+		<replace file="${fileDIR}/${filebasename}_${jaLocale}.html" token='lang="en"' value='lang="ja"' />
+		<replace file="${fileDIR}/${filebasename}_${jaLocale}.html" token='locale_en' value='locale_ja' />
+		
+		<copy file="${fileDIR}/${filebasename}_${enLocale}.html" tofile="${fileDIR}/${filebasename}_${kkLocale}.html" />
+		<replace file="${fileDIR}/${filebasename}_${kkLocale}.html" token='lang="en"' value='lang="kk"' />
+		<replace file="${fileDIR}/${filebasename}_${kkLocale}.html" token='locale_en' value='locale_kk' />
+		
+		<copy file="${fileDIR}/${filebasename}_${enLocale}.html" tofile="${fileDIR}/${filebasename}_${koLocale}.html" />
+		<replace file="${fileDIR}/${filebasename}_${koLocale}.html" token='lang="en"' value='lang="ko"' />
+		<replace file="${fileDIR}/${filebasename}_${koLocale}.html" token='locale_en' value='locale_ko' />
+		
+		<copy file="${fileDIR}/${filebasename}_${enLocale}.html" tofile="${fileDIR}/${filebasename}_${nlLocale}.html" />
+		<replace file="${fileDIR}/${filebasename}_${nlLocale}.html" token='lang="en"' value='lang="nl"' />
+		<replace file="${fileDIR}/${filebasename}_${nlLocale}.html" token='locale_en' value='locale_nl' />
+		
+		<copy file="${fileDIR}/${filebasename}_${enLocale}.html" tofile="${fileDIR}/${filebasename}_${noLocale}.html" />
+		<replace file="${fileDIR}/${filebasename}_${noLocale}.html" token='lang="en"' value='lang="no"' />
+		<replace file="${fileDIR}/${filebasename}_${noLocale}.html" token='locale_en' value='locale_no' />
+		
+		<copy file="${fileDIR}/${filebasename}_${enLocale}.html" tofile="${fileDIR}/${filebasename}_${plLocale}.html" />
+		<replace file="${fileDIR}/${filebasename}_${plLocale}.html" token='lang="en"' value='lang="pl"' />
+		<replace file="${fileDIR}/${filebasename}_${plLocale}.html" token='locale_en' value='locale_pl' />
+		
+		<copy file="${fileDIR}/${filebasename}_${enLocale}.html" tofile="${fileDIR}/${filebasename}_${pt_BRLocale}.html" />
+		<replace file="${fileDIR}/${filebasename}_${pt_BRLocale}.html" token='lang="en"' value='lang="pt_BR"' />
+		<replace file="${fileDIR}/${filebasename}_${pt_BRLocale}.html" token='locale_en' value='locale_pt_BR' />
+		
+		<copy file="${fileDIR}/${filebasename}_${enLocale}.html" tofile="${fileDIR}/${filebasename}_${ptLocale}.html" />
+		<replace file="${fileDIR}/${filebasename}_${ptLocale}.html" token='lang="en"' value='lang="pt"' />
+		<replace file="${fileDIR}/${filebasename}_${ptLocale}.html" token='locale_en' value='locale_pt' />
+	
+		<copy file="${fileDIR}/${filebasename}_${enLocale}.html" tofile="${fileDIR}/${filebasename}_${roLocale}.html" />
+		<replace file="${fileDIR}/${filebasename}_${roLocale}.html" token='lang="en"' value='lang="ro"' />
+		<replace file="${fileDIR}/${filebasename}_${roLocale}.html" token='locale_en' value='locale_ro' />
+		
+		<copy file="${fileDIR}/${filebasename}_${enLocale}.html" tofile="${fileDIR}/${filebasename}_${ruLocale}.html" />
+		<replace file="${fileDIR}/${filebasename}_${ruLocale}.html" token='lang="en"' value='lang="ru"' />
+		<replace file="${fileDIR}/${filebasename}_${ruLocale}.html" token='locale_en' value='locale_ru' />
+		
+		<copy file="${fileDIR}/${filebasename}_${enLocale}.html" tofile="${fileDIR}/${filebasename}_${skLocale}.html" />
+		<replace file="${fileDIR}/${filebasename}_${skLocale}.html" token='lang="en"' value='lang="sk"' />
+		<replace file="${fileDIR}/${filebasename}_${skLocale}.html" token='locale_en' value='locale_sk' />
+		
+		<copy file="${fileDIR}/${filebasename}_${enLocale}.html" tofile="${fileDIR}/${filebasename}_${slLocale}.html" />
+		<replace file="${fileDIR}/${filebasename}_${slLocale}.html" token='lang="en"' value='lang="sl"' />
+		<replace file="${fileDIR}/${filebasename}_${slLocale}.html" token='locale_en' value='locale_sl' />
+		
+		<copy file="${fileDIR}/${filebasename}_${enLocale}.html" tofile="${fileDIR}/${filebasename}_${svLocale}.html" />
+		<replace file="${fileDIR}/${filebasename}_${svLocale}.html" token='lang="en"' value='lang="sv"' />
+		<replace file="${fileDIR}/${filebasename}_${svLocale}.html" token='locale_en' value='locale_sv' />
+		
+		<copy file="${fileDIR}/${filebasename}_${enLocale}.html" tofile="${fileDIR}/${filebasename}_${thLocale}.html" />
+		<replace file="${fileDIR}/${filebasename}_${thLocale}.html" token='lang="en"' value='lang="th"' />
+		<replace file="${fileDIR}/${filebasename}_${thLocale}.html" token='locale_en' value='locale_th' />
+		
+		<copy file="${fileDIR}/${filebasename}_${enLocale}.html" tofile="${fileDIR}/${filebasename}_${trLocale}.html" />
+		<replace file="${fileDIR}/${filebasename}_${trLocale}.html" token='lang="en"' value='lang="tr"' />
+		<replace file="${fileDIR}/${filebasename}_${trLocale}.html" token='locale_en' value='locale_tr' />
+
+		<copy file="${fileDIR}/${filebasename}_${enLocale}.html" tofile="${fileDIR}/${filebasename}_${ukLocale}.html" />
+		<replace file="${fileDIR}/${filebasename}_${ukLocale}.html" token='lang="en"' value='lang="uk"' />
+		<replace file="${fileDIR}/${filebasename}_${ukLocale}.html" token='locale_en' value='locale_uk' />
+		
+		<copy file="${fileDIR}/${filebasename}_${enLocale}.html" tofile="${fileDIR}/${filebasename}_${zh_TWLocale}.html" />
+		<replace file="${fileDIR}/${filebasename}_${zh_TWLocale}.html" token='lang="en"' value='lang="zh_TW"' />
+		<replace file="${fileDIR}/${filebasename}_${zh_TWLocale}.html" token='locale_en' value='locale_zh_TW' />
+		
+		<copy file="${fileDIR}/${filebasename}_${enLocale}.html" tofile="${fileDIR}/${filebasename}_${zhLocale}.html" />
+		<replace file="${fileDIR}/${filebasename}_${zhLocale}.html" token='lang="en"' value='lang="zh"' />
+		<replace file="${fileDIR}/${filebasename}_${zhLocale}.html" token='locale_en' value='locale_zh' />
+		
+		<!-- 		
+		<copy file="${fileDIR}/${filebasename}_${enLocale}.html" tofile="${fileDIR}/${filebasename}_${XXXLocale}.html" />
+		<replace file="${fileDIR}/${filebasename}_${XXXLocale}.html" token='lang="en"' value='lang="XXX"' />
+		<replace file="${fileDIR}/${filebasename}_${XXXLocale}.html" token='locale_en' value='locale_XXX' />
+		-->
+						
+	</target>
+</project>
+
+

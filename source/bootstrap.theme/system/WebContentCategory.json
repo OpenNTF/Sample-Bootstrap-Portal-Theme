@@ -1,0 +1,13 @@
+{ 
+localizationPackageName:"com.ibm.bundles", localizationBundleName:"Shelf", 
+categories:[ 
+{ 
+"label":"category_web_content",
+"datastore":"com.ibm.pb.data.WcmStore",
+"url":ibmPortalConfig.contentHandlerURI+ ((ibmPortalConfig.contentHandlerURI.indexOf("?")==-1)?"?":"&") + "uri=pdl:all&filterByPP=com.ibm.portal.wcm.copy.contents%3dtrue&rep=compact&sort=title&order=asc", 
+"idPrefix":"pm:oid:",
+"visibilityFn":"com.ibm.theme.shelf.checkForVP",
+"renderers":[]
+} 
+] 
+}

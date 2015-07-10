@@ -1,0 +1,12 @@
+{ localizationPackageName:'com.ibm.bundles', localizationBundleName:'Shelf', identifier:'label', items: [
+	{'label':'change_style_defaultStyle','id':'initial','thumbnail':ibmCfg.themeConfig.themeRootURI+'/css/default/default.png','help':''},
+	{'label':'change_style_red','id':'red.css','url':'css/red/red.css','thumbnail':ibmCfg.themeConfig.themeRootURI+'/css/red/red.png','help':''},
+	{'label':'change_style_orangeStyle','id':'orange.css','url':'css/orange/orange.css','thumbnail':ibmCfg.themeConfig.themeRootURI+'/css/orange/orange.png','help':''},
+	{'label':'change_style_gold','id':'gold.css','url':'css/gold/gold.css','thumbnail':ibmCfg.themeConfig.themeRootURI+'/css/gold/gold.png','help':''},
+	{'label':'change_style_green','id':'green.css','url':'css/green/green.css','thumbnail':ibmCfg.themeConfig.themeRootURI+'/css/green/green.png','help':''},
+	{'label':'change_style_blue','id':'blue.css','url':'css/blue/blue.css','thumbnail':ibmCfg.themeConfig.themeRootURI+'/css/blue/blue.png','help':''},
+	{'label':'change_style_purpleStyle','id':'purple.css','url':'css/purple/purple.css','thumbnail':ibmCfg.themeConfig.themeRootURI+'/css/purple/purple.png','help':''},
+	{'label':'change_style_black','id':'black.css','url':'css/black/black.css','thumbnail':ibmCfg.themeConfig.themeRootURI+'/css/black/black.png','help':''},
+	{'label':'change_style_white','id':'white.css','url':'css/white/white.css','thumbnail':ibmCfg.themeConfig.themeRootURI+'/css/white/white.png','help':''}
+	] 
+}

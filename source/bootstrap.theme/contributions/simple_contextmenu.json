@@ -1,0 +1,852 @@
+{
+	"modules": [
+		{
+			"id":"wp_simple_contextmenu_templates",
+			"contributions": [
+				{
+					"type":"config",
+					"sub-contributions": [
+						{
+							"type":"markup",
+							"uris": [
+								{
+									"value":"/menuDefinitions/templates/simpleMenuTemplate.html"
+								}
+							]
+						}
+					]
+				}
+			],
+			"titles": [
+				{
+					"value":"قوالب العرض التقديمي للقائمة البسيطة",
+					"lang":"ar"
+				},
+				{
+					"value":"Plantilles de presentació de menú simple",
+					"lang":"ca"
+				},
+				{
+					"value":"Prezentační šablona jednoduché nabídky",
+					"lang":"cs"
+				},
+				{
+					"value":"Præsentationsskabeloner til Simple Menu",
+					"lang":"da"
+				},
+				{
+					"value":"Präsentationsschablonen für das einfache Menü",
+					"lang":"de"
+				},
+				{
+					"value":"Πρότυπα παρουσίασης απλού μενού",
+					"lang":"el"
+				},
+				{
+					"value":"Simple Menu presentation templates",
+					"lang":"en"
+				},
+				{
+					"value":"Plantillas de presentación del menú simple",
+					"lang":"es"
+				},
+				{
+					"value":"Yksinkertaisen valikon esitysmallipohjat",
+					"lang":"fi"
+				},
+				{
+					"value":"Modèles de présentation de menu simple",
+					"lang":"fr"
+				},
+				{
+					"value":"תבניות תצוגה לתפריט פשוט",
+					"lang":"he"
+				},
+				{
+					"value":"Predlošci predstavljanja jednostavnog izbornika",
+					"lang":"hr"
+				},
+				{
+					"value":"Egyszerű menü megjelenítési sablonok",
+					"lang":"hu"
+				},
+				{
+					"value":"Template di presentazione Menu semplice",
+					"lang":"it"
+				},
+				{
+					"value":"単純メニューのプレゼンテーション・テンプレート",
+					"lang":"ja"
+				},
+				{
+					"value":"Қарапайым мәзір көрсетілімінің үлгілері",
+					"lang":"kk"
+				},
+				{
+					"value":"단순 메뉴 프리젠테이션 템플리트",
+					"lang":"ko"
+				},
+				{
+					"value":"Presentatiesjablonen voor eenvoudig menu",
+					"lang":"nl"
+				},
+				{
+					"value":"Presentasjonsmaler for enkel meny",
+					"lang":"no"
+				},
+				{
+					"value":"Szablony prezentacji prostego menu",
+					"lang":"pl"
+				},
+				{
+					"value":"Modelos de apresentação do Menu simples",
+					"lang":"pt"
+				},
+				{
+					"value":"Modelos simples de apresentação de menu",
+					"lang":"pt_BR"
+				},
+				{
+					"value":"Şabloane de prezentare ale meniului simplu",
+					"lang":"ro"
+				},
+				{
+					"value":"Шаблоны представления простого меню",
+					"lang":"ru"
+				},
+				{
+					"value":"Šablóny prezentácie Jednoduchá ponuka",
+					"lang":"sk"
+				},
+				{
+					"value":"Predstavitvene predloge za preprosti meni",
+					"lang":"sl"
+				},
+				{
+					"value":"Presentationsmallar för enkel meny",
+					"lang":"sv"
+				},
+				{
+					"value":"เทมเพลตการนำเสนอเมนูแบบง่าย",
+					"lang":"th"
+				},
+				{
+					"value":"Yalın Menü sunum şablonları",
+					"lang":"tr"
+				},
+				{
+					"value":"Шаблони представлення простого меню",
+					"lang":"uk"
+				},
+				{
+					"value":"“简单菜单”演示模板",
+					"lang":"zh"
+				},
+				{
+					"value":"簡易功能表外觀呈現範本",
+					"lang":"zh_TW"
+				}
+			],
+			"descriptions": [
+				{
+					"value":"يتم تقديم القوالب المستخدمة لتمثيل القائمة البسيطة بيانيا.",
+					"lang":"ar"
+				},
+				{
+					"value":"Proporciona plantilles utilitzades per representar el menú simple",
+					"lang":"ca"
+				},
+				{
+					"value":"Nabízí šablony použité k vykreslení jednoduché nabídky.",
+					"lang":"cs"
+				},
+				{
+					"value":"Leverer de skabeloner, der bruges til at gengive Simple Menu.",
+					"lang":"da"
+				},
+				{
+					"value":"Stellt Schablonen zur Verfügung, die zur Darstellung des einfachen Menüs verwendet werden.",
+					"lang":"de"
+				},
+				{
+					"value":"Παρέχει πρότυπα που χρησιμοποιούνται για την εμφάνιση του απλού μενού.",
+					"lang":"el"
+				},
+				{
+					"value":"Provides templates used to render the Simple Menu.",
+					"lang":"en"
+				},
+				{
+					"value":"Proporciona las plantillas que se utilizan para representar el menú simple.",
+					"lang":"es"
+				},
+				{
+					"value":"Yksinkertaisen valikon hahmonnuksessa käytettävät mallipohjat.",
+					"lang":"fi"
+				},
+				{
+					"value":"Fournit des modèles utilisés pour afficher le menu simple.",
+					"lang":"fr"
+				},
+				{
+					"value":"מספק את התבניות המשמשות להצגת התפריט הפשוט.",
+					"lang":"he"
+				},
+				{
+					"value":"Pruža predloške koji se koriste za prikaz jednostavnog izbornika.",
+					"lang":"hr"
+				},
+				{
+					"value":"Sablonokat biztosít az Egyszerű menü előállításához.",
+					"lang":"hu"
+				},
+				{
+					"value":"Fornisce template utilizzati per eseguire il rendering del Menu semplice.",
+					"lang":"it"
+				},
+				{
+					"value":"単純メニューのレンダリングに使用するテンプレートを提供します。",
+					"lang":"ja"
+				},
+				{
+					"value":"Қарапайым мәзірді көрсетуге пайдаланылатын үлгілерді береді.",
+					"lang":"kk"
+				},
+				{
+					"value":"단순 메뉴를 렌더링하는 데 사용되는 템플리트를 제공합니다.",
+					"lang":"ko"
+				},
+				{
+					"value":"Levering van sjablonen die worden gebruikt voor het afbeelden van het Eenvoudige menu.",
+					"lang":"nl"
+				},
+				{
+					"value":"Inneholder maler som brukes til å gjengi den enkle menyen.",
+					"lang":"no"
+				},
+				{
+					"value":"Udostępnia szablony używane do renderowania prostego menu.",
+					"lang":"pl"
+				},
+				{
+					"value":"Fornece modelos utilizados para apresentar o Menu simples.",
+					"lang":"pt"
+				},
+				{
+					"value":"Fornece modelos usados para renderizar o Menu simples.",
+					"lang":"pt_BR"
+				},
+				{
+					"value":"Furnizează şabloane utilizate pentru a randa meniul simplu.",
+					"lang":"ro"
+				},
+				{
+					"value":"Предоставляет шаблоны для вывода простого меню.",
+					"lang":"ru"
+				},
+				{
+					"value":"Poskytuje šablóny, ktoré sa používajú na renderovanie Jednoduchej ponuky.",
+					"lang":"sk"
+				},
+				{
+					"value":"Ponuja predloge za upodabljanje preprostega menija.",
+					"lang":"sl"
+				},
+				{
+					"value":"Mallar som används för rendering av en enkel meny.",
+					"lang":"sv"
+				},
+				{
+					"value":"จัดเตรียมเทมเพลตที่ใช้จัดแสดงเมนูแบบง่าย",
+					"lang":"th"
+				},
+				{
+					"value":"Yalın Menü'yü görsel olarak gerçekleştirmek için kullanılacak şablonları sağlar.",
+					"lang":"tr"
+				},
+				{
+					"value":"Надає шаблони, які використовуються для виводу простого меню.",
+					"lang":"uk"
+				},
+				{
+					"value":"提供用于呈现“简单菜单”的模板。",
+					"lang":"zh"
+				},
+				{
+					"value":"提供用於呈現「簡易功能表」的範本。",
+					"lang":"zh_TW"
+				}
+			]
+		},
+		{
+			"id":"wp_simple_contextmenu_css",
+			"contributions": [
+				{
+					"type":"head",
+					"sub-contributions": [
+						{
+							"type":"css",
+							"uris": [
+								{
+									"value":"/css/wp_simple_contextmenu.css"
+								},
+								{
+									"value":"/css/wp_simple_contextmenu.css.uncompressed.css",
+									"type":"debug"
+								},
+								{
+									"value":"/css/wp_simple_contextmenuRTL.css",
+									"type":"rtl"
+								},
+								{
+									"value":"/css/wp_simple_contextmenuRTL.css.uncompressed.css",
+									"type":"rtl,debug"
+								}
+							]
+						}
+					]
+				}
+			],
+			"titles": [
+				{
+					"value":"نمط CSS للقائمة البسيطة",
+					"lang":"ar"
+				},
+				{
+					"value":"Estil CSS de menú simple",
+					"lang":"ca"
+				},
+				{
+					"value":"Styl CSS jednoduché nabídky",
+					"lang":"cs"
+				},
+				{
+					"value":"Simple Menu - CSS-typografier",
+					"lang":"da"
+				},
+				{
+					"value":"CSS-Styling für das einfache Menü",
+					"lang":"de"
+				},
+				{
+					"value":"Στυλ CSS απλού μενού",
+					"lang":"el"
+				},
+				{
+					"value":"Simple Menu CSS styling",
+					"lang":"en"
+				},
+				{
+					"value":"Estilos de CSS del menú simple",
+					"lang":"es"
+				},
+				{
+					"value":"Yksinkertaisen valikon CSS-tyylitiedosto",
+					"lang":"fi"
+				},
+				{
+					"value":"Style CSS pour menu simple",
+					"lang":"fr"
+				},
+				{
+					"value":"סגנון CSS של תפריט פשוט",
+					"lang":"he"
+				},
+				{
+					"value":"CSS stil jednostavnog izbornika",
+					"lang":"hr"
+				},
+				{
+					"value":"Egyszerű menü menü CSS stílusok",
+					"lang":"hu"
+				},
+				{
+					"value":"Stile CSS del Menu semplice",
+					"lang":"it"
+				},
+				{
+					"value":"単純メニューの CSS スタイル設定",
+					"lang":"ja"
+				},
+				{
+					"value":"Қарапайым мәзірдің CSS мәнері",
+					"lang":"kk"
+				},
+				{
+					"value":"단순 메뉴 CSS 스타일링",
+					"lang":"ko"
+				},
+				{
+					"value":"CSS-stijl van eenvoudig menu",
+					"lang":"nl"
+				},
+				{
+					"value":"CSS-stiler for enkel meny",
+					"lang":"no"
+				},
+				{
+					"value":"Style CSS prostego menu",
+					"lang":"pl"
+				},
+				{
+					"value":"Estilos CSS do Menu simples",
+					"lang":"pt"
+				},
+				{
+					"value":"Estilo do Menu CSS simples",
+					"lang":"pt_BR"
+				},
+				{
+					"value":"Stilizarea CSS meniu simplu",
+					"lang":"ro"
+				},
+				{
+					"value":"Стиль CSS простого меню",
+					"lang":"ru"
+				},
+				{
+					"value":"Štýl CSS Jednoduchá ponuka",
+					"lang":"sk"
+				},
+				{
+					"value":"Slogi CSS za preprosti meni",
+					"lang":"sl"
+				},
+				{
+					"value":"CSS-format för enkel meny",
+					"lang":"sv"
+				},
+				{
+					"value":"สไตล์ CSS ของเมนูแบบง่าย",
+					"lang":"th"
+				},
+				{
+					"value":"Yalın Menü CSS biçimlemesi",
+					"lang":"tr"
+				},
+				{
+					"value":"Стилі CSS простого меню",
+					"lang":"uk"
+				},
+				{
+					"value":"“简单菜单”CSS 样式",
+					"lang":"zh"
+				},
+				{
+					"value":"簡易功能表 CSS 樣式",
+					"lang":"zh_TW"
+				}
+			],
+			"descriptions": [
+				{
+					"value":"يقدم نمط CSS لاطار عمل القائمة البسيطة.",
+					"lang":"ar"
+				},
+				{
+					"value":"Proporciona estils CSS per a l'infraestructura de menú simple.",
+					"lang":"ca"
+				},
+				{
+					"value":"Nabízí styl CSS pro rámec jednoduché nabídky.",
+					"lang":"cs"
+				},
+				{
+					"value":"Leverer CSS-typografier til Simple Menu-strukturen.",
+					"lang":"da"
+				},
+				{
+					"value":"Ermöglicht das CSS-Styling für das Framework des einfachen Menüs.",
+					"lang":"de"
+				},
+				{
+					"value":"Παρέχει στυλ CSS για το πλαίσιο Simple Menu Framework.",
+					"lang":"el"
+				},
+				{
+					"value":"Provides CSS styling for the Simple Menu Framework.",
+					"lang":"en"
+				},
+				{
+					"value":"Proporciona estilos de CSS para la infraestructura del menú simple.",
+					"lang":"es"
+				},
+				{
+					"value":"Yksinkertaisen valikon tyylin määrityksessä käytettävä CSS-tyylitiedosto",
+					"lang":"fi"
+				},
+				{
+					"value":"Fournit le style CSS pour le Framework de menu simple.",
+					"lang":"fr"
+				},
+				{
+					"value":"מספק סגנון CSS לתשתית התפריט הפשוט.",
+					"lang":"he"
+				},
+				{
+					"value":"Pruža CSS stil za framework jednostavnog izbornika.",
+					"lang":"hr"
+				},
+				{
+					"value":"CSS stílusokat biztosít az Egyszerű menü keretrendszerhez.",
+					"lang":"hu"
+				},
+				{
+					"value":"Fornisce lo stile CSS per il framework del Menu semplice.",
+					"lang":"it"
+				},
+				{
+					"value":"単純メニュー・フレームワーク用の CSS スタイル設定を提供します。",
+					"lang":"ja"
+				},
+				{
+					"value":"Қарапайым мәзір құрылымының CSS мәнерін береді.",
+					"lang":"kk"
+				},
+				{
+					"value":"단순 메뉴 프레임워크의 CSS 스타일링을 제공합니다.",
+					"lang":"ko"
+				},
+				{
+					"value":"Levert CSS-stijlen voor het framework van Eenvoudig menu.",
+					"lang":"nl"
+				},
+				{
+					"value":"Leverer CSS-stiler for rammeverket for enkel meny.",
+					"lang":"no"
+				},
+				{
+					"value":"Udostępnia style CSS dla struktury prostego menu.",
+					"lang":"pl"
+				},
+				{
+					"value":"Fornece estilos CSS para a estrutura do Menu simples.",
+					"lang":"pt"
+				},
+				{
+					"value":"Fornece estilo CSS para a Estrutura de Menu Simples.",
+					"lang":"pt_BR"
+				},
+				{
+					"value":"Furnizează stilizare CSS pentru cadrul de lucru al meniului simplu",
+					"lang":"ro"
+				},
+				{
+					"value":"Предоставляет стиль CSS для рабочей среды простого меню.",
+					"lang":"ru"
+				},
+				{
+					"value":"Poskytuje štýl CSS pre rámec Jednoduchá ponuka.",
+					"lang":"sk"
+				},
+				{
+					"value":"Ponuja sloge CSS za ogrodje preprostega menija.",
+					"lang":"sl"
+				},
+				{
+					"value":"CSS-format för enkla menyer.",
+					"lang":"sv"
+				},
+				{
+					"value":"จัดเตรียมสไตล์ CSS สำหรับเฟรมเวิร์กเมนูแบบง่าย",
+					"lang":"th"
+				},
+				{
+					"value":"Yalın Menü Çerçevesi için CSS biçimlemesi sağlar.",
+					"lang":"tr"
+				},
+				{
+					"value":"Надає стилі CSS для структури простого меню.",
+					"lang":"uk"
+				},
+				{
+					"value":"提供“简单菜单框架”的 CSS 样式。",
+					"lang":"zh"
+				},
+				{
+					"value":"提供用於「簡易功能表架構」的 CSS 樣式。",
+					"lang":"zh_TW"
+				}
+			]
+		},
+		{
+			"id":"wp_simple_contextmenu_main",
+			"capabilities": [
+				{
+					"id":"simple-contextmenu",
+					"value":"1.1"
+				}
+			],
+			"prereqs": [
+				{
+					"id":"wp_simple_contextmenu_js"
+				},
+				{
+					"id":"wp_simple_contextmenu_templates"
+				},
+				{
+					"id":"wp_simple_contextmenu_css"
+				}
+			],
+			"titles": [
+				{
+					"value":"وحدة البرامج الرئيسية للقائمة البسيطة.",
+					"lang":"ar"
+				},
+				{
+					"value":"Mòdul principal de menú simple.",
+					"lang":"ca"
+				},
+				{
+					"value":"Hlavní modul jednoduché nabídky.",
+					"lang":"cs"
+				},
+				{
+					"value":"Hovedmodul i Simple Menu",
+					"lang":"da"
+				},
+				{
+					"value":"Hauptmodul des einfachen Menüs.",
+					"lang":"de"
+				},
+				{
+					"value":"Κύρια λειτουργική μονάδα απλού μενού",
+					"lang":"el"
+				},
+				{
+					"value":"Simple Menu main module.",
+					"lang":"en"
+				},
+				{
+					"value":"Módulo principal del menú simple.",
+					"lang":"es"
+				},
+				{
+					"value":"Yksinkertaisen valikon päämoduuli.",
+					"lang":"fi"
+				},
+				{
+					"value":"Module principal pour menu simple.",
+					"lang":"fr"
+				},
+				{
+					"value":"מודול ראשי של תפריט פשוט.",
+					"lang":"he"
+				},
+				{
+					"value":"Glavni modul jednostavnog izbornika",
+					"lang":"hr"
+				},
+				{
+					"value":"Egyszerű menü fő modul.",
+					"lang":"hu"
+				},
+				{
+					"value":"Modulo principale Menu semplice.",
+					"lang":"it"
+				},
+				{
+					"value":"単純メニューのメイン・モジュール",
+					"lang":"ja"
+				},
+				{
+					"value":"Қарапайым мәзірінің басты модулі.",
+					"lang":"kk"
+				},
+				{
+					"value":"단순 메뉴의 기본 모듈입니다.",
+					"lang":"ko"
+				},
+				{
+					"value":"Hoofdmodule voor Eenvoudig menu.",
+					"lang":"nl"
+				},
+				{
+					"value":"Hovedmodul for enkel meny",
+					"lang":"no"
+				},
+				{
+					"value":"Moduł główny prostego menu.",
+					"lang":"pl"
+				},
+				{
+					"value":"Módulo principal do Menu simples.",
+					"lang":"pt"
+				},
+				{
+					"value":"Módulo principal de menu simples.",
+					"lang":"pt_BR"
+				},
+				{
+					"value":"Modul principal meniu simplu",
+					"lang":"ro"
+				},
+				{
+					"value":"Основной модуль простого меню.",
+					"lang":"ru"
+				},
+				{
+					"value":"Hlavný modul Jednoduchej ponuky.",
+					"lang":"sk"
+				},
+				{
+					"value":"Glavni modul preprostega menija.",
+					"lang":"sl"
+				},
+				{
+					"value":"Huvudmodul för enkel meny.",
+					"lang":"sv"
+				},
+				{
+					"value":"โมดูลหลักของเมนูแบบง่าย",
+					"lang":"th"
+				},
+				{
+					"value":"Yalın Menü ana modülü",
+					"lang":"tr"
+				},
+				{
+					"value":"Головний модуль простого меню.",
+					"lang":"uk"
+				},
+				{
+					"value":"“简单菜单”主模块。",
+					"lang":"zh"
+				},
+				{
+					"value":"簡易功能表主要模組。",
+					"lang":"zh_TW"
+				}
+			],
+			"descriptions": [
+				{
+					"value":"يتم تجميع كل وحدات البرامج المطلوبة لتكوين اطار عمل القائمة البسيطة الكامل ",
+					"lang":"ar"
+				},
+				{
+					"value":"Recopila tots els mòduls necessaris per crear l'infraestructura completa del menú simple. ",
+					"lang":"ca"
+				},
+				{
+					"value":"Shromažďuje všechny moduly nezbytné k vytvoření kompletního rámce jednoduché nabídky ",
+					"lang":"cs"
+				},
+				{
+					"value":"Samler alle de moduler, der kræves til den fulde udgave af Simple Menu-strukturen. ",
+					"lang":"da"
+				},
+				{
+					"value":"Stellt alle Module zusammen, die zur Fertigstellung des Frameworks des einfachen Menüs erforderlich sind. ",
+					"lang":"de"
+				},
+				{
+					"value":"Συγκεντρώνει όλες τις λειτουργικές μονάδες που απαιτούνται για τη συγκρότηση του πλήρους πλαισίου Simple Menu Framework. ",
+					"lang":"el"
+				},
+				{
+					"value":"Gathers all the modules that are required to make up the complete Simple Menu Framework ",
+					"lang":"en"
+				},
+				{
+					"value":"Recopila todos los módulos necesarios para formar la infraestructura de menú simple completa. ",
+					"lang":"es"
+				},
+				{
+					"value":"Kerää yhteen kaikki moduulit, jotka tarvitaan Yksinkertaisessa valikossa. ",
+					"lang":"fi"
+				},
+				{
+					"value":"Rassemble tous les modules qui requis pour constituer le Framework de menu simple complet ",
+					"lang":"fr"
+				},
+				{
+					"value":"אוסף את כל המודולים הדרושים להרכבת תשתית תפריט פשוט שלמה. ",
+					"lang":"he"
+				},
+				{
+					"value":"Sadrži sve module koji čine cjeloviti framework jednostavnog izbornika ",
+					"lang":"hr"
+				},
+				{
+					"value":"Összegyűjti mindazokat a modulokat, amelyek szükségesek a teljes Egyszerű menü keretrendszer előállításához. ",
+					"lang":"hu"
+				},
+				{
+					"value":"Raccoglie tutti i moduli richiesti per creare il framework del Menu semplice completo. ",
+					"lang":"it"
+				},
+				{
+					"value":"完全な単純メニュー・フレームワークの作成に必要なモジュールをすべて収集します。 ",
+					"lang":"ja"
+				},
+				{
+					"value":"Толық қарапайым мәзір құрылымын жасауға қажет барлық модульдерді жинақтайды ",
+					"lang":"kk"
+				},
+				{
+					"value":"전체 단순 메뉴 프레임워크를 구성하는 데 필요한 모듈을 모두 수집합니다.",
+					"lang":"ko"
+				},
+				{
+					"value":"Verzamelt alle modules die nodig zijn voor het samenstellen van het framework voor Eenvoudig menu. ",
+					"lang":"nl"
+				},
+				{
+					"value":"Samler alle modulene som kreves for å produsere det fullstendige rammeverket for enkel meny. ",
+					"lang":"no"
+				},
+				{
+					"value":"Gromadzi wszystkie moduły wymagane do utworzenia kompletnej struktury prostego menu. ",
+					"lang":"pl"
+				},
+				{
+					"value":"Reúne todos os módulos necessários para compor a estrutura completa do Menu Simples. ",
+					"lang":"pt"
+				},
+				{
+					"value":"Reúne todos os módulos necessários para tornar completa a Estrutura de Menu Simples ",
+					"lang":"pt_BR"
+				},
+				{
+					"value":"Adună toate modulele ce sunt necesare pentru a constitui Cadreul de lucru meniu simplu. ",
+					"lang":"ro"
+				},
+				{
+					"value":"Собирает все модули, необходимые для создания законченной рабочей среды простого меню ",
+					"lang":"ru"
+				},
+				{
+					"value":"Zhromažďuje všetky moduly, ktoré sú potrebné na vytvorenie úplného rámca Jednoduchej ponuky. ",
+					"lang":"sk"
+				},
+				{
+					"value":"Zbere vse module, ki so potrebni za izdelavo ogroja preprostega menija ",
+					"lang":"sl"
+				},
+				{
+					"value":"Alla moduler som krävs för fullständiga enkla menyer. ",
+					"lang":"sv"
+				},
+				{
+					"value":"รวบรวมโมดูลทั้งหมดที่จำเป็นสำหรับการสร้างเฟรมเวิร์กเมนูแบบง่ายที่สมบูรณ์ ",
+					"lang":"th"
+				},
+				{
+					"value":"Yalın Menü Çerçevesi'nin tamamını oluşturmak için gereken tüm modülleri toplar. ",
+					"lang":"tr"
+				},
+				{
+					"value":"Збирає всі модулі, потрібні для створення повної структури простого меню. ",
+					"lang":"uk"
+				},
+				{
+					"value":"收集组成完整的“简单菜单框架”所需的所有模块。",
+					"lang":"zh"
+				},
+				{
+					"value":"收集組成完整的「簡易功能表架構」所需的全部模組。",
+					"lang":"zh_TW"
+				}
+			]
+		}
+	]
+}

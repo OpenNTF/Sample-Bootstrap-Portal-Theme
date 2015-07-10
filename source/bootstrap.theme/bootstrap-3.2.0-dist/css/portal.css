@@ -1,0 +1,23 @@
+.edit-mode .isDropTarget {
+	min-height: 20px;
+}
+
+.wpthemeCol {
+    margin-left: 0px;
+}
+
+.wpToolbarActionBar {
+	width: 100%;
+} 
+
+.wpthemeFrame {
+	min-width: 100px;
+}
+
+.wpthemeMainContent {
+    background:inherit;
+}
+
+.wpthemeControlBody.wpthemeOverflowAuto {
+    overflow: hidden;
+}

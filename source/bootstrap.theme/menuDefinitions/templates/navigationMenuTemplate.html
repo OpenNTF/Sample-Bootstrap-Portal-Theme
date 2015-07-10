@@ -1,0 +1,20 @@
+<span id="navigationMenuTemplate" class="wpthemeMenu" data-positioning-handler="horizontallyBelow">
+    <div class="wpthemeMenuBorder">
+        <!-- define the menu item template inside the "ul" element.  only "css-class", "description", and "title" are handled by the theme's sample javascript. -->
+        <ul class="wpthemeMenuDropDown wpthemeTemplateMenu" role="menu">
+            <li class="${css-class}" role="menuitem" tabindex="-1"><span
+                class="wpthemeMenuText">${title}</span></li>
+        </ul>
+        <div class="verticalMenuPointer pointer"></div>
+    </div> <!-- Template for loading -->
+    <div class="wpthemeMenuLoading wpthemeTemplateLoading">${loading}</div>
+    <!-- Template for submenu -->
+    <div class="wpthemeAnchorSubmenu wpthemeTemplateSubmenu">
+        <div class="wpthemeMenuBorder wpthemeMenuSubmenu">
+            <ul id="${submenu-id}" class="wpthemeMenuDropDown"
+                role="menu">
+                <li role="menuitem" tabindex="-1"></li>
+            </ul>
+        </div>
+    </div>
+</span>

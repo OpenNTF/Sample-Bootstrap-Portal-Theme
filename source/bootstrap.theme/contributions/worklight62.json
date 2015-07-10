@@ -1,0 +1,2200 @@
+{
+	"modules": [
+		{
+			"id":"wp_worklight_ext",
+			"prereqs": [
+				{
+					"id":"wl_overrides_62"
+				}
+			],
+			"runtimeActivation":{
+				"condition":{
+					"deviceClass":"worklight"
+				}
+			},
+			"titles": [
+				{
+					"value":"وحدة برامج المناظرة الى Worklight Overrides for Integration Extensions",
+					"lang":"ar"
+				},
+				{
+					"value":"Mòdul de mapatge del Worklight Overrides for Integration Extensions",
+					"lang":"ca"
+				},
+				{
+					"value":"Modul mapování na přepsání pro rozšíření integrace produktu Worklight",
+					"lang":"cs"
+				},
+				{
+					"value":"Mappingmodul til Worklight Overrides til Integration-udvidelser",
+					"lang":"da"
+				},
+				{
+					"value":"Zuordnungsmodul für Worklight-Overrides für Integrationserweiterungen",
+					"lang":"de"
+				},
+				{
+					"value":"Λειτουργική μονάδα αντιστοίχισης σε αντικαταστάσεις για επεκτάσεις ενοποίησης του Worklight",
+					"lang":"el"
+				},
+				{
+					"value":"Mapping Module to Worklight Overrides for Integration Extensions",
+					"lang":"en"
+				},
+				{
+					"value":"Módulo de correlación con Worklight Overrides para Integration Extensions",
+					"lang":"es"
+				},
+				{
+					"value":"Vastaavuusmääritysmoduuli, jossa Worklight-lisäosien integraatiolaajennukset ohitetaan",
+					"lang":"fi"
+				},
+				{
+					"value":"Module de mappage sur Worklight Overrides pour les extensions d'intégration",
+					"lang":"fr"
+				},
+				{
+					"value":"Mapping Module to Worklight Overrides for Integration Extensions",
+					"lang":"he"
+				},
+				{
+					"value":"Modul koji mapira na Worklight zamjene za integracijska proširenja",
+					"lang":"hr"
+				},
+				{
+					"value":"Leképezési modul Worklight integráció felülbírálás bővítmények",
+					"lang":"hu"
+				},
+				{
+					"value":"Modulo di associazione a sostituzioni Worklight per estensioni integrazioni",
+					"lang":"it"
+				},
+				{
+					"value":"Worklight 統合拡張用のオーバーライドへのマッピング・モジュール",
+					"lang":"ja"
+				},
+				{
+					"value":"Integration Extensions бағдарламасына арналған Worklight Overrides бағдарламасына модульді салыстыру",
+					"lang":"kk"
+				},
+				{
+					"value":"Worklight Overrides for Integration Extensions의 맵핑 모듈",
+					"lang":"ko"
+				},
+				{
+					"value":"Mapping Module to Worklight Overrides for Integration Extensions",
+					"lang":"nl"
+				},
+				{
+					"value":"Tilordningsmodul for Worklight-overstyringer for integreringsutvidelser",
+					"lang":"no"
+				},
+				{
+					"value":"Odwzorowanie modułu na nadpisania platformy Worklight dla rozszerzeń integracji",
+					"lang":"pl"
+				},
+				{
+					"value":"Módulo de mapeamento para o Worklight Overrides for Integration Extensions",
+					"lang":"pt"
+				},
+				{
+					"value":"Mapeando Módulo para Substituições do Worklight para Extensões de Integração",
+					"lang":"pt_BR"
+				},
+				{
+					"value":"Mapping Module to Worklight Overrides for Integration Extensions",
+					"lang":"ro"
+				},
+				{
+					"value":"Модуль преобразования в переопределения Worklight для расширений интеграции",
+					"lang":"ru"
+				},
+				{
+					"value":"Mapovanie modulu na nahradení Worklight pre rozšírenia integrácie",
+					"lang":"sk"
+				},
+				{
+					"value":"Modul za preslikavo v Worklight – prepisi za integracijske razširitve",
+					"lang":"sl"
+				},
+				{
+					"value":"Modulavbildning till Worklight Overrides for Integration Extensions",
+					"lang":"sv"
+				},
+				{
+					"value":"Mapping Module to Worklight Overrides for Integration Extensions",
+					"lang":"th"
+				},
+				{
+					"value":"Bütünleştirme Uzantıları Worklight Geçersiz Kılmaları Eşleme Modülü",
+					"lang":"tr"
+				},
+				{
+					"value":"Зв'язування модуля з перевизначеннями Worklight для розширень інтеграції",
+					"lang":"uk"
+				},
+				{
+					"value":"将模块映射到 Worklight 集成扩展覆盖项",
+					"lang":"zh"
+				},
+				{
+					"value":"將模組對映至 Worklight 整合延伸置換內容",
+					"lang":"zh_TW"
+				}
+			],
+			"descriptions": [
+				{
+					"value":"وحدة البرامج التي تناظر وحدة البرامج العامة بدون نسخة الى  وحدة البرامج الخاصة بنسخة. ",
+					"lang":"ar"
+				},
+				{
+					"value":"Mòdul de mapatge del mòdul genèric sense versió a un mòdul específic de versió. ",
+					"lang":"ca"
+				},
+				{
+					"value":"Modul mapující generický modul bez verze na modul pro specifickou verzi. ",
+					"lang":"cs"
+				},
+				{
+					"value":"Modul, der mapper det generiske modul uden version til et versionsspecifikt modul. ",
+					"lang":"da"
+				},
+				{
+					"value":"Modul, das das generische Modul ohne Version einem versionsspezifischen Modul zuordnet. ",
+					"lang":"de"
+				},
+				{
+					"value":"Λειτουργική μονάδα που αντιστοιχίζει τη γενική λειτουργική μονάδα χωρίς έκδοση σε μια λειτουργική μονάδα μιας συγκεκριμένης έκδοσης. ",
+					"lang":"el"
+				},
+				{
+					"value":"Module mapping the generic module without version to a version specific module. ",
+					"lang":"en"
+				},
+				{
+					"value":"Módulo que correlaciona el módulo genérico sin un módulo específico de versión a versión. ",
+					"lang":"es"
+				},
+				{
+					"value":"Yleisen moduulin vastaavuusmääritys ilman versiokohtaista moduulimääritystä. ",
+					"lang":"fi"
+				},
+				{
+					"value":"Module mappant le module générique sans version sur un module spécifique d'une version. ",
+					"lang":"fr"
+				},
+				{
+					"value":"Module mapping the generic module without version to a version specific module. ",
+					"lang":"he"
+				},
+				{
+					"value":"Mapiranje generičkog modula bez verzije i modula za određenu verziju. ",
+					"lang":"hr"
+				},
+				{
+					"value":"Ez a modul leképezi a verziószám nélküli általános modult egy változatspecifikus modulra. ",
+					"lang":"hu"
+				},
+				{
+					"value":"Modulo di associazione del modulo generico senza versione a un modulo con versione specifica. ",
+					"lang":"it"
+				},
+				{
+					"value":"バージョンなしの汎用モジュールを特定のバージョンのモジュールにマップするモジュール。 ",
+					"lang":"ja"
+				},
+				{
+					"value":"Нұсқасы жоқ негізгі модульді нұсқасы бар модульмен салыстыру. ",
+					"lang":"kk"
+				},
+				{
+					"value":"버전 고유의 모듈에 버전이 없는 일반 모듈을 맵핑하는 모듈입니다. ",
+					"lang":"ko"
+				},
+				{
+					"value":"Module voor het toewijzen van de generieke module zonder versie aan een versiespecifieke module. ",
+					"lang":"nl"
+				},
+				{
+					"value":"Modul som tilordner den generiske modulen uten versjon til en versjonsspesifikk modul. ",
+					"lang":"no"
+				},
+				{
+					"value":"Moduł odwzorowujący moduł ogólny bez określonej wersji na moduł o konkretnej wersji. ",
+					"lang":"pl"
+				},
+				{
+					"value":"Módulo que efectua o mapeamento do módulo genérico sem a versão para um módulo específico de versão. ",
+					"lang":"pt"
+				},
+				{
+					"value":"Módulo mapeamento do módulo genérico sem versão a um módulo específico da versão. ",
+					"lang":"pt_BR"
+				},
+				{
+					"value":"Modul care mapează modulul generic fără versiune la o versiune specifică modulului. ",
+					"lang":"ro"
+				},
+				{
+					"value":"Преобразование модуля без версии в модуль с конкретной версией. ",
+					"lang":"ru"
+				},
+				{
+					"value":"Modul, ktorý mapuje generický modul bez verzie na modul špecifický pre verziu. ",
+					"lang":"sk"
+				},
+				{
+					"value":"Modul, ki preslika generični modul brez določene različice v modul z določeno različico. ",
+					"lang":"sl"
+				},
+				{
+					"value":"Modulavbildning av den generiska modulen utan version till en versionsspecifik modul. ",
+					"lang":"sv"
+				},
+				{
+					"value":"การแม็พโมดูลสำหรับโมดูลทั่วไปที่ไม่มีเวอร์ชันกับโมดูลเฉพาะเวอร์ชัน ",
+					"lang":"th"
+				},
+				{
+					"value":"Sürümü olmayan soysal modülü sürüme özel bir modülle eşleyen modül. ",
+					"lang":"tr"
+				},
+				{
+					"value":"Зв'язування загального модуля без версії з модулем окремої версії. ",
+					"lang":"uk"
+				},
+				{
+					"value":"将不含版本的通用模块映射到特定版本的模块。",
+					"lang":"zh"
+				},
+				{
+					"value":"將沒有版本的一般模組對映至版本特定的模組的模組。",
+					"lang":"zh_TW"
+				}
+			]
+		},
+		{
+			"id":"wp_worklight",
+			"prereqs": [
+				{
+					"id":"wl_ios_62",
+					"type":"optional"
+				},
+				{
+					"id":"wl_android_62",
+					"type":"optional"
+				},
+				{
+					"id":"wl_winphone_62",
+					"type":"optional"
+				}
+			],
+			"titles": [
+				{
+					"value":"وحدة برامج المناظرة الى لاحقة تكامل Worklight",
+					"lang":"ar"
+				},
+				{
+					"value":"Mòdul de mapatge del Worklight Integration Extension",
+					"lang":"ca"
+				},
+				{
+					"value":"Modul mapování na rozšíření integrace produktu Worklight",
+					"lang":"cs"
+				},
+				{
+					"value":"Mappingmodul til Worklight Integration-udvidelse",
+					"lang":"da"
+				},
+				{
+					"value":"Zuordnungsmodul für die Worklight-Integrationserweiterung",
+					"lang":"de"
+				},
+				{
+					"value":"Λειτουργική μονάδα αντιστοίχισης σε επέκταση ενοποίησης Worklight",
+					"lang":"el"
+				},
+				{
+					"value":"Mapping Module to Worklight Integration Extension",
+					"lang":"en"
+				},
+				{
+					"value":"Módulo de correlación con Worklight Integration Extension",
+					"lang":"es"
+				},
+				{
+					"value":"Vastaavuusmääritys Worklight-integraatiolaajennukseen",
+					"lang":"fi"
+				},
+				{
+					"value":"Module de mappage sur l'extension d'intégration Worklight",
+					"lang":"fr"
+				},
+				{
+					"value":"Mapping Module to Worklight Integration Extension",
+					"lang":"he"
+				},
+				{
+					"value":"Mapiranje modula na Worklight integracijsko proširenje",
+					"lang":"hr"
+				},
+				{
+					"value":"Leképezési modul Worklight integrációra bővítmény",
+					"lang":"hu"
+				},
+				{
+					"value":"Modulo di associazione all'estensione di integrazione Worklight",
+					"lang":"it"
+				},
+				{
+					"value":"Worklight 統合拡張機能へのマッピング・モジュール",
+					"lang":"ja"
+				},
+				{
+					"value":"Worklight Integration Extension бағдарламасы үшін модульді салыстыру",
+					"lang":"kk"
+				},
+				{
+					"value":"Worklight 통합 확장에 모듈 맵핑",
+					"lang":"ko"
+				},
+				{
+					"value":"Mapping Module to Worklight Integration Extension",
+					"lang":"nl"
+				},
+				{
+					"value":"Tilordningsmodul for Worklight-integreringsutvidelse",
+					"lang":"no"
+				},
+				{
+					"value":"Odwzorowanie modułu na rozszerzenie integracji platformy Worklight",
+					"lang":"pl"
+				},
+				{
+					"value":"Módulo de mapeamento para o Worklight Integration Extension",
+					"lang":"pt"
+				},
+				{
+					"value":"Mapeamento de Módulo para Worklight Integração Extensão",
+					"lang":"pt_BR"
+				},
+				{
+					"value":"Mapping Module to Worklight Integration Extension",
+					"lang":"ro"
+				},
+				{
+					"value":"Модуль преобразования в расширение интеграции Worklight",
+					"lang":"ru"
+				},
+				{
+					"value":"Mapovanie modulu na rozšírenie integrácie Worklight",
+					"lang":"sk"
+				},
+				{
+					"value":"Modul za preslikavo v Worklight – integracijska razširitev",
+					"lang":"sl"
+				},
+				{
+					"value":"Modulavbildning till Worklight Integration Extension",
+					"lang":"sv"
+				},
+				{
+					"value":"Mapping Module to Worklight Integration Extension",
+					"lang":"th"
+				},
+				{
+					"value":"Worklight Bütünleştirme Uzantısı Eşleme Modülü",
+					"lang":"tr"
+				},
+				{
+					"value":"Зв'язування модуля з Worklight Integration Extension",
+					"lang":"uk"
+				},
+				{
+					"value":"将模块映射到 Worklight 集成扩展",
+					"lang":"zh"
+				},
+				{
+					"value":"將模組對映至 Worklight 整合延伸",
+					"lang":"zh_TW"
+				}
+			],
+			"descriptions": [
+				{
+					"value":"وحدة البرامج التي تناظر وحدة البرامج العامة بدون نسخة الى وحدة البرامج الخاصة بنسخة",
+					"lang":"ar"
+				},
+				{
+					"value":"Mòdul de mapatge del mòdul genèric sense versió a un mòdul específic de versió",
+					"lang":"ca"
+				},
+				{
+					"value":"Modul mapující generický modul bez verze na modul pro specifickou verzi.",
+					"lang":"cs"
+				},
+				{
+					"value":"Modul, der mapper det generiske modul uden version til et versionsspecifikt modul",
+					"lang":"da"
+				},
+				{
+					"value":"Modul, das das generische Modul ohne Version einem versionsspezifischen Modul zuordnet",
+					"lang":"de"
+				},
+				{
+					"value":"Λειτουργική μονάδα που αντιστοιχίζει τη γενική λειτουργική μονάδα χωρίς έκδοση σε μια λειτουργική μονάδα μιας συγκεκριμένης έκδοσης",
+					"lang":"el"
+				},
+				{
+					"value":"Module mapping the generic module without version to a version specific module",
+					"lang":"en"
+				},
+				{
+					"value":"Módulo que correlaciona el módulo genérico sin un módulo específico de versión a versión",
+					"lang":"es"
+				},
+				{
+					"value":"Yleisen moduulin vastaavuusmääritys ilman versiokohtaista moduulimääritystä",
+					"lang":"fi"
+				},
+				{
+					"value":"Module mappant le module générique sans version sur un module spécifique d'une version",
+					"lang":"fr"
+				},
+				{
+					"value":"Module mapping the generic module without version to a version specific module",
+					"lang":"he"
+				},
+				{
+					"value":"Mapiranje generičkog modula bez verzije i modula za određenu verziju",
+					"lang":"hr"
+				},
+				{
+					"value":"Ez a modul leképezi a verziószám nélküli általános modult egy változatspecifikus modulra.",
+					"lang":"hu"
+				},
+				{
+					"value":"Modulo di associazione del modulo generico senza versione a un modulo con versione specifica",
+					"lang":"it"
+				},
+				{
+					"value":"バージョンなしの汎用モジュールを特定のバージョンのモジュールにマップするモジュール",
+					"lang":"ja"
+				},
+				{
+					"value":"Нұсқасы жоқ негізгі модульді нұсқасы бар модульмен салыстыру",
+					"lang":"kk"
+				},
+				{
+					"value":"버전 고유의 모듈에 버전이 없는 일반 모듈을 맵핑하는 모듈입니다.",
+					"lang":"ko"
+				},
+				{
+					"value":"Module voor het toewijzen van de generieke, versieloze module aan een versiespecifieke module",
+					"lang":"nl"
+				},
+				{
+					"value":"Modul som tilordner den generiske modulen uten versjon til en versjonsspesifikk modul",
+					"lang":"no"
+				},
+				{
+					"value":"Moduł służący do odwzorowania modułu ogólnego bez przypisanej wersji na moduł specyficzny dla wersji",
+					"lang":"pl"
+				},
+				{
+					"value":"Módulo que efectua o mapeamento do módulo genérico sem a versão para um módulo específico de versão",
+					"lang":"pt"
+				},
+				{
+					"value":"Módulo mapeamento do módulo genérico sem versão a um módulo específico da versão",
+					"lang":"pt_BR"
+				},
+				{
+					"value":"Modul care mapează modulul generic fără versiune la un un modul specific versiunii",
+					"lang":"ro"
+				},
+				{
+					"value":"Преобразование модуля без версии в модуль с конкретной версией",
+					"lang":"ru"
+				},
+				{
+					"value":"Modul, ktorý mapuje generický modul bez verzie na modul špecifický pre verziu",
+					"lang":"sk"
+				},
+				{
+					"value":"Modul, ki preslika generični modul brez določene različice v modul z določeno različico.",
+					"lang":"sl"
+				},
+				{
+					"value":"Modulavbildning av den generiska modulen utan version till en versionsspecifik modul",
+					"lang":"sv"
+				},
+				{
+					"value":"การแม็พโมดูลสำหรับโมดูลทั่วไปที่ไม่มีเวอร์ชันกับโมดูลเฉพาะเวอร์ชัน",
+					"lang":"th"
+				},
+				{
+					"value":"Sürümü olmayan soysal modülü sürüme özel bir modülle eşleyen modül",
+					"lang":"tr"
+				},
+				{
+					"value":"Зв'язування загального модуля без версії з модулем окремої версії",
+					"lang":"uk"
+				},
+				{
+					"value":"将不含版本的通用模块映射到特定版本的模块",
+					"lang":"zh"
+				},
+				{
+					"value":"將沒有版本的一般模組對映至版本特定的模組的模組",
+					"lang":"zh_TW"
+				}
+			]
+		},
+		{
+			"id":"wp_worklight_css",
+			"prereqs": [
+				{
+					"id":"wp_worklight_css_ios",
+					"type":"optional"
+				},
+				{
+					"id":"wp_worklight_css_android",
+					"type":"optional"
+				},
+				{
+					"id":"wp_worklight_css_winphone",
+					"type":"optional"
+				}
+			],
+			"titles": [
+				{
+					"value":"وحدة برامج المناظرة الى Worklight CSS",
+					"lang":"ar"
+				},
+				{
+					"value":"Mòdul de mapatge a CSS de Worklight",
+					"lang":"ca"
+				},
+				{
+					"value":"Modul mapování na CSS produktu Worklight",
+					"lang":"cs"
+				},
+				{
+					"value":"Mappingmodul til Worklight-CSS",
+					"lang":"da"
+				},
+				{
+					"value":"Zuordnungsmodul für Worklight-CSS",
+					"lang":"de"
+				},
+				{
+					"value":"Λειτουργική μονάδα αντιστοίχισης σε Worklight CSS",
+					"lang":"el"
+				},
+				{
+					"value":"Mapping Module to Worklight CSS",
+					"lang":"en"
+				},
+				{
+					"value":"Módulo de correlación con Worklight CSS",
+					"lang":"es"
+				},
+				{
+					"value":"Vastaavuusmääritys Worklight-CSS-tyylitiedostoon",
+					"lang":"fi"
+				},
+				{
+					"value":"Module de mappage sur le CSS Worklight",
+					"lang":"fr"
+				},
+				{
+					"value":"Mapping Module to Worklight CSS",
+					"lang":"he"
+				},
+				{
+					"value":"Mapiranje modula na Worklight CSS",
+					"lang":"hr"
+				},
+				{
+					"value":"Leképezési modul Worklight CSS-re",
+					"lang":"hu"
+				},
+				{
+					"value":"Modulo di associazione al CSS Worklight",
+					"lang":"it"
+				},
+				{
+					"value":"Worklight CSS へのマッピング・モジュール",
+					"lang":"ja"
+				},
+				{
+					"value":"Worklight CSS бағдарламасына модульді салыстыру",
+					"lang":"kk"
+				},
+				{
+					"value":"Worklight CSS에 모듈 맵핑",
+					"lang":"ko"
+				},
+				{
+					"value":"Mapping Module to Worklight CSS",
+					"lang":"nl"
+				},
+				{
+					"value":"Tilordningsmodul for Worklight CSS",
+					"lang":"no"
+				},
+				{
+					"value":"Odwzorowanie modułu na arkusz stylów CSS platformy Worklight",
+					"lang":"pl"
+				},
+				{
+					"value":"Módulo de mapeamento para o Worklight CSS",
+					"lang":"pt"
+				},
+				{
+					"value":"Mapeamento de Módulo para Worklight CSS",
+					"lang":"pt_BR"
+				},
+				{
+					"value":"Mapping Module to Worklight CSS",
+					"lang":"ro"
+				},
+				{
+					"value":"Модуль преобразования в CSS Worklight",
+					"lang":"ru"
+				},
+				{
+					"value":"Mapovanie modulu na CSS Worklight",
+					"lang":"sk"
+				},
+				{
+					"value":"Modul za preslikavo v Worklight – CSS",
+					"lang":"sl"
+				},
+				{
+					"value":"Modulavbildning till Worklight CSS",
+					"lang":"sv"
+				},
+				{
+					"value":"Mapping Module to Worklight CSS",
+					"lang":"th"
+				},
+				{
+					"value":"Worklight CSS Eşleme Modülü",
+					"lang":"tr"
+				},
+				{
+					"value":"Зв'язування модуля з Worklight CSS",
+					"lang":"uk"
+				},
+				{
+					"value":"将模块映射到 Worklight CSS",
+					"lang":"zh"
+				},
+				{
+					"value":"將模組對映至 Worklight CSS",
+					"lang":"zh_TW"
+				}
+			],
+			"descriptions": [
+				{
+					"value":"وحدة البرامج التي تناظر وحدة البرامج العامة بدون نسخة الى وحدة البرامج الخاصة بنسخة",
+					"lang":"ar"
+				},
+				{
+					"value":"Mòdul de mapatge del mòdul genèric sense versió a un mòdul específic de versió",
+					"lang":"ca"
+				},
+				{
+					"value":"Modul mapující generický modul bez verze na modul pro specifickou verzi.",
+					"lang":"cs"
+				},
+				{
+					"value":"Modul, der mapper det generiske modul uden version til et versionsspecifikt modul",
+					"lang":"da"
+				},
+				{
+					"value":"Modul, das das generische Modul ohne Version einem versionsspezifischen Modul zuordnet",
+					"lang":"de"
+				},
+				{
+					"value":"Λειτουργική μονάδα που αντιστοιχίζει τη γενική λειτουργική μονάδα χωρίς έκδοση σε μια λειτουργική μονάδα μιας συγκεκριμένης έκδοσης",
+					"lang":"el"
+				},
+				{
+					"value":"Module mapping the generic module without version to a version specific module",
+					"lang":"en"
+				},
+				{
+					"value":"Módulo que correlaciona el módulo genérico sin un módulo específico de versión a versión",
+					"lang":"es"
+				},
+				{
+					"value":"Yleisen moduulin vastaavuusmääritys ilman versiokohtaista moduulimääritystä",
+					"lang":"fi"
+				},
+				{
+					"value":"Module mappant le module générique sans version sur un module spécifique d'une version",
+					"lang":"fr"
+				},
+				{
+					"value":"Module mapping the generic module without version to a version specific module",
+					"lang":"he"
+				},
+				{
+					"value":"Mapiranje generičkog modula bez verzije i modula za određenu verziju",
+					"lang":"hr"
+				},
+				{
+					"value":"Ez a modul leképezi a verziószám nélküli általános modult egy változatspecifikus modulra.",
+					"lang":"hu"
+				},
+				{
+					"value":"Modulo di associazione del modulo generico senza versione a un modulo con versione specifica",
+					"lang":"it"
+				},
+				{
+					"value":"バージョンなしの汎用モジュールを特定のバージョンのモジュールにマップするモジュール",
+					"lang":"ja"
+				},
+				{
+					"value":"Нұсқасы жоқ негізгі модульді нұсқасы бар модульмен салыстыру",
+					"lang":"kk"
+				},
+				{
+					"value":"버전 고유의 모듈에 버전이 없는 일반 모듈을 맵핑하는 모듈입니다.",
+					"lang":"ko"
+				},
+				{
+					"value":"Module voor het toewijzen van de generieke, versieloze module aan een versiespecifieke module",
+					"lang":"nl"
+				},
+				{
+					"value":"Modul som tilordner den generiske modulen uten versjon til en versjonsspesifikk modul",
+					"lang":"no"
+				},
+				{
+					"value":"Moduł służący do odwzorowania modułu ogólnego bez przypisanej wersji na moduł specyficzny dla wersji",
+					"lang":"pl"
+				},
+				{
+					"value":"Módulo que efectua o mapeamento do módulo genérico sem a versão para um módulo específico de versão",
+					"lang":"pt"
+				},
+				{
+					"value":"Módulo mapeamento do módulo genérico sem versão a um módulo específico da versão",
+					"lang":"pt_BR"
+				},
+				{
+					"value":"Modul care mapează modulul generic fără versiune la un un modul specific versiunii",
+					"lang":"ro"
+				},
+				{
+					"value":"Преобразование модуля без версии в модуль с конкретной версией",
+					"lang":"ru"
+				},
+				{
+					"value":"Modul, ktorý mapuje generický modul bez verzie na modul špecifický pre verziu",
+					"lang":"sk"
+				},
+				{
+					"value":"Modul, ki preslika generični modul brez določene različice v modul z določeno različico",
+					"lang":"sl"
+				},
+				{
+					"value":"Modulavbildning av den generiska modulen utan version till en versionsspecifik modul",
+					"lang":"sv"
+				},
+				{
+					"value":"การแม็พโมดูลสำหรับโมดูลทั่วไปที่ไม่มีเวอร์ชันกับโมดูลเฉพาะเวอร์ชัน",
+					"lang":"th"
+				},
+				{
+					"value":"Sürümü olmayan soysal modülü sürüme özel bir modülle eşleyen modül",
+					"lang":"tr"
+				},
+				{
+					"value":"Зв'язування загального модуля без версії з модулем окремої версії",
+					"lang":"uk"
+				},
+				{
+					"value":"将不含版本的通用模块映射到特定版本的模块",
+					"lang":"zh"
+				},
+				{
+					"value":"將沒有版本的一般模組對映至版本特定的模組的模組",
+					"lang":"zh_TW"
+				}
+			]
+		},
+		{
+			"id":"wp_worklight_css_android",
+			"prereqs": [
+				{
+					"id":"wl_client_css_android_62",
+					"type":"optional"
+				}
+			],
+			"titles": [
+				{
+					"value":"وحدة برامج المناظرة الى Worklight CSS الى Android",
+					"lang":"ar"
+				},
+				{
+					"value":"Mòdul de mapatge a CSS de Worklight per a l'Android",
+					"lang":"ca"
+				},
+				{
+					"value":"Modul mapování na CSS produktu Worklight pro Android",
+					"lang":"cs"
+				},
+				{
+					"value":"Mappingmodul til Worklight-CSS til Android",
+					"lang":"da"
+				},
+				{
+					"value":"Zuordnungsmodul für Worklight-CSS für Android",
+					"lang":"de"
+				},
+				{
+					"value":"Λειτουργική μονάδα αντιστοίχισης σε Worklight CSS για Android",
+					"lang":"el"
+				},
+				{
+					"value":"Mapping Module to Worklight CSS for Android",
+					"lang":"en"
+				},
+				{
+					"value":"Módulo de correlación con Worklight CSS para Android",
+					"lang":"es"
+				},
+				{
+					"value":"Vastaavuusmääritys Worklight Android -CSS-tyylitiedostoon",
+					"lang":"fi"
+				},
+				{
+					"value":"Module de mappage sur le CSS Worklight pour Android",
+					"lang":"fr"
+				},
+				{
+					"value":"Mapping Module to Worklight CSS for Android",
+					"lang":"he"
+				},
+				{
+					"value":"Mapiranje modula na Worklight CSS za Android",
+					"lang":"hr"
+				},
+				{
+					"value":"Leképezési modul Worklight CSS-re Android rendszerhez",
+					"lang":"hu"
+				},
+				{
+					"value":"Modulo di associazione al CSS Worklight per Android",
+					"lang":"it"
+				},
+				{
+					"value":"Worklight CSS へのマッピング・モジュール (Android 用)",
+					"lang":"ja"
+				},
+				{
+					"value":"Android үшін арналған Worklight CSS бағдарламасына модульді салыстыру",
+					"lang":"kk"
+				},
+				{
+					"value":"Android용 Worklight CSS에 모듈 맵핑",
+					"lang":"ko"
+				},
+				{
+					"value":"Mapping Module to Worklight CSS for Android",
+					"lang":"nl"
+				},
+				{
+					"value":"Tilordningsmodul for Worklight CSS for Android",
+					"lang":"no"
+				},
+				{
+					"value":"Odwzorowanie modułu na arkusz stylów CSS platformy Worklight dla systemu Android",
+					"lang":"pl"
+				},
+				{
+					"value":"Módulo de mapeamento para o Worklight CSS for Android",
+					"lang":"pt"
+				},
+				{
+					"value":"Mapeamento de Módulo para Worklight CSS para Android",
+					"lang":"pt_BR"
+				},
+				{
+					"value":"Mapping Module to Worklight CSS for Android",
+					"lang":"ro"
+				},
+				{
+					"value":"Модуль преобразования в CSS Worklight для Android",
+					"lang":"ru"
+				},
+				{
+					"value":"Mapovanie modulu na CSS Worklight pre Android",
+					"lang":"sk"
+				},
+				{
+					"value":"Modul za preslikavo v Worklight – CSS za Android",
+					"lang":"sl"
+				},
+				{
+					"value":"Modulavbildning till Worklight CSS for Android",
+					"lang":"sv"
+				},
+				{
+					"value":"Mapping Module to Worklight CSS for Android",
+					"lang":"th"
+				},
+				{
+					"value":"Android İçin Worklight CSS Eşleme Modülü",
+					"lang":"tr"
+				},
+				{
+					"value":"Зв'язування модуля з Worklight CSS for Android",
+					"lang":"uk"
+				},
+				{
+					"value":"将模块映射到适用于 Android 的 Worklight CSS",
+					"lang":"zh"
+				},
+				{
+					"value":"將模組對映至適用於 Android 的 Worklight CSS",
+					"lang":"zh_TW"
+				}
+			],
+			"descriptions": [
+				{
+					"value":"وحدة البرامج التي تناظر وحدة البرامج العامة بدون نسخة الى  وحدة البرامج الخاصة بنسخة. تعد وحدة البرامج هذه لأجهزة Android فقط.",
+					"lang":"ar"
+				},
+				{
+					"value":"Mòdul de mapatge del mòdul genèric sense versió a un mòdul específic de versió. Aquest mòdul només és per a dispositius Android.",
+					"lang":"ca"
+				},
+				{
+					"value":"Modul mapující generický modul bez verze na modul pro specifickou verzi. Tento modul je určený pouze pro zařízení Android.",
+					"lang":"cs"
+				},
+				{
+					"value":"Modul, der mapper det generiske modul uden version til et versionsspecifikt modul. Dette modul er kun til Android-enheder.",
+					"lang":"da"
+				},
+				{
+					"value":"Modul, das das generische Modul ohne Version einem versionsspezifischen Modul zuordnet. Dieses Modul ist nur für Android-Geräte vorgesehen.",
+					"lang":"de"
+				},
+				{
+					"value":"Λειτουργική μονάδα που αντιστοιχίζει τη γενική λειτουργική μονάδα χωρίς έκδοση σε μια λειτουργική μονάδα μιας συγκεκριμένης έκδοσης. Αυτή η λειτουργική μονάδα αφορά μόνο συσκευές Android.",
+					"lang":"el"
+				},
+				{
+					"value":"Module mapping the generic module without version to a version specific module. This module is for Android devices only.",
+					"lang":"en"
+				},
+				{
+					"value":"Módulo que correlaciona el módulo genérico sin un módulo específico de versión a versión. Este módulo es sólo para dispositivos Android.",
+					"lang":"es"
+				},
+				{
+					"value":"Yleisen moduulin vastaavuusmääritys ilman versiokohtaista moduulimääritystä. Tämä moduuli on tarkoitettu vain Android-laitteisiin.",
+					"lang":"fi"
+				},
+				{
+					"value":"Module mappant le module générique sans version sur un module spécifique d'une version. Ce module est uniquement destiné aux appareils Android.",
+					"lang":"fr"
+				},
+				{
+					"value":"Module mapping the generic module without version to a version specific module. This module is for Android devices only.",
+					"lang":"he"
+				},
+				{
+					"value":"Mapiranje generičkog modula bez verzije i modula za određenu verziju. Ovaj modul se odnosi samo na Android uređaje.",
+					"lang":"hr"
+				},
+				{
+					"value":"Ez a modul leképezi a verziószám nélküli általános modult egy változatspecifikus modulra. A modul csak Android eszközökhöz használható.",
+					"lang":"hu"
+				},
+				{
+					"value":"Modulo di associazione del modulo generico senza versione a un modulo con versione specifica. Questo modulo è solo per i dispositivi Android.",
+					"lang":"it"
+				},
+				{
+					"value":"バージョンなしの汎用モジュールを特定のバージョンのモジュールにマップするモジュール。 このモジュールは、Android デバイス専用です。",
+					"lang":"ja"
+				},
+				{
+					"value":"Нұсқасы жоқ негізгі модульді нұсқасы бар модульмен салыстыру. Бұл модуль тек Android құралдарына ғана арналған.",
+					"lang":"kk"
+				},
+				{
+					"value":"버전 고유의 모듈에 버전이 없는 일반 모듈을 맵핑하는 모듈입니다. 이 모듈은 Android 디바이스 전용입니다.",
+					"lang":"ko"
+				},
+				{
+					"value":"Module voor het toewijzen van de generieke, versieloze module aan een versiespecifieke module. Deze module is uitsluitend bedoeld voor Android-apparaten.",
+					"lang":"nl"
+				},
+				{
+					"value":"Modul som tilordner den generiske modulen uten versjon til en versjonsspesifikk modul. Denne modulen er bare for Android-enheter.",
+					"lang":"no"
+				},
+				{
+					"value":"Moduł odwzorowujący moduł ogólny bez określonej wersji na moduł o konkretnej wersji. Ten moduł jest przeznaczony wyłącznie dla urządzeń z systemem Android.",
+					"lang":"pl"
+				},
+				{
+					"value":"Módulo que efectua o mapeamento do módulo genérico sem a versão para um módulo específico de versão. Este módulo destina-se apenas a dispositivos Android.",
+					"lang":"pt"
+				},
+				{
+					"value":"Módulo mapeamento do módulo genérico sem versão a um módulo específico da versão. Este módulo é apenas para dispositivos Android.",
+					"lang":"pt_BR"
+				},
+				{
+					"value":"Modul care mapează modulul generic fără versiune la un un modul specific versiunii. Acest modul este doar pentru dispozitivele Android.",
+					"lang":"ro"
+				},
+				{
+					"value":"Преобразование модуля без версии в модуль с конкретной версией. Этот модуль предназначен только для устройств Android.",
+					"lang":"ru"
+				},
+				{
+					"value":"Modul, ktorý mapuje generický modul bez verzie na modul špecifický pre verziu. Tento modul je iba pre zariadenia s operačným systémom Android.",
+					"lang":"sk"
+				},
+				{
+					"value":"Modul, ki preslika generični modul brez določene različice v modul z določeno različico. Ta modul je le za naprave z operacijskim sistemom Android.",
+					"lang":"sl"
+				},
+				{
+					"value":"Modulavbildning av den generiska modulen utan version till en versionsspecifik modul. Modulen är endast avsedd för Android-enheter.",
+					"lang":"sv"
+				},
+				{
+					"value":"การแม็พโมดูลสำหรับโมดูลทั่วไปที่ไม่มีเวอร์ชันกับโมดูลเฉพาะเวอร์ชัน โมดูลนี้สำหรับอุปกรณ์ Android เท่านั้น",
+					"lang":"th"
+				},
+				{
+					"value":"Sürümü olmayan soysal modülü sürüme özel bir modülle eşleyen modül. Bu modül yalnızca Android aygıtlar içindir.",
+					"lang":"tr"
+				},
+				{
+					"value":"Зв'язування загального модуля без версії з модулем окремої версії. Цей модуль призначено лише для пристроїв Android.",
+					"lang":"uk"
+				},
+				{
+					"value":"将不含版本的通用模块映射到特定版本的模块。此模块仅适用于 Android 设备。",
+					"lang":"zh"
+				},
+				{
+					"value":"將沒有版本的一般模組對映至版本特定的模組的模組。此模組僅適用於 Android 裝置。",
+					"lang":"zh_TW"
+				}
+			]
+		},
+		{
+			"id":"wp_worklight_css_winphone",
+			"prereqs": [
+				{
+					"id":"wl_client_css_winphone_62",
+					"type":"optional"
+				}
+			],
+			"titles": [
+				{
+					"value":"Mapping Module to Worklight CSS for Windows Phone",
+					"lang":"ar"
+				},
+				{
+					"value":"Mapping Module to Worklight CSS for Windows Phone",
+					"lang":"ca"
+				},
+				{
+					"value":"Mapping Module to Worklight CSS for Windows Phone",
+					"lang":"cs"
+				},
+				{
+					"value":"Mapping Module to Worklight CSS for Windows Phone",
+					"lang":"da"
+				},
+				{
+					"value":"Mapping Module to Worklight CSS for Windows Phone",
+					"lang":"de"
+				},
+				{
+					"value":"Mapping Module to Worklight CSS for Windows Phone",
+					"lang":"el"
+				},
+				{
+					"value":"Mapping Module to Worklight CSS for Windows Phone",
+					"lang":"en"
+				},
+				{
+					"value":"Mapping Module to Worklight CSS for Windows Phone",
+					"lang":"es"
+				},
+				{
+					"value":"Mapping Module to Worklight CSS for Windows Phone",
+					"lang":"fi"
+				},
+				{
+					"value":"Mapping Module to Worklight CSS for Windows Phone",
+					"lang":"fr"
+				},
+				{
+					"value":"Mapping Module to Worklight CSS for Windows Phone",
+					"lang":"he"
+				},
+				{
+					"value":"Mapping Module to Worklight CSS for Windows Phone",
+					"lang":"hr"
+				},
+				{
+					"value":"Mapping Module to Worklight CSS for Windows Phone",
+					"lang":"hu"
+				},
+				{
+					"value":"Mapping Module to Worklight CSS for Windows Phone",
+					"lang":"it"
+				},
+				{
+					"value":"Mapping Module to Worklight CSS for Windows Phone",
+					"lang":"ja"
+				},
+				{
+					"value":"Mapping Module to Worklight CSS for Windows Phone",
+					"lang":"kk"
+				},
+				{
+					"value":"Mapping Module to Worklight CSS for Windows Phone",
+					"lang":"ko"
+				},
+				{
+					"value":"Mapping Module to Worklight CSS for Windows Phone",
+					"lang":"nl"
+				},
+				{
+					"value":"Mapping Module to Worklight CSS for Windows Phone",
+					"lang":"no"
+				},
+				{
+					"value":"Mapping Module to Worklight CSS for Windows Phone",
+					"lang":"pl"
+				},
+				{
+					"value":"Mapping Module to Worklight CSS for Windows Phone",
+					"lang":"pt"
+				},
+				{
+					"value":"Mapping Module to Worklight CSS for Windows Phone",
+					"lang":"pt_BR"
+				},
+				{
+					"value":"Mapping Module to Worklight CSS for Windows Phone",
+					"lang":"ro"
+				},
+				{
+					"value":"Mapping Module to Worklight CSS for Windows Phone",
+					"lang":"ru"
+				},
+				{
+					"value":"Mapping Module to Worklight CSS for Windows Phone",
+					"lang":"sk"
+				},
+				{
+					"value":"Mapping Module to Worklight CSS for Windows Phone",
+					"lang":"sl"
+				},
+				{
+					"value":"Mapping Module to Worklight CSS for Windows Phone",
+					"lang":"sv"
+				},
+				{
+					"value":"Mapping Module to Worklight CSS for Windows Phone",
+					"lang":"th"
+				},
+				{
+					"value":"Mapping Module to Worklight CSS for Windows Phone",
+					"lang":"tr"
+				},
+				{
+					"value":"Mapping Module to Worklight CSS for Windows Phone",
+					"lang":"uk"
+				},
+				{
+					"value":"Mapping Module to Worklight CSS for Windows Phone",
+					"lang":"zh"
+				},
+				{
+					"value":"Mapping Module to Worklight CSS for Windows Phone",
+					"lang":"zh_TW"
+				}
+			],
+			"descriptions": [
+				{
+					"value":"Module mapping the generic module without version to a version specific module. This module is for Windows Phone devices only.",
+					"lang":"ar"
+				},
+				{
+					"value":"Module mapping the generic module without version to a version specific module. This module is for Windows Phone devices only.",
+					"lang":"ca"
+				},
+				{
+					"value":"Module mapping the generic module without version to a version specific module. This module is for Windows Phone devices only.",
+					"lang":"cs"
+				},
+				{
+					"value":"Module mapping the generic module without version to a version specific module. This module is for Windows Phone devices only.",
+					"lang":"da"
+				},
+				{
+					"value":"Module mapping the generic module without version to a version specific module. This module is for Windows Phone devices only.",
+					"lang":"de"
+				},
+				{
+					"value":"Module mapping the generic module without version to a version specific module. This module is for Windows Phone devices only.",
+					"lang":"el"
+				},
+				{
+					"value":"Module mapping the generic module without version to a version specific module. This module is for Windows Phone devices only.",
+					"lang":"en"
+				},
+				{
+					"value":"Module mapping the generic module without version to a version specific module. This module is for Windows Phone devices only.",
+					"lang":"es"
+				},
+				{
+					"value":"Module mapping the generic module without version to a version specific module. This module is for Windows Phone devices only.",
+					"lang":"fi"
+				},
+				{
+					"value":"Module mapping the generic module without version to a version specific module. This module is for Windows Phone devices only.",
+					"lang":"fr"
+				},
+				{
+					"value":"Module mapping the generic module without version to a version specific module. This module is for Windows Phone devices only.",
+					"lang":"he"
+				},
+				{
+					"value":"Module mapping the generic module without version to a version specific module. This module is for Windows Phone devices only.",
+					"lang":"hr"
+				},
+				{
+					"value":"Module mapping the generic module without version to a version specific module. This module is for Windows Phone devices only.",
+					"lang":"hu"
+				},
+				{
+					"value":"Module mapping the generic module without version to a version specific module. This module is for Windows Phone devices only.",
+					"lang":"it"
+				},
+				{
+					"value":"Module mapping the generic module without version to a version specific module. This module is for Windows Phone devices only.",
+					"lang":"ja"
+				},
+				{
+					"value":"Module mapping the generic module without version to a version specific module. This module is for Windows Phone devices only.",
+					"lang":"kk"
+				},
+				{
+					"value":"Module mapping the generic module without version to a version specific module. This module is for Windows Phone devices only.",
+					"lang":"ko"
+				},
+				{
+					"value":"Module mapping the generic module without version to a version specific module. This module is for Windows Phone devices only.",
+					"lang":"nl"
+				},
+				{
+					"value":"Module mapping the generic module without version to a version specific module. This module is for Windows Phone devices only.",
+					"lang":"no"
+				},
+				{
+					"value":"Module mapping the generic module without version to a version specific module. This module is for Windows Phone devices only.",
+					"lang":"pl"
+				},
+				{
+					"value":"Module mapping the generic module without version to a version specific module. This module is for Windows Phone devices only.",
+					"lang":"pt"
+				},
+				{
+					"value":"Module mapping the generic module without version to a version specific module. This module is for Windows Phone devices only.",
+					"lang":"pt_BR"
+				},
+				{
+					"value":"Module mapping the generic module without version to a version specific module. This module is for Windows Phone devices only.",
+					"lang":"ro"
+				},
+				{
+					"value":"Module mapping the generic module without version to a version specific module. This module is for Windows Phone devices only.",
+					"lang":"ru"
+				},
+				{
+					"value":"Module mapping the generic module without version to a version specific module. This module is for Windows Phone devices only.",
+					"lang":"sk"
+				},
+				{
+					"value":"Module mapping the generic module without version to a version specific module. This module is for Windows Phone devices only.",
+					"lang":"sl"
+				},
+				{
+					"value":"Module mapping the generic module without version to a version specific module. This module is for Windows Phone devices only.",
+					"lang":"sv"
+				},
+				{
+					"value":"Module mapping the generic module without version to a version specific module. This module is for Windows Phone devices only.",
+					"lang":"th"
+				},
+				{
+					"value":"Module mapping the generic module without version to a version specific module. This module is for Windows Phone devices only.",
+					"lang":"tr"
+				},
+				{
+					"value":"Module mapping the generic module without version to a version specific module. This module is for Windows Phone devices only.",
+					"lang":"uk"
+				},
+				{
+					"value":"Module mapping the generic module without version to a version specific module. This module is for Windows Phone devices only.",
+					"lang":"zh"
+				},
+				{
+					"value":"Module mapping the generic module without version to a version specific module. This module is for Windows Phone devices only.",
+					"lang":"zh_TW"
+				}
+			]
+		},
+		{
+			"id":"wp_worklight_css_ios",
+			"prereqs": [
+				{
+					"id":"wl_client_css_ios_62",
+					"type":"optional"
+				}
+			],
+			"titles": [
+				{
+					"value":"وحدة برامج المناظرة الى Worklight CSS الى iOS",
+					"lang":"ar"
+				},
+				{
+					"value":"Mòdul de mapatge a CSS de Worklight per a l'iOS",
+					"lang":"ca"
+				},
+				{
+					"value":"Modul mapování na CSS produktu Worklight pro iOS",
+					"lang":"cs"
+				},
+				{
+					"value":"Mappingmodul til Worklight-CSS til iOS",
+					"lang":"da"
+				},
+				{
+					"value":"Zuordnungsmodul für Worklight-CSS für iOS",
+					"lang":"de"
+				},
+				{
+					"value":"Λειτουργική μονάδα αντιστοίχισης σε Worklight CSS για iOS",
+					"lang":"el"
+				},
+				{
+					"value":"Mapping Module to Worklight CSS for iOS",
+					"lang":"en"
+				},
+				{
+					"value":"Módulo de correlación con Worklight CSS para iOS",
+					"lang":"es"
+				},
+				{
+					"value":"Vastaavuusmääritys Worklight iOS -CSS-tyylitiedostoon",
+					"lang":"fi"
+				},
+				{
+					"value":"Module de mappage sur le CSS Worklight pour iOS",
+					"lang":"fr"
+				},
+				{
+					"value":"Mapping Module to Worklight CSS for iOS",
+					"lang":"he"
+				},
+				{
+					"value":"Mapiranje modula na Worklight CSS za iOS",
+					"lang":"hr"
+				},
+				{
+					"value":"Leképezési modul Worklight CSS-re iOS rendszerhez",
+					"lang":"hu"
+				},
+				{
+					"value":"Modulo di associazione al CSS Worklight per iOS",
+					"lang":"it"
+				},
+				{
+					"value":"Worklight CSS へのマッピング・モジュール (iOS 用)",
+					"lang":"ja"
+				},
+				{
+					"value":"iOS үшін арналған Worklight CSS бағдарламасына модульді салыстыру",
+					"lang":"kk"
+				},
+				{
+					"value":"iOS용 Worklight CSS에 모듈 맵핑",
+					"lang":"ko"
+				},
+				{
+					"value":"Mapping Module to Worklight CSS for iOS",
+					"lang":"nl"
+				},
+				{
+					"value":"Tilordningsmodul for Worklight CSS for iOS",
+					"lang":"no"
+				},
+				{
+					"value":"Odwzorowanie modułu na arkusz stylów CSS platformy Worklight dla systemu iOS",
+					"lang":"pl"
+				},
+				{
+					"value":"Módulo de mapeamento para o Worklight CSS for iOS",
+					"lang":"pt"
+				},
+				{
+					"value":"Mapeamento de Módulo para Worklight CSS para iOS",
+					"lang":"pt_BR"
+				},
+				{
+					"value":"Mapping Module to Worklight CSS for iOS",
+					"lang":"ro"
+				},
+				{
+					"value":"Модуль преобразования в CSS Worklight для iOS",
+					"lang":"ru"
+				},
+				{
+					"value":"Mapovanie modulu na CSS Worklight pre iOS",
+					"lang":"sk"
+				},
+				{
+					"value":"Modul za preslikavo v Worklight – CSS za iOS",
+					"lang":"sl"
+				},
+				{
+					"value":"Modulavbildning till Worklight CSS for iOS",
+					"lang":"sv"
+				},
+				{
+					"value":"Mapping Module to Worklight CSS for iOS",
+					"lang":"th"
+				},
+				{
+					"value":"iOS İçin Worklight CSS Eşleme Modülü",
+					"lang":"tr"
+				},
+				{
+					"value":"Зв'язування модуля з Worklight CSS for iOS",
+					"lang":"uk"
+				},
+				{
+					"value":"将模块映射到适用于 iOS 的 Worklight CSS",
+					"lang":"zh"
+				},
+				{
+					"value":"將模組對映至適用於 iOS 的 Worklight CSS",
+					"lang":"zh_TW"
+				}
+			],
+			"descriptions": [
+				{
+					"value":"وحدة البرامج التي تناظر وحدة البرامج العامة بدون نسخة الى  وحدة البرامج الخاصة بنسخة. تعد وحدة البرامج هذه لأجهزة iOS فقط.",
+					"lang":"ar"
+				},
+				{
+					"value":"Mòdul de mapatge del mòdul genèric sense versió a un mòdul específic de versió. Aquest mòdul és només per a dispositius iOS.",
+					"lang":"ca"
+				},
+				{
+					"value":"Modul mapující generický modul bez verze na modul pro specifickou verzi. Tento modul je určený pouze pro zařízení iOS.",
+					"lang":"cs"
+				},
+				{
+					"value":"Modul, der mapper det generiske modul uden version til et versionsspecifikt modul. Dette modul er kun til iOS-enheder.",
+					"lang":"da"
+				},
+				{
+					"value":"Modul, das das generische Modul ohne Version einem versionsspezifischen Modul zuordnet. Dieses Modul ist nur für iOS-Geräte vorgesehen.",
+					"lang":"de"
+				},
+				{
+					"value":"Λειτουργική μονάδα που αντιστοιχίζει τη γενική λειτουργική μονάδα χωρίς έκδοση σε μια λειτουργική μονάδα μιας συγκεκριμένης έκδοσης. Αυτή η λειτουργική μονάδα αφορά μόνο συσκευές iOS.",
+					"lang":"el"
+				},
+				{
+					"value":"Module mapping the generic module without version to a version specific module. This module is for iOS devices only.",
+					"lang":"en"
+				},
+				{
+					"value":"Módulo que correlaciona el módulo genérico sin un módulo específico de versión a versión. Este módulo es sólo para dispositivos iOS.",
+					"lang":"es"
+				},
+				{
+					"value":"Yleisen moduulin vastaavuusmääritys ilman versiokohtaista moduulimääritystä. Tämä moduuli on tarkoitettu vain iOS-laitteisiin.",
+					"lang":"fi"
+				},
+				{
+					"value":"Module mappant le module générique sans version sur un module spécifique d'une version. Ce module est uniquement destiné aux appareils iOS.",
+					"lang":"fr"
+				},
+				{
+					"value":"Module mapping the generic module without version to a version specific module. This module is for iOS devices only.",
+					"lang":"he"
+				},
+				{
+					"value":"Mapiranje generičkog modula bez verzije i modula za određenu verziju. Ovaj modul se odnosi samo na iOS uređaje.",
+					"lang":"hr"
+				},
+				{
+					"value":"Ez a modul leképezi a verziószám nélküli általános modult egy változatspecifikus modulra. A modul csak iOS eszközökhöz használható.",
+					"lang":"hu"
+				},
+				{
+					"value":"Modulo di associazione del modulo generico senza versione a un modulo con versione specifica. Questo modulo è solo per i dispositivi iOS.",
+					"lang":"it"
+				},
+				{
+					"value":"バージョンなしの汎用モジュールを特定のバージョンのモジュールにマップするモジュール。 このモジュールは、iOS デバイス専用です。",
+					"lang":"ja"
+				},
+				{
+					"value":"Нұсқасы жоқ негізгі модульді нұсқасы бар модульмен салыстыру. Бұл модуль тек iOS құралдарына ғана арналған.",
+					"lang":"kk"
+				},
+				{
+					"value":"버전 고유의 모듈에 버전이 없는 일반 모듈을 맵핑하는 모듈입니다. 이 모듈은 iOS 디바이스 전용입니다.",
+					"lang":"ko"
+				},
+				{
+					"value":"Module voor het toewijzen van de generieke, versieloze module aan een versiespecifieke module. Deze module is uitsluitend bedoeld voor iOS-apparaten.",
+					"lang":"nl"
+				},
+				{
+					"value":"Modul som tilordner den generiske modulen uten versjon til en versjonsspesifikk modul. Denne modulen er bare for iOS-enheter.",
+					"lang":"no"
+				},
+				{
+					"value":"Moduł odwzorowujący moduł ogólny bez określonej wersji na moduł o konkretnej wersji. Ten moduł jest przeznaczony wyłącznie dla urządzeń z systemem iOS.",
+					"lang":"pl"
+				},
+				{
+					"value":"Módulo que efectua o mapeamento do módulo genérico sem a versão para um módulo específico de versão. Este módulo destina-se apenas a dispositivos iOS.",
+					"lang":"pt"
+				},
+				{
+					"value":"Módulo mapeamento do módulo genérico sem versão a um módulo específico da versão. Este módulo é para dispositivos iOS apenas.",
+					"lang":"pt_BR"
+				},
+				{
+					"value":"Modul care mapează modulul generic fără versiune la un un modul specific versiunii. Acest modul este doar pentru dispozitivele iOS.",
+					"lang":"ro"
+				},
+				{
+					"value":"Преобразование модуля без версии в модуль с конкретной версией. Этот модуль предназначен только для устройств iOS.",
+					"lang":"ru"
+				},
+				{
+					"value":"Modul, ktorý mapuje generický modul bez verzie na modul špecifický pre verziu. Tento modul je iba pre zariadenia s operačným systémom iOS.",
+					"lang":"sk"
+				},
+				{
+					"value":"Modul, ki preslika generični modul brez določene različice v modul z določeno različico. Ta modul je le za naprave z operacijskim sistemom iOS.",
+					"lang":"sl"
+				},
+				{
+					"value":"Modulavbildning av den generiska modulen utan version till en versionsspecifik modul. Modulen är endast avsedd för iOS-enheter.",
+					"lang":"sv"
+				},
+				{
+					"value":"การแม็พโมดูลสำหรับโมดูลทั่วไปที่ไม่มีเวอร์ชันกับโมดูลเฉพาะเวอร์ชัน โมดูลนี้สำหรับอุปกรณ์ iOS เท่านั้น",
+					"lang":"th"
+				},
+				{
+					"value":"Sürümü olmayan soysal modülü sürüme özel bir modülle eşleyen modül. Bu modül yalnızca iOS aygıtları içindir.",
+					"lang":"tr"
+				},
+				{
+					"value":"Зв'язування загального модуля без версії з модулем окремої версії. Цей модуль призначено лише для пристроїв iOS.",
+					"lang":"uk"
+				},
+				{
+					"value":"将不含版本的通用模块映射到特定版本的模块。此模块仅适用于 iOS 设备。",
+					"lang":"zh"
+				},
+				{
+					"value":"將沒有版本的一般模組對映至版本特定的模組的模組。此模組僅適用於 iOS 裝置。",
+					"lang":"zh_TW"
+				}
+			]
+		},
+		{
+			"id":"wp_worklight_jsonstore",
+			"prereqs": [
+				{
+					"id":"wp_worklight_ext"
+				},
+				{
+					"id":"wl_client_jsonstore_ios_62",
+					"type":"optional"
+				},
+				{
+					"id":"wl_client_jsonstore_android_62",
+					"type":"optional"
+				},
+				{
+					"id":"wl_client_jsonstore_winphone_62",
+					"type":"optional"
+				}
+			],
+			"runtimeActivation":{
+				"condition":{
+					"deviceClass":"worklight"
+				}
+			},
+			"titles": [
+				{
+					"value":"وحدة برامج المناظرة الى Worklight Client JSONStore",
+					"lang":"ar"
+				},
+				{
+					"value":"Mòdul de mapatge per a Worklight Client JSONStore",
+					"lang":"ca"
+				},
+				{
+					"value":"Modul mapování na úložiště JSONStore klienta produktu Worklight",
+					"lang":"cs"
+				},
+				{
+					"value":"Mappingmodul til Worklight Client JSONStore",
+					"lang":"da"
+				},
+				{
+					"value":"Zuordnungsmodul für Worklight-Client-JSONStore",
+					"lang":"de"
+				},
+				{
+					"value":"Λειτουργική μονάδα αντιστοίχισης σε JSONStore περιβάλλοντος πελάτη Worklight",
+					"lang":"el"
+				},
+				{
+					"value":"Mapping Module to Worklight Client JSONStore",
+					"lang":"en"
+				},
+				{
+					"value":"Módulo de correlación con Worklight Client JSONStore",
+					"lang":"es"
+				},
+				{
+					"value":"Vastaavuusmääritys Worklight JSONStore -työasemaan",
+					"lang":"fi"
+				},
+				{
+					"value":"Module de mappage sur Client JSONStore de Worklight",
+					"lang":"fr"
+				},
+				{
+					"value":"Mapping Module to Worklight Client JSONStore",
+					"lang":"he"
+				},
+				{
+					"value":"Mapiranje modula na JSONStore Worklight klijenta",
+					"lang":"hr"
+				},
+				{
+					"value":"Leképezési modul Worklight ügyfél JSONStore erőforrásra",
+					"lang":"hu"
+				},
+				{
+					"value":"Modulo di associazione al JSONStore client Worklight",
+					"lang":"it"
+				},
+				{
+					"value":"Worklight Client JSONStore へのマッピング・モジュール",
+					"lang":"ja"
+				},
+				{
+					"value":"Worklight Client JSONStore бағдарламасы үшін модульді салыстыру",
+					"lang":"kk"
+				},
+				{
+					"value":"Worklight 클라이언트 JSONStore에 모듈 맵핑",
+					"lang":"ko"
+				},
+				{
+					"value":"Mapping Module to Worklight Client JSONStore",
+					"lang":"nl"
+				},
+				{
+					"value":"Tilordningsmodul for Worklight Client JSONStore",
+					"lang":"no"
+				},
+				{
+					"value":"Odwzorowanie modułu na składnicę JSONStore klienta platformy Worklight",
+					"lang":"pl"
+				},
+				{
+					"value":"Módulo de mapeamento para o Worklight Client JSONStore",
+					"lang":"pt"
+				},
+				{
+					"value":"Mapeamento de Módulo para Worklight Client JSONStore",
+					"lang":"pt_BR"
+				},
+				{
+					"value":"Mapping Module to Worklight Client JSONStore",
+					"lang":"ro"
+				},
+				{
+					"value":"Модуль преобразования в расширение JSONStore клиента Worklight",
+					"lang":"ru"
+				},
+				{
+					"value":"Mapovanie modulu na JSONStore klienta Worklight",
+					"lang":"sk"
+				},
+				{
+					"value":"Modul za preslikavo v Worklight – odjemalski JSONStore",
+					"lang":"sl"
+				},
+				{
+					"value":"Modulavbildning till Worklight Client JSONStore",
+					"lang":"sv"
+				},
+				{
+					"value":"Mapping Module to Worklight Client JSONStore",
+					"lang":"th"
+				},
+				{
+					"value":"Worklight İstemcisi JSONStore Eşleme Modülü",
+					"lang":"tr"
+				},
+				{
+					"value":"Зв'язування модуля з JSONStore клієнта Worklight",
+					"lang":"uk"
+				},
+				{
+					"value":"将模块映射到 Worklight 客户端 JSONStore",
+					"lang":"zh"
+				},
+				{
+					"value":"將模組對映至 Worklight 用戶端 JSONStore",
+					"lang":"zh_TW"
+				}
+			],
+			"descriptions": [
+				{
+					"value":"وحدة البرامج التي تناظر وحدة البرامج العامة بدون نسخة الى  وحدة البرامج الخاصة بنسخة. ",
+					"lang":"ar"
+				},
+				{
+					"value":"Mòdul de mapatge del mòdul genèric sense versió a un mòdul específic de versió. ",
+					"lang":"ca"
+				},
+				{
+					"value":"Modul mapující generický modul bez verze na modul pro specifickou verzi. ",
+					"lang":"cs"
+				},
+				{
+					"value":"Modul, der mapper det generiske modul uden version til et versionsspecifikt modul. ",
+					"lang":"da"
+				},
+				{
+					"value":"Modul, das das generische Modul ohne Version einem versionsspezifischen Modul zuordnet. ",
+					"lang":"de"
+				},
+				{
+					"value":"Λειτουργική μονάδα που αντιστοιχίζει τη γενική λειτουργική μονάδα χωρίς έκδοση σε μια λειτουργική μονάδα μιας συγκεκριμένης έκδοσης. ",
+					"lang":"el"
+				},
+				{
+					"value":"Module mapping the generic module without version to a version specific module. ",
+					"lang":"en"
+				},
+				{
+					"value":"Módulo que correlaciona el módulo genérico sin un módulo específico de versión a versión. ",
+					"lang":"es"
+				},
+				{
+					"value":"Yleisen moduulin vastaavuusmääritys ilman versiokohtaista moduulimääritystä. ",
+					"lang":"fi"
+				},
+				{
+					"value":"Module mappant le module générique sans version sur un module spécifique d'une version. ",
+					"lang":"fr"
+				},
+				{
+					"value":"Module mapping the generic module without version to a version specific module. ",
+					"lang":"he"
+				},
+				{
+					"value":"Mapiranje generičkog modula bez verzije i modula za određenu verziju. ",
+					"lang":"hr"
+				},
+				{
+					"value":"Ez a modul leképezi a verziószám nélküli általános modult egy változatspecifikus modulra. ",
+					"lang":"hu"
+				},
+				{
+					"value":"Modulo di associazione del modulo generico senza versione a un modulo con versione specifica. ",
+					"lang":"it"
+				},
+				{
+					"value":"バージョンなしの汎用モジュールを特定のバージョンのモジュールにマップするモジュール。 ",
+					"lang":"ja"
+				},
+				{
+					"value":"Нұсқасы жоқ негізгі модульді нұсқасы бар модульмен салыстыру. ",
+					"lang":"kk"
+				},
+				{
+					"value":"버전 고유의 모듈에 버전이 없는 일반 모듈을 맵핑하는 모듈입니다. ",
+					"lang":"ko"
+				},
+				{
+					"value":"Module voor het toewijzen van de generieke, versieloze module aan een versiespecifieke module. ",
+					"lang":"nl"
+				},
+				{
+					"value":"Modul som tilordner den generiske modulen uten versjon til en versjonsspesifikk modul. ",
+					"lang":"no"
+				},
+				{
+					"value":"Moduł odwzorowujący moduł ogólny bez określonej wersji na moduł o konkretnej wersji. ",
+					"lang":"pl"
+				},
+				{
+					"value":"Módulo que efectua o mapeamento do módulo genérico sem a versão para um módulo específico de versão. ",
+					"lang":"pt"
+				},
+				{
+					"value":"Módulo mapeamento do módulo genérico sem versão a um módulo específico da versão. ",
+					"lang":"pt_BR"
+				},
+				{
+					"value":"Modul care mapează modulul generic fără versiune la un un modul specific versiunii. ",
+					"lang":"ro"
+				},
+				{
+					"value":"Преобразование модуля без версии в модуль с конкретной версией. ",
+					"lang":"ru"
+				},
+				{
+					"value":"Modul, ktorý mapuje generický modul bez verzie na modul špecifický pre verziu. ",
+					"lang":"sk"
+				},
+				{
+					"value":"Modul, ki preslika generični modul brez določene različice v modul z določeno različico. ",
+					"lang":"sl"
+				},
+				{
+					"value":"Modulavbildning av den generiska modulen utan version till en versionsspecifik modul. ",
+					"lang":"sv"
+				},
+				{
+					"value":"การแม็พโมดูลสำหรับโมดูลทั่วไปที่ไม่มีเวอร์ชันกับโมดูลเฉพาะเวอร์ชัน ",
+					"lang":"th"
+				},
+				{
+					"value":"Sürümü olmayan soysal modülü sürüme özel bir modülle eşleyen modül ",
+					"lang":"tr"
+				},
+				{
+					"value":"Зв'язування загального модуля без версії з модулем окремої версії. ",
+					"lang":"uk"
+				},
+				{
+					"value":"将不含版本的通用模块映射到特定版本的模块。",
+					"lang":"zh"
+				},
+				{
+					"value":"將沒有版本的一般模組對映至版本特定的模組的模組。",
+					"lang":"zh_TW"
+				}
+			]
+		},
+		{
+			"id":"wp_worklight_plugins",
+			"prereqs": [
+				{
+					"id":"wl_plugins_ios_62",
+					"type":"optional"
+				},
+				{
+					"id":"wl_plugins_android_62",
+					"type":"optional"
+				},
+				{
+					"id":"wl_plugins_winphone_62",
+					"type":"optional"
+				}
+			],
+			"titles": [
+				{
+					"value":"وحدة برامج المناظرة الى Worklight Plugins Integration Extension",
+					"lang":"ar"
+				},
+				{
+					"value":"Mòdul de correlació amb Worklight Plugins Integration Extension",
+					"lang":"ca"
+				},
+				{
+					"value":"Modul mapování na rozšíření integrace modulů plug-in produktu Worklight",
+					"lang":"cs"
+				},
+				{
+					"value":"Mappingmodul til Worklight Plugins Integration-udvidelse",
+					"lang":"da"
+				},
+				{
+					"value":"Zuordnungsmodul für Integrationserweiterung für Worklight-Plug-ins",
+					"lang":"de"
+				},
+				{
+					"value":"Λειτουργική μονάδα αντιστοίχισης σε επέκταση ενοποίησης πρόσθετων λειτουργιών Worklight",
+					"lang":"el"
+				},
+				{
+					"value":"Mapping Module to Worklight Plugins Integration Extension",
+					"lang":"en"
+				},
+				{
+					"value":"Módulo de correlación con Worklight Plugins Integration Extension",
+					"lang":"es"
+				},
+				{
+					"value":"Vastaavuusmääritysmoduuli Worklight-lisäosien integraatiolaajennukseen",
+					"lang":"fi"
+				},
+				{
+					"value":"Module de mappage sur l'extension d'intégration de plug-ins Worklight",
+					"lang":"fr"
+				},
+				{
+					"value":"Mapping Module to Worklight Plugins Integration Extension",
+					"lang":"he"
+				},
+				{
+					"value":"Modul mapiranja za Worklight proširenje integracije plug-inova",
+					"lang":"hr"
+				},
+				{
+					"value":"Leképezési modul Worklight bedolgozó integrációra bővítmény",
+					"lang":"hu"
+				},
+				{
+					"value":"Modulo di associazione all'estensione di integrazione dei plugin Worklight",
+					"lang":"it"
+				},
+				{
+					"value":"Worklight プラグイン統合拡張機能へのマッピング・モジュール",
+					"lang":"ja"
+				},
+				{
+					"value":"Модульді Worklight Plugins Integration Extension қызметіне салыстыру",
+					"lang":"kk"
+				},
+				{
+					"value":"Worklight Plugins Integration Extension의 맵핑 모듈",
+					"lang":"ko"
+				},
+				{
+					"value":"Mapping Module to Worklight Plugins Integration Extension",
+					"lang":"nl"
+				},
+				{
+					"value":"Tilordningsmodul for Worklight-pluginintegreringsutvidelse",
+					"lang":"no"
+				},
+				{
+					"value":"Odwzorowanie modułu na rozszerzenie integracji wtyczek platformy Worklight",
+					"lang":"pl"
+				},
+				{
+					"value":"Módulo de mapeamento para o Worklight Plugins Integration Extension",
+					"lang":"pt"
+				},
+				{
+					"value":"Mapeando Módulo para Extensão de Integração dos Plug-ins Worklight",
+					"lang":"pt_BR"
+				},
+				{
+					"value":"Mapping Module to Worklight Plugins Integration Extension",
+					"lang":"ro"
+				},
+				{
+					"value":"Модуль преобразования в расширение интеграции встраиваемых модулей Worklight",
+					"lang":"ru"
+				},
+				{
+					"value":"Mapovanie modulu na rozšírenie integrácie doplnkových komponentov Worklight",
+					"lang":"sk"
+				},
+				{
+					"value":"Modul za preslikavo v vtičnike Worklight – integracijska razširitev",
+					"lang":"sl"
+				},
+				{
+					"value":"Modulavbildning till Worklight-insticksprogram för Integration Extension",
+					"lang":"sv"
+				},
+				{
+					"value":"Mapping Module to Worklight Plugins Integration Extension",
+					"lang":"th"
+				},
+				{
+					"value":"Worklight Eklentileri Bütünleştirme Uzantısı Eşleme Modülü",
+					"lang":"tr"
+				},
+				{
+					"value":"Зв'язування модуля з Worklight Plugins Integration Extension",
+					"lang":"uk"
+				},
+				{
+					"value":"将模块映射到 Worklight 插件集成扩展",
+					"lang":"zh"
+				},
+				{
+					"value":"將模組對映至 Worklight 外掛程式整合延伸",
+					"lang":"zh_TW"
+				}
+			],
+			"descriptions": [
+				{
+					"value":"وحدة برامج لمناظرة وحدة البرامج العامة للبرامج المساعدة Worklight Plugins بدون نسخة الى وحدة البرامج الخاصة بنسخة.",
+					"lang":"ar"
+				},
+				{
+					"value":"Mòdul de mapatge del mòdul genèric per als connectors del Worklight sense versió a un mòdul específic de versió.",
+					"lang":"ca"
+				},
+				{
+					"value":"Modul mapující generický modul pro moduly plug-in produktu Worklight bez verze na modul pro specifickou verzi.",
+					"lang":"cs"
+				},
+				{
+					"value":"Modul, der mapper det generiske modul til Worklight Plugins uden version til et versionsspecifikt modul.",
+					"lang":"da"
+				},
+				{
+					"value":"Modul, das das generische Modul für Worklight-Plug-ins ohne Version einem versionsspezifischen Modul zuordnet.",
+					"lang":"de"
+				},
+				{
+					"value":"Λειτουργική μονάδα που αντιστοιχίζει τη γενική λειτουργική μονάδα χωρίς έκδοση για τις πρόσθετες λειτουργίες Worklight σε μια λειτουργική μονάδα μιας συγκεκριμένης έκδοσης.",
+					"lang":"el"
+				},
+				{
+					"value":"Module mapping the generic module for worklight plugins without version to a version specific module.",
+					"lang":"en"
+				},
+				{
+					"value":"Módulo que correlaciona el módulo genérico para los plugins de Worklight sin un módulo específico de versión a versión.",
+					"lang":"es"
+				},
+				{
+					"value":"Yleinen moduulin vastaavuusmääritys Worklight-lisäosille ilman versiokohtaista moduulia.",
+					"lang":"fi"
+				},
+				{
+					"value":"Module mappant le module générique de plug-ins Worklight sans version sur un module spécifique d'une version.",
+					"lang":"fr"
+				},
+				{
+					"value":"Module mapping the generic module for worklight plugins without version to a version specific module.",
+					"lang":"he"
+				},
+				{
+					"value":"Modul koji mapira generički modul za worklight plug-inove bez verzije i module za određenu verziju.",
+					"lang":"hr"
+				},
+				{
+					"value":"Ez a modul leképezi a verziószám nélküli általános worklight bedolgozó modult egy változatspecifikus modulra.",
+					"lang":"hu"
+				},
+				{
+					"value":"Modulo di associazione del modulo generico per i plugin worklight senza versione a un modulo con versione specifica.",
+					"lang":"it"
+				},
+				{
+					"value":"バージョンなしの Worklight プラグインの汎用モジュールを特定のバージョンのモジュールにマップするモジュール。",
+					"lang":"ja"
+				},
+				{
+					"value":"Жалпы модульді жұмыс шамы қосылымдарын нұсқасыз арнайы модуль нұсқасына арналған салыстыру модулі.",
+					"lang":"kk"
+				},
+				{
+					"value":"버전 특정 모듈에 버전이 없는 Worklight Plugins의 일반 모듈을 맵핑하는 모듈입니다.",
+					"lang":"ko"
+				},
+				{
+					"value":"Module voor het toewijzen van de generieke, versieloze module voor worklightplugins aan een versiespecifieke module.",
+					"lang":"nl"
+				},
+				{
+					"value":"Modul som tilordner den generiske modulen for Worklight-plugin-moduler uten versjon til en versjonsspesifikk modul.",
+					"lang":"no"
+				},
+				{
+					"value":"Moduł odwzorowujący moduł ogólny wtyczek platformy Worklight bez określonej wersji na moduł o konkretnej wersji.",
+					"lang":"pl"
+				},
+				{
+					"value":"Módulo que efectua o mapeamento do módulo genérico para suplementos do Worklight sem a versão para um módulo específico de versão.",
+					"lang":"pt"
+				},
+				{
+					"value":"Módulo mapeando o módulo genérico para plug-ins worklight sem versão para um módulo específico de versão.",
+					"lang":"pt_BR"
+				},
+				{
+					"value":"Modul care mapează modulul generic pentru plug-in-urile Worklight fără versiune la un modul specific versiunii.",
+					"lang":"ro"
+				},
+				{
+					"value":"Преобразование модуля без версии, предназначенного для встраиваемых модулей Worklight, в модуль с конкретной версией.",
+					"lang":"ru"
+				},
+				{
+					"value":"Modul, ktorý mapuje generický modul pre doplnkové komponenty worklight bez verzie na modul špecifický pre verziu.",
+					"lang":"sk"
+				},
+				{
+					"value":"Modul, ki preslikava generični modul za vtičnike Worklight brez različice v modul s specifično različico.",
+					"lang":"sl"
+				},
+				{
+					"value":"Modulavbildning av den generiska modulen utan version till en versionsspecifik modul.",
+					"lang":"sv"
+				},
+				{
+					"value":"การแม็พโมดูลสำหรับโมดูลทั่วไปสำหรับปลั๊กอิน worklight โดยไม่มีเวอร์ชันกับเวอร์ชันโมดูลที่ระบุเฉพาะ",
+					"lang":"th"
+				},
+				{
+					"value":"Sürümü olmayan Worklight eklentilerini sürüme özel bir modülle eşleyen modül",
+					"lang":"tr"
+				},
+				{
+					"value":"Зв'язування загального модуля для модулів Worklight без версії з модулем окремої версії.",
+					"lang":"uk"
+				},
+				{
+					"value":"将不含版本的 Worklight 插件通用模块映射到特定于版本的模块。",
+					"lang":"zh"
+				},
+				{
+					"value":"將沒有版本的 Worklight 外掛程式的一般模組對映至版本特定的模組的模組。",
+					"lang":"zh_TW"
+				}
+			]
+		}
+	]
+}

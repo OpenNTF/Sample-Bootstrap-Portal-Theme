@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="PortalThemeV85Bootstrap">
+        <wb-resource deploy-path="/" source-path="/" tag="defaultRootSource"/>
+        <dependent-module archiveName="PortalThemeV85BootstrapDynamic.war" deploy-path="/" handle="module:/resource/PortalThemeV85BootstrapDynamic/PortalThemeV85BootstrapDynamic">
+            <dependent-object>WebModule_1406622721318</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="PortalThemeV85BootstrapDynamic.war" deploy-path="/" handle="module:/resource/PortalThemeV85BootstrapDynamic/PortalThemeV85BootstrapDynamic">
+            <dependent-object>WebModule_1406539206638</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="PortalThemeV85BootstrapStatic.war" deploy-path="/" handle="module:/resource/PortalThemeV85BootstrapStatic/PortalThemeV85BootstrapStatic">
+            <dependent-object>WebModule_1406539210414</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="PortalThemeV85BootstrapDynamic.war" deploy-path="/" handle="module:/resource/PortalThemeV85BootstrapDynamic/PortalThemeV85BootstrapDynamic">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

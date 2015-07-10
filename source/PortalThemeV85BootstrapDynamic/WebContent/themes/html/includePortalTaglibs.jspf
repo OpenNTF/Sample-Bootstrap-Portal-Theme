@@ -1,0 +1,8 @@
+<%@ taglib uri="http://www.ibm.com/xmlns/prod/websphere/portal/v8.5/portal-core" prefix="portal-core" %>
+<%@ taglib uri="http://www.ibm.com/xmlns/prod/websphere/portal/v8.5/portal-logic" prefix="portal-logic" %>
+<%@ taglib uri="http://www.ibm.com/xmlns/prod/websphere/portal/v8.5/portal-fmt" prefix="portal-fmt" %>
+<%@ taglib uri="http://www.ibm.com/xmlns/prod/websphere/portal/v8.5/portal-navigation" prefix="portal-navigation" %>
+<%@ taglib uri="http://www.ibm.com/xmlns/prod/websphere/portal/v8.5/json" prefix="json" %>
+<%@ taglib uri="http://www.ibm.com/xmlns/prod/websphere/portal/v8.5/resolver" prefix="r" %>
+<%@ taglib uri="http://www.ibm.com/xmlns/prod/websphere/portal/v8.0/portal-theme-ext" prefix="portal-theme-ext" %>
+<%@ taglib uri="http://www.ibm.com/xmlns/prod/websphere/portal/v8.5/portal-dynamicui" prefix="portal-dynamicui" %>

@@ -1,0 +1,540 @@
+{
+	"modules": [
+		{
+			"id":"wp_one_ui",
+			"prereqs": [
+				{
+					"id":"wp_one_ui_303"
+				}
+			],
+			"titles": [
+				{
+					"value":"IBM One UI",
+					"lang":"ar"
+				},
+				{
+					"value":"IBM One UI",
+					"lang":"ca"
+				},
+				{
+					"value":"IBM One UI",
+					"lang":"cs"
+				},
+				{
+					"value":"IBM One UI",
+					"lang":"da"
+				},
+				{
+					"value":"IBM One UI",
+					"lang":"de"
+				},
+				{
+					"value":"IBM One UI",
+					"lang":"el"
+				},
+				{
+					"value":"IBM One UI",
+					"lang":"en"
+				},
+				{
+					"value":"IBM One UI",
+					"lang":"es"
+				},
+				{
+					"value":"IBM One -käyttöliittymä",
+					"lang":"fi"
+				},
+				{
+					"value":"Interface utilisateur IBM One",
+					"lang":"fr"
+				},
+				{
+					"value":"IBM One UI",
+					"lang":"he"
+				},
+				{
+					"value":"IBM One UI",
+					"lang":"hr"
+				},
+				{
+					"value":"IBM One UI",
+					"lang":"hu"
+				},
+				{
+					"value":"UI IBM One",
+					"lang":"it"
+				},
+				{
+					"value":"IBM One UI",
+					"lang":"ja"
+				},
+				{
+					"value":"IBM One UI",
+					"lang":"kk"
+				},
+				{
+					"value":"IBM One UI",
+					"lang":"ko"
+				},
+				{
+					"value":"IBM One UI",
+					"lang":"nl"
+				},
+				{
+					"value":"IBM One UI",
+					"lang":"no"
+				},
+				{
+					"value":"IBM One UI",
+					"lang":"pl"
+				},
+				{
+					"value":"IBM One UI",
+					"lang":"pt"
+				},
+				{
+					"value":"IBM One UI",
+					"lang":"pt_BR"
+				},
+				{
+					"value":"Interfaţa de utilizator IBM One",
+					"lang":"ro"
+				},
+				{
+					"value":"IBM One UI",
+					"lang":"ru"
+				},
+				{
+					"value":"IBM One UI",
+					"lang":"sk"
+				},
+				{
+					"value":"IBM One UI",
+					"lang":"sl"
+				},
+				{
+					"value":"IBM One UI",
+					"lang":"sv"
+				},
+				{
+					"value":"IBM One UI",
+					"lang":"th"
+				},
+				{
+					"value":"IBM One UI",
+					"lang":"tr"
+				},
+				{
+					"value":"IBM One UI",
+					"lang":"uk"
+				},
+				{
+					"value":"IBM One UI",
+					"lang":"zh"
+				},
+				{
+					"value":"IBM One UI",
+					"lang":"zh_TW"
+				}
+			],
+			"descriptions": [
+				{
+					"value":"أنماط CSS العامة التي يتم استخدامها في النسق الرئيسي وعناصر واجهة التعامل و portlets.",
+					"lang":"ar"
+				},
+				{
+					"value":"Estils CSS comuns utilitzats al tema, widgets i portlets.",
+					"lang":"ca"
+				},
+				{
+					"value":"Společné styly CSS používané v motivu, modulech widget a portletech.",
+					"lang":"cs"
+				},
+				{
+					"value":"Fælles CSS-typografier, der bruges i tema, widgetter og miniportaler.",
+					"lang":"da"
+				},
+				{
+					"value":"Allgemeine CSS-Stile, die im Motiv, in Widgets und in Portlets verwendet werden.",
+					"lang":"de"
+				},
+				{
+					"value":"Κοινά στυλ CSS που χρησιμοποιούνται στο θέμα, στα μικροεργαλεία και στις μικροεφαρμογές πύλης.",
+					"lang":"el"
+				},
+				{
+					"value":"Common CSS styles used in the theme, widgets and portlets.",
+					"lang":"en"
+				},
+				{
+					"value":"Estilos de CSS comunes utilizados en el tema, los widgets y los portlets.",
+					"lang":"es"
+				},
+				{
+					"value":"Teeman, pienoisohjelmien ja portaalisovelmien yleiset CSS-tyylitiedostot.",
+					"lang":"fi"
+				},
+				{
+					"value":"Styles CSS communs utilisés dans le thème, les widgets et les portlets.",
+					"lang":"fr"
+				},
+				{
+					"value":"סגנונות CSS משותפים המשמשים בערכה, בפקדים ובפורטלטים.",
+					"lang":"he"
+				},
+				{
+					"value":"Opći CSS stilovi koji se koriste u temi, grafičkim elementima i portletima.",
+					"lang":"hr"
+				},
+				{
+					"value":"A témában, felületi elemekben és portál kisalkalmazásokban használt közös CSS stílusok.",
+					"lang":"hu"
+				},
+				{
+					"value":"Stili CSS comuni utilizzati nel tema, nei widget e nei portlet.",
+					"lang":"it"
+				},
+				{
+					"value":"テーマ、ウィジェット、ポートレットで使用される共通の CSS スタイル。",
+					"lang":"ja"
+				},
+				{
+					"value":"Жалпы CSS мәнерлер тақырып, виджеттер және портлеттерде қолданылған.",
+					"lang":"kk"
+				},
+				{
+					"value":"테마, 위젯, 포틀릿에 사용되는 공통 CSS 스타일입니다.",
+					"lang":"ko"
+				},
+				{
+					"value":"Algemene CSS-stijlen voor gebruik in thema's, widgets en portlets.",
+					"lang":"nl"
+				},
+				{
+					"value":"Felles CSS-stiler som brukes i temaet, widgeter og portletter.",
+					"lang":"no"
+				},
+				{
+					"value":"Wspólne style CSS używane w kompozycji, widgetach i portletach.",
+					"lang":"pl"
+				},
+				{
+					"value":"Estilos CSS comuns utilizados no tema, mecanismos e portlets.",
+					"lang":"pt"
+				},
+				{
+					"value":"Estilos CSS comuns usados no tema, widgets e portlets.",
+					"lang":"pt_BR"
+				},
+				{
+					"value":"Stiluri CSS comune, utilizate în teme, widget-uri şi portleturi.",
+					"lang":"ro"
+				},
+				{
+					"value":"Общие стили CSS для темы, виджетов и портлетов.",
+					"lang":"ru"
+				},
+				{
+					"value":"Spoločné štýly, ktoré sa používajú v téme, widgetoch a portletoch.",
+					"lang":"sk"
+				},
+				{
+					"value":"Splošni slogi CSS, uporabljeni v temi, gradnikih in portalskih programčkih.",
+					"lang":"sl"
+				},
+				{
+					"value":"Gemensamma CSS-format som används i temat, widgetarna och portletarna.",
+					"lang":"sv"
+				},
+				{
+					"value":"สไตล์ CSS ทั่วไปที่ใช้ในธีม วิดเจ็ต และพอร์ตเล็ต",
+					"lang":"th"
+				},
+				{
+					"value":"Tema, gereçler ve portal uygulamacıklarında kullanılan ortam CSS biçemleri",
+					"lang":"tr"
+				},
+				{
+					"value":"Загальні стилі CSS, які застосовуються в темах, віджетах і портлетах.",
+					"lang":"uk"
+				},
+				{
+					"value":"在主题、窗口小部件和 portlet 中常见的 CSS 样式。",
+					"lang":"zh"
+				},
+				{
+					"value":"在佈景主題、小組件和 Portlet 中使用的共用 CSS 樣式。",
+					"lang":"zh_TW"
+				}
+			]
+		},
+		{
+			"id":"wp_one_ui_dijit",
+			"prereqs": [
+				{
+					"id":"wp_one_ui_dijit_303"
+				}
+			],
+			"titles": [
+				{
+					"value":"IBM One UI for dojo dijits",
+					"lang":"ar"
+				},
+				{
+					"value":"IBM One UI for dojo dijits",
+					"lang":"ca"
+				},
+				{
+					"value":"IBM One UI pro komponenty Dojo Dijits",
+					"lang":"cs"
+				},
+				{
+					"value":"IBM One UI til Dojo-dijits",
+					"lang":"da"
+				},
+				{
+					"value":"IBM One UI für Dojo-Dijits",
+					"lang":"de"
+				},
+				{
+					"value":"IBM One UI για dojo dijits",
+					"lang":"el"
+				},
+				{
+					"value":"IBM One UI for dojo dijits",
+					"lang":"en"
+				},
+				{
+					"value":"IBM One UI for dojo dijits",
+					"lang":"es"
+				},
+				{
+					"value":"IBM One -käyttöliittymä, dojo dijits",
+					"lang":"fi"
+				},
+				{
+					"value":"Interface utilisateur IBM One pour dijits Dojo",
+					"lang":"fr"
+				},
+				{
+					"value":"IBM One UI for dojo dijits",
+					"lang":"he"
+				},
+				{
+					"value":"IBM One UI for dojo dijits",
+					"lang":"hr"
+				},
+				{
+					"value":"IBM One UI a dojo dijit elemekhez",
+					"lang":"hu"
+				},
+				{
+					"value":"UI IBM One per dojo dijit",
+					"lang":"it"
+				},
+				{
+					"value":"Dojo Dijit 用の IBM One UI",
+					"lang":"ja"
+				},
+				{
+					"value":"dojo dijits арналған IBM One UI",
+					"lang":"kk"
+				},
+				{
+					"value":"IBM One UI for Dojo dijits",
+					"lang":"ko"
+				},
+				{
+					"value":"IBM One UI voor dojo dijits",
+					"lang":"nl"
+				},
+				{
+					"value":"IBM One UI for dojo dijits",
+					"lang":"no"
+				},
+				{
+					"value":"IBM One UI for dojo dijits",
+					"lang":"pl"
+				},
+				{
+					"value":"IBM One UI for dojo dijits",
+					"lang":"pt"
+				},
+				{
+					"value":"IBM One UI para dojo dijits",
+					"lang":"pt_BR"
+				},
+				{
+					"value":"Interfaţa de utilizator IBM One pentru dijit-urile Dojo",
+					"lang":"ro"
+				},
+				{
+					"value":"IBM One UI for dojo dijits",
+					"lang":"ru"
+				},
+				{
+					"value":"IBM One UI for dojo dijits",
+					"lang":"sk"
+				},
+				{
+					"value":"IBM One UI for dojo dijits",
+					"lang":"sl"
+				},
+				{
+					"value":"IBM One UI for dojo dijits",
+					"lang":"sv"
+				},
+				{
+					"value":"IBM One UI สำหรับ dojo dijits",
+					"lang":"th"
+				},
+				{
+					"value":"IBM One UI - dojo sayılar için",
+					"lang":"tr"
+				},
+				{
+					"value":"IBM One UI for dojo dijits",
+					"lang":"uk"
+				},
+				{
+					"value":"IBM One UI for dojo dijits",
+					"lang":"zh"
+				},
+				{
+					"value":"IBM One UI for dojo dijits",
+					"lang":"zh_TW"
+				}
+			],
+			"descriptions": [
+				{
+					"value":"نسق dojo الرئيسي (مثل claro، soria، الخ.) الذي يقدم نمط  dijits في صفحة لمطابقة تصميم ونماذج One UI v3.0.1.",
+					"lang":"ar"
+				},
+				{
+					"value":"Un tema dojo (com claro, soria, etc.) que crea un estil per als dijits a una pàgina per tal que coincideixin amb els patrons i el disseny d'One UI v3.0.1.",
+					"lang":"ca"
+				},
+				{
+					"value":"Motiv Dojo (např. claro, soria apod.), který upravuje styly komponent Dijit na stránce tak, aby odpovídaly vzorům a návrhu standardu One UI verze 3.0.1.",
+					"lang":"cs"
+				},
+				{
+					"value":"Et Dojo-tema (som Claro, Soria osv.), der formaterer sidens dijits, så de matcher One UI v3.0.1-mønstre og -design.",
+					"lang":"da"
+				},
+				{
+					"value":"Ein Dojo-Motiv (wie z. B. Claro, Soria), das den Stil der Dijits auf einer Seite so festlegt, dass er mit den Mustern und dem Design von One UI v3.0.1 übereinstimmt.",
+					"lang":"de"
+				},
+				{
+					"value":"Ένα θέμα dojo (π.χ. claro, soria κλπ.) που διαμορφώνει το στυλ των dijits σε μια σελίδα σύμφωνα με τα μοτίβα και τα πρότυπα σχεδίασης One UI v3.0.1.",
+					"lang":"el"
+				},
+				{
+					"value":"A dojo theme (like claro, soria, etc.) that styles the dijits on a page to match One UI v3.0.1 patterns and design.",
+					"lang":"en"
+				},
+				{
+					"value":"Un tema de dojo (como claro, soria, etc.) que modela los dijits de una página para que coincidan con los patrones y el diseño de One UI v3.0.1.",
+					"lang":"es"
+				},
+				{
+					"value":"Dojo-teema (kuten claro, soria, jne), joka sisältää sivun One 3.0.1 -käyttöliittymän ulkoasua ja rakennetta vastaavat dijits-tyylitiedot.",
+					"lang":"fi"
+				},
+				{
+					"value":"Thème Dojo (comme Claro, Soria, etc.) qui stylise les dijits sur une page pour les faire correspondre aux patterns et à la conception de l'interface utilisateur IBM One version 3.0.1.",
+					"lang":"fr"
+				},
+				{
+					"value":"ערכת dojo (כגון claro,‏ sori וכן הלאה) המעצבת  את הסגנון של dijits בדף כך שיתאים לתבניות ולעיצוב של One UI v3.0.1.‏",
+					"lang":"he"
+				},
+				{
+					"value":"Dojo tema (npr. claro, soria itd.) koja određuje stil za dijits na stranici tako da se podudara s obrascima i dizajnom One UI-a v3.0.1.",
+					"lang":"hr"
+				},
+				{
+					"value":"Dojo téma (mint claro, soria stb.), mely úgy igazítja az oldalon található dijit elemek stílusát, hogy az igazodjon a One UI v3.0.1 mintákhoz és látványtervhez.",
+					"lang":"hu"
+				},
+				{
+					"value":"Un tema dojo (come claro, soria, ecc.) che fornisce gli stili ai dijit in una pagina per la corrispondenza con i pattern e il design UI One v3.0.1.",
+					"lang":"it"
+				},
+				{
+					"value":"One UI v3.0.1 のパターンとデザインに一致するようにページ上で Dijit をスタイル設定する Dojo テーマ (claro、soria など)。",
+					"lang":"ja"
+				},
+				{
+					"value":"dojo тақырыбы (claro, soria т.б.с.) dijits элементтерін бетте One UI н3.0.1 бағдарламасының үлгілері мен дизайндарына салыстыру үшін арналған.",
+					"lang":"kk"
+				},
+				{
+					"value":"One UI v3.0.1 패턴 및 설계와 일치하도록 페이지에 dijits의 스타일을 지정하는 Dojo 테마(예: claro, soria 등)입니다.",
+					"lang":"ko"
+				},
+				{
+					"value":"Een dojo-thema (zoals claro, soria, etc.) voor het stileren van de dijits op een pagina, zodat deze overeenkomen met de patronen en het ontwerp van One UI v3.0.1.",
+					"lang":"nl"
+				},
+				{
+					"value":"Et Dojo-tema (som claro, soria, osv.) som leverer stiler til dijits på en side for samsvar med One UI v3.0.1-mønstre og -design.",
+					"lang":"no"
+				},
+				{
+					"value":"Kompozycja dojo (taka jak claro, soria itp.), która nadaje styl elementom dijit na stronie, aby pasowały do deseni i wyglądu produktu One UI 3.0.1.",
+					"lang":"pl"
+				},
+				{
+					"value":"Um tema do dojo (como claro, soria, etc.) que atribui estilos aos dijits numa página para corresponder aos padrões e design do One UI v3.0.1.",
+					"lang":"pt"
+				},
+				{
+					"value":"Um tema dojo (como claro, soria, etc.) que os estilos do dijits em uma página para corresponder OneUI v3.0.1 padrões e design.",
+					"lang":"pt_BR"
+				},
+				{
+					"value":"O temă dojo (cum ar fi claro, soria, etc.) ce stilizează dijit-urile dintr-o pagină pentru a se potrivi cu tiparele şi designul One UI v3.0.1.",
+					"lang":"ro"
+				},
+				{
+					"value":"Тема dojo (такая как claro, soria), применяющая стили к dijit на странице с учетом шаблонов и оформления One UI v3.0.1.",
+					"lang":"ru"
+				},
+				{
+					"value":"Téma dojo (napríklad claro, soria atď.), ktorá prispôsobuje vzhľad dijits na stránke k vzorom a dizajnu One UI v3.0.1.",
+					"lang":"sk"
+				},
+				{
+					"value":"Tema kompleta orodij Dojo (npr. Claro, Soria itd.), ki zagotovi ujemanje sloga knjižnic Dijit na strani z vzorci in zasnovo, ki jih uporablja One UI različice 3.0.1.",
+					"lang":"sl"
+				},
+				{
+					"value":"Ett Dojo-tema (t.ex. claro, soria) som formaterar dijits på en sida för att matcha UI 3.0.1-mönster och layout.",
+					"lang":"sv"
+				},
+				{
+					"value":"ธีม dojo (เช่นเดียวกับ claro, soria หรืออื่นๆ) ที่กำหนดสไตล์ dijits บนเพจให้ตรงกับรูปแบบ One UI v3.0.1 และการออกแบบ",
+					"lang":"th"
+				},
+				{
+					"value":"Bir sayfadaki sayıları One UI v3.0.1 örüntüleri ve tasarımı ile eşleşecek şekilde biçimleyen bir dojo teması (claro, soria, vb.)",
+					"lang":"tr"
+				},
+				{
+					"value":"Тема dojo (наприклад, claro, soria тощо), яка визначає стилі бібліотек dijit на сторінці відповідно до шаблонів і компоновки One UI версії 3.0.1.",
+					"lang":"uk"
+				},
+				{
+					"value":"Dojo 主题（如，claro、soria 等），可用于在页面上设计与 One UI V3.0.1 模式和设计相匹配的 dijit。",
+					"lang":"zh"
+				},
+				{
+					"value":"設定頁面上 dijits 的樣式以與 One UI 3.0.1 版型樣和設計相符的 dojo 佈景主題（如 claro、soria 等等）。",
+					"lang":"zh_TW"
+				}
+			]
+		}
+	]
+}

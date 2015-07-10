@@ -1,0 +1,16 @@
+<a rel="dynamic-content" href="portlet.link:portlet"></a>
+<section class="ibmPortalControl wpthemeNoSkin a11yRegionTarget" role="region" >
+	<!-- marks the node the analytics tags for this portlet will be placed in -->
+	<a rel="dynamic-content" href="dyn-cs:id:wp_analytics_portlet_dynspot"></a>
+	<!-- asa.overlay marks the node that the AsaOverlayWidget will be placed in -->
+	<div style="position:relative; z-index: 1;">
+		<div class="analytics.overlay" ></div>
+	</div>
+    <!-- Hide the text of the title, but still provide the lm-dynamic-title container for accessing the dynamic title -->
+    <span class="wpthemeAccess">
+ 		<span class="lm-dynamic-title asa.portlet.title a11yRegionLabel"><a rel="dynamic-content" href="lm:title"></a></span>
+	</span>
+    <div class="wpthemeOverflowAuto"> <!-- lm:control dynamic spot injects markup of layout control -->
+        <a rel="dynamic-content" href="lm:control"></a> 
+    </div>
+</section> 

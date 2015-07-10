@@ -1,0 +1,868 @@
+{
+	"modules": [
+		{
+			"id":"wp_contextmenu_templates",
+			"contributions": [
+				{
+					"type":"config",
+					"sub-contributions": [
+						{
+							"type":"markup",
+							"uris": [
+								{
+									"value":"/menuDefinitions/templates/componentActionMenuTemplate.html"
+								}
+							]
+						},
+						{
+							"type":"markup",
+							"uris": [
+								{
+									"value":"/menuDefinitions/templates/inlineEditMenuTemplate.html"
+								}
+							]
+						},
+						{
+							"type":"markup",
+							"uris": [
+								{
+									"value":"/menuDefinitions/templates/navigationMenuTemplate.html"
+								}
+							]
+						}
+					]
+				}
+			],
+			"titles": [
+				{
+					"value":"قوالب العرض التقديمي لقائمة تصرفات المكون",
+					"lang":"ar"
+				},
+				{
+					"value":"Plantilles de presentació de menú d'acció de component",
+					"lang":"ca"
+				},
+				{
+					"value":"Prezentační šablony nabídky akcí komponenty",
+					"lang":"cs"
+				},
+				{
+					"value":"Præsentationsskabeloner til Component Action Menu",
+					"lang":"da"
+				},
+				{
+					"value":"Präsentationsschablonen für das Komponentenaktionsmenü",
+					"lang":"de"
+				},
+				{
+					"value":"Πρότυπα παρουσίασης μενού ενεργειών λειτουργικού τμήματος",
+					"lang":"el"
+				},
+				{
+					"value":"Component Action Menu presentation templates",
+					"lang":"en"
+				},
+				{
+					"value":"Plantillas de presentación del menú de acciones del componente",
+					"lang":"es"
+				},
+				{
+					"value":"Komponentin toimintovalikon esitysmallipohjat",
+					"lang":"fi"
+				},
+				{
+					"value":"Modèles de présentation du menu d'actions des composants",
+					"lang":"fr"
+				},
+				{
+					"value":"תבניות תצוגה לתפריט פעולות רכיב",
+					"lang":"he"
+				},
+				{
+					"value":"Predlošci predstavljanja izbornika akcija komponente",
+					"lang":"hr"
+				},
+				{
+					"value":"Összetevőművelet-menü megjelenítési sablonok",
+					"lang":"hu"
+				},
+				{
+					"value":"Template di presentazione Menu azione del componente",
+					"lang":"it"
+				},
+				{
+					"value":"コンポーネント・アクション・メニューのプレゼンテーション・テンプレート",
+					"lang":"ja"
+				},
+				{
+					"value":"Құрылымдар әрекеті мәзірінің көрсетілімдер үлгілері",
+					"lang":"kk"
+				},
+				{
+					"value":"컴포넌트 수행 메뉴의 프리젠테이션 템플리트",
+					"lang":"ko"
+				},
+				{
+					"value":"Presentatiesjablonen voor actiemenu van componenten",
+					"lang":"nl"
+				},
+				{
+					"value":"Presentasjonsmaler for komponenthandlingsmenyen",
+					"lang":"no"
+				},
+				{
+					"value":"Szablony prezentacji menu działań komponentu",
+					"lang":"pl"
+				},
+				{
+					"value":"Modelos de apresentação do Menu de acção de componentes",
+					"lang":"pt"
+				},
+				{
+					"value":"modelos de apresentação do Componente de Menu Ação",
+					"lang":"pt_BR"
+				},
+				{
+					"value":"Şabloane de prezentare ale Meniului de acţiune componentă",
+					"lang":"ro"
+				},
+				{
+					"value":"Шаблоны представления меню действий компонентов",
+					"lang":"ru"
+				},
+				{
+					"value":"Šablóny prezentácie ponuky akcií pre komponent",
+					"lang":"sk"
+				},
+				{
+					"value":"Predstavitvene predloge menija Dejanja za komponente",
+					"lang":"sl"
+				},
+				{
+					"value":"Presentationsmallar för komponentåtgärdsmenyn",
+					"lang":"sv"
+				},
+				{
+					"value":"เท็มเพลตการนำเสนอ Component Action Menu",
+					"lang":"th"
+				},
+				{
+					"value":"Bileşen İşlem Menüsü sunum şablonları",
+					"lang":"tr"
+				},
+				{
+					"value":"Шаблони представлення меню дій над компонентами",
+					"lang":"uk"
+				},
+				{
+					"value":"组件操作菜单演示模板",
+					"lang":"zh"
+				},
+				{
+					"value":"元件動作功能表外觀呈現範本",
+					"lang":"zh_TW"
+				}
+			],
+			"descriptions": [
+				{
+					"value":"تقدم قوالب تستخدم لتحويل قائمة تصرفات المكون بيانيا في سياق معين، على سبيل المثال، القائمة السياقية لمكون أو قائمة التحرير المباشر.     ",
+					"lang":"ar"
+				},
+				{
+					"value":"Proporciona plantilles utilitzades per representar el menú d'accions de component a contextos específics, per exemple, un menú contextual per a un component o un menú d'edició en línia.     ",
+					"lang":"ca"
+				},
+				{
+					"value":"Poskytuje šablony používané k vykreslení nabídky akcí komponenty ve specifických kontextech, např. kontextové nabídky komponenty nebo vložené nabídky Upravit. ",
+					"lang":"cs"
+				},
+				{
+					"value":"Leverer de skabeloner, der bruges til at gengive Component Action Menu i specifikke kontekster, f.eks. kontekstmenuen for en komponent eller en indbygget redigeringsmenu.    ",
+					"lang":"da"
+				},
+				{
+					"value":"Stellt Schablonen zur Verfügung, die zur Darstellung des Komponentenaktionsmenüs in bestimmten Kontexten verwendet werden, z. B. ein Kontextmenü für eine Komponente oder ein Menü für die Befehlszeileneditierung.",
+					"lang":"de"
+				},
+				{
+					"value":"Παρέχει πρότυπα που χρησιμοποιούνται για την εμφάνιση του μενού ενεργειών λειτουργικού τμήματος σε συγκεκριμένα περιβάλλοντα, π.χ. ως μενού περιβάλλοντος για ένα λειτουργικό τμήμα ή ως ενσωματωμένο μενού τροποποίησης.     ",
+					"lang":"el"
+				},
+				{
+					"value":"Provides templates used to render the Component Action Menu in specific contexts, e.g. context menu for a component or an inline edit menu.     ",
+					"lang":"en"
+				},
+				{
+					"value":"Proporciona las plantillas que se utilizan para representar el menú de acciones del componente en contextos específicos, como por ejemplo el menú contextual de un componente o un menú de edición en línea.     ",
+					"lang":"es"
+				},
+				{
+					"value":"Tarjoaa mallipohjia komponentin toimintovalikon hahmontamiseen tietyissä yhteyksissä, kuten pikavalikoissa tai muokkausvalikoissa.     ",
+					"lang":"fi"
+				},
+				{
+					"value":"Fournit des modèles utilisés pour afficher le menu d'actions des composants dans des contextes spécifiques, par exemple. menu contextuel pour un composant ou un menu d'édition en ligne.     ",
+					"lang":"fr"
+				},
+				{
+					"value":"מספק את התבניות המשמשות להצגת תפריט פעולות רכיב בהקשר מסוים, לדוגמה, תפריט הקשר עבור רכיב או תפריט עריכה מוכלל בשורה.     ",
+					"lang":"he"
+				},
+				{
+					"value":"Pruža predloške koji se koriste za prikaz izbornika akcija komponente u određenim kontekstima, npr. kontekstni izbornik za komponentu ili umetnuti izbornik za uređivanje.     ",
+					"lang":"hr"
+				},
+				{
+					"value":"Sablonokat biztosít az összetevőművelet-menü előállításához specifikus kontextusokban, például egy összetevő előugró menüjeként vagy egy belső szerkesztő menüjeként.     ",
+					"lang":"hu"
+				},
+				{
+					"value":"Fornisce template utilizzati per eseguire il rendering del Menu azione del componente in contesti specifici, ad es. menu di contesto per un componente o un menu di modifica inline.     ",
+					"lang":"it"
+				},
+				{
+					"value":"特定のコンテキストでコンポーネント・アクション・メニューをレンダリングするために使用されるテンプレートを提供します (例: コンポーネントのコンテキスト・メニューやインライン編集メニューなど)。     ",
+					"lang":"ja"
+				},
+				{
+					"value":"Құрылымдар әрекеті мәзірін арнайы мазмұндарда шығару үшін қолданылатын үлгілерді қамтамасыз етеді, e.g. құрылым немесе ішкі өңдеу мәзіріне арналған мазмұн мәзірі.     ",
+					"lang":"kk"
+				},
+				{
+					"value":"특정 컨텍스트에서 컴포넌트 수행 메뉴를 렌더링하는 데 사용되는 템플리트를 제공합니다(예: 컴포넌트의 컨텍스트 메뉴 또는 인라인 편집 메뉴). ",
+					"lang":"ko"
+				},
+				{
+					"value":"Biedt sjablonen voor het weergeven van het actiemenu van componenten in bepaalde contexten, bijvoorbeeld een contextmenu voor een component of een inline menu voor bewerken.     ",
+					"lang":"nl"
+				},
+				{
+					"value":"Inneholder maler som brukes til å gjengi komponenthandlingsmenyen i bestemte kontekster, f.eks. hurtigmenyen for en komponent eller en innebygd Rediger-meny.     ",
+					"lang":"no"
+				},
+				{
+					"value":"Udostępnia szablony używane do wyświetlania menu działań komponentu w konkretnych kontekstach, np. menu kontekstowego komponentu lub menu edycji bezpośredniej.     ",
+					"lang":"pl"
+				},
+				{
+					"value":"Fornece modelos utilizados para apresentar o Menu de acção de componentes em contextos específicos, por exemplo, menu contextual para um componente ou um menu de edição incluído.     ",
+					"lang":"pt"
+				},
+				{
+					"value":"Fornece modelos utilizados para renderizar o menu Ação do Componente em contextos específicos, por exemplo, menu de contexto para um componente ou um menu de edição seqüencial.     ",
+					"lang":"pt_BR"
+				},
+				{
+					"value":"Furnizează şabloane utilizate pentru a randa Meniul acţiune componentă în cintextele specifice, e.g. meniul contextual pentru o componentă sau un meniu de editare în linie.     ",
+					"lang":"ro"
+				},
+				{
+					"value":"Предоставляет шаблоны для отображения меню действий компонентов в различных контекстах, например контекстное меню для компонента или меню встроенного редактора.     ",
+					"lang":"ru"
+				},
+				{
+					"value":"Poskytuje šablóny, ktoré sa používajú na renderovanie ponuky akcií pre komponent v špecifických kontextoch, napríklad kontextová ponuka pre komponent alebo ponuka pre inline editovanie.     ",
+					"lang":"sk"
+				},
+				{
+					"value":"Ponuja predloge za upodabljanje menija Dejanja za komponente v določenih kontekstih, npr. v kontekstnih menij za komponento ali menijih za urejanje v vrstici.     ",
+					"lang":"sl"
+				},
+				{
+					"value":"Mallar som används för rendering av komponentåtgärdsmenyn i olika kontexter, t.ex. snabbmenyn för en komponent eller en integrerad redigeringsmeny.     ",
+					"lang":"sv"
+				},
+				{
+					"value":"จัดให้มีเท็มเพลตที่ใช้แสดงผล Component Action Menu ในบริบทเฉพาะเจาะจง เช่น เมนูบริบทสำหรับคอมโพเนนต์ หรือเมนูแก้ไขแบบอินไลน์     ",
+					"lang":"th"
+				},
+				{
+					"value":"Belirli bağlamlarda (örneğin, bir bileşenin bağlam menüsü ya da içeride düzenleme menüsü gibi) Bileşen İşlem Menüsü'nü görsel olarak gerçekleştirmek için kullanılan şablonları sağlar.     ",
+					"lang":"tr"
+				},
+				{
+					"value":"Надає шаблони, які служать для виводу меню дій над компонентами в окремих контекстах, наприклад контекстному меню компонента або вбудованому меню редагування.     ",
+					"lang":"uk"
+				},
+				{
+					"value":"提供用于在特定上下文中呈现“组件操作菜单”的模板，例如，组件的上下文菜单或内联编辑菜单。    ",
+					"lang":"zh"
+				},
+				{
+					"value":"提供用來在特定環境定義（例如元件或行內編輯功能表）中呈現元件動作功能表的範本。     ",
+					"lang":"zh_TW"
+				}
+			]
+		},
+		{
+			"id":"wp_contextmenu_css",
+			"contributions": [
+				{
+					"type":"head",
+					"sub-contributions": [
+						{
+							"type":"css",
+							"uris": [
+								{
+									"value":"/css/wp_contextmenu.css"
+								},
+								{
+									"value":"/css/wp_contextmenu.css.uncompressed.css",
+									"type":"debug"
+								},
+								{
+									"value":"/css/wp_contextmenuRTL.css",
+									"type":"rtl"
+								},
+								{
+									"value":"/css/wp_contextmenuRTL.css.uncompressed.css",
+									"type":"rtl,debug"
+								}
+							]
+						}
+					]
+				}
+			],
+			"titles": [
+				{
+					"value":"نمط CSS لقائمة تصرفات المكون",
+					"lang":"ar"
+				},
+				{
+					"value":"Estil CSS de menú d'accions de component",
+					"lang":"ca"
+				},
+				{
+					"value":"Styly CSS nabídky akcí komponenty",
+					"lang":"cs"
+				},
+				{
+					"value":"Component Action Menu - CSS-typografier",
+					"lang":"da"
+				},
+				{
+					"value":"CSS-Styling für das Komponentenaktionsmenü",
+					"lang":"de"
+				},
+				{
+					"value":"Στυλ CSS μενού ενεργειών λειτουργικού τμήματος",
+					"lang":"el"
+				},
+				{
+					"value":"Component Action Menu CSS styling",
+					"lang":"en"
+				},
+				{
+					"value":"Estilos de CSS del menú de acciones del componente",
+					"lang":"es"
+				},
+				{
+					"value":"Komponentin toimintovalikon CSS-tyylitiedosto",
+					"lang":"fi"
+				},
+				{
+					"value":"Style CSS du menu d'actions des composants",
+					"lang":"fr"
+				},
+				{
+					"value":"סגנון CSS של תפריט פעולות רכיב",
+					"lang":"he"
+				},
+				{
+					"value":"CSS stil izbornika akcija komponente",
+					"lang":"hr"
+				},
+				{
+					"value":"Összetevőművelet-menü CSS stílusok",
+					"lang":"hu"
+				},
+				{
+					"value":"Stile CSS del Menu azione del componente",
+					"lang":"it"
+				},
+				{
+					"value":"コンポーネント・アクション・メニューの CSS スタイル設定",
+					"lang":"ja"
+				},
+				{
+					"value":"Құрылымдар әрекеті мәзірінің CSS мәнері",
+					"lang":"kk"
+				},
+				{
+					"value":"컴포넌트 수행 메뉴의 CSS 스타일링",
+					"lang":"ko"
+				},
+				{
+					"value":"CSS-stijlen voor actiemenu van componenten",
+					"lang":"nl"
+				},
+				{
+					"value":"CSS-stiler for komponenthandlingsmenyen",
+					"lang":"no"
+				},
+				{
+					"value":"Style CSS menu działań komponentu",
+					"lang":"pl"
+				},
+				{
+					"value":"Estilos CSS do Menu de acção de componentes",
+					"lang":"pt"
+				},
+				{
+					"value":"Menu de Ação do Componente de estilo CSS",
+					"lang":"pt_BR"
+				},
+				{
+					"value":"Stilizarea CSS meniu de acţiune componentă",
+					"lang":"ro"
+				},
+				{
+					"value":"Стиль CSS меню действий компонентов",
+					"lang":"ru"
+				},
+				{
+					"value":"Štýly CSS ponuky akcií pre komponent",
+					"lang":"sk"
+				},
+				{
+					"value":"Slogi CSS za meni Dejanja s komponentami",
+					"lang":"sl"
+				},
+				{
+					"value":"CSS-format för komponentåtgärdsmenyn",
+					"lang":"sv"
+				},
+				{
+					"value":"สไตล์ Component Action Menu CSS",
+					"lang":"th"
+				},
+				{
+					"value":"Bileşen İşlem Menüsü CSS biçimlemesi",
+					"lang":"tr"
+				},
+				{
+					"value":"Стилі CSS для меню дій над компонентами",
+					"lang":"uk"
+				},
+				{
+					"value":"组件操作菜单 CSS 样式",
+					"lang":"zh"
+				},
+				{
+					"value":"元件動作功能表 CSS 樣式",
+					"lang":"zh_TW"
+				}
+			],
+			"descriptions": [
+				{
+					"value":"يقدم نمط CSS لقائمة تصرفات المكون.",
+					"lang":"ar"
+				},
+				{
+					"value":"Proporciona estil CSS per al menú d'accions de component.",
+					"lang":"ca"
+				},
+				{
+					"value":"Poskytuje styly CSS pro nabídku akcí komponenty.",
+					"lang":"cs"
+				},
+				{
+					"value":"Leverer CSS-typografier til Component Action Menu.",
+					"lang":"da"
+				},
+				{
+					"value":"Ermöglicht das CSS-Styling für das Komponentenaktionsmenü.",
+					"lang":"de"
+				},
+				{
+					"value":"Παρέχει στυλ CSS για το μενού ενεργειών λειτουργικού τμήματος.",
+					"lang":"el"
+				},
+				{
+					"value":"Provides CSS styling for the Component Action Menu.",
+					"lang":"en"
+				},
+				{
+					"value":"Proporciona estilos de CSS para el menú de acciones del componente.",
+					"lang":"es"
+				},
+				{
+					"value":"Tarjoaa komponentin toimintovalikon CSS-tyylitiedoston.",
+					"lang":"fi"
+				},
+				{
+					"value":"Fournit le style CSS pour le menu d'actions des composants.",
+					"lang":"fr"
+				},
+				{
+					"value":"מספק סגנון CSS לתפריט פעולות הרכיב.",
+					"lang":"he"
+				},
+				{
+					"value":"Pruža mogućnost postavljanja CSS stila izbornika akcija komponente.",
+					"lang":"hr"
+				},
+				{
+					"value":"CSS stílusokat biztosít az összetevőművelet-menühöz.",
+					"lang":"hu"
+				},
+				{
+					"value":"Fornisce lo stile CSS per il Menu azione del componente.",
+					"lang":"it"
+				},
+				{
+					"value":"コンポーネント・アクション・メニューの CSS スタイル設定を提供します。",
+					"lang":"ja"
+				},
+				{
+					"value":"Құрылымдар әрекеті мәзірі үшін СSS мәнерін қамтамасыз етеді.",
+					"lang":"kk"
+				},
+				{
+					"value":"컴포넌트 수행 메뉴의 CSS 스타일링을 제공합니다.",
+					"lang":"ko"
+				},
+				{
+					"value":"Levert CSS-stijlen voor het actiemenu van componenten.",
+					"lang":"nl"
+				},
+				{
+					"value":"Leverer CSS-stiler for komponenthandlingsmenyen.",
+					"lang":"no"
+				},
+				{
+					"value":"Udostępnia style CSS dla menu działań komponentu.",
+					"lang":"pl"
+				},
+				{
+					"value":"Fornece estilos CSS para o Menu de acção de componentes.",
+					"lang":"pt"
+				},
+				{
+					"value":"Fornece de estilo CSS para o Menu de Ação do Componente.",
+					"lang":"pt_BR"
+				},
+				{
+					"value":"Furnizează stilizare CSS pentru Meniul de acţiune componentă.",
+					"lang":"ro"
+				},
+				{
+					"value":"Предоставляет стили CSS для меню действий компонентов.",
+					"lang":"ru"
+				},
+				{
+					"value":"Poskytuje štýly CSS pre ponuku akcií pre komponent.",
+					"lang":"sk"
+				},
+				{
+					"value":"Ponuja sloge CSS za meni Dejanja s komponentami.",
+					"lang":"sl"
+				},
+				{
+					"value":"CSS-format för komponentåtgärdsmenyn.",
+					"lang":"sv"
+				},
+				{
+					"value":"จัดให้มีสไลต์ CSS สำหรับเมนู Component TopAction",
+					"lang":"th"
+				},
+				{
+					"value":"Bileşen İşlem Menüsü için CSS biçimlemesi sağlar.",
+					"lang":"tr"
+				},
+				{
+					"value":"Надає стилі CSS для меню дій над компонентами.",
+					"lang":"uk"
+				},
+				{
+					"value":"提供组件操作菜单的 CSS 样式。",
+					"lang":"zh"
+				},
+				{
+					"value":"提供元件動作功能表的 CSS 樣式。",
+					"lang":"zh_TW"
+				}
+			]
+		},
+		{
+			"id":"wp_contextmenu_main",
+			"capabilitys": [
+				{
+					"id":"contextmenu",
+					"value":"1.0"
+				}
+			],
+			"prereqs": [
+				{
+					"id":"wp_contextmenu_js"
+				},
+				{
+					"id":"wp_contextmenu_templates"
+				},
+				{
+					"id":"wp_contextmenu_css"
+				}
+			],
+			"titles": [
+				{
+					"value":"وحدة البرامج الرئيسية لقائمة تصرفات المكون.",
+					"lang":"ar"
+				},
+				{
+					"value":"Mòdul principal de menú d'accions de component.",
+					"lang":"ca"
+				},
+				{
+					"value":"Hlavní modul nabídky akcí komponenty.",
+					"lang":"cs"
+				},
+				{
+					"value":"Hovedmodul i Component Action Menu",
+					"lang":"da"
+				},
+				{
+					"value":"Hauptmodul des Komponentenaktionsmenüs.",
+					"lang":"de"
+				},
+				{
+					"value":"Κύρια λειτουργική μονάδα μενού ενεργειών λειτουργικού τμήματος",
+					"lang":"el"
+				},
+				{
+					"value":"Component Action Menu main module.",
+					"lang":"en"
+				},
+				{
+					"value":"Módulo principal del menú de acciones del componente.",
+					"lang":"es"
+				},
+				{
+					"value":"Komponentin toimintovalikon päämoduuli.",
+					"lang":"fi"
+				},
+				{
+					"value":"Module principal du menu d'actions des composants.",
+					"lang":"fr"
+				},
+				{
+					"value":"מודול ראשי של תפריט פעולות רכיב.",
+					"lang":"he"
+				},
+				{
+					"value":"Glavni modul izbornika akcija komponente",
+					"lang":"hr"
+				},
+				{
+					"value":"Összetevőművelet-menü fő modul",
+					"lang":"hu"
+				},
+				{
+					"value":"Modulo principale Menu azione del componente.",
+					"lang":"it"
+				},
+				{
+					"value":"コンポーネント・アクション・メニューのメイン・モジュール。",
+					"lang":"ja"
+				},
+				{
+					"value":"Құрылымдар әрекеті мәзірінің негізгі модулі.",
+					"lang":"kk"
+				},
+				{
+					"value":"컴포넌트 수행 메뉴의 기본 모듈",
+					"lang":"ko"
+				},
+				{
+					"value":"Hoofdmodule voor het actiemenu van componenten.",
+					"lang":"nl"
+				},
+				{
+					"value":"Hovedmodul for komponenthandlingsmenyen",
+					"lang":"no"
+				},
+				{
+					"value":"Moduł główny menu działań komponentu.",
+					"lang":"pl"
+				},
+				{
+					"value":"Módulo principal do Menu de acção de componentes.",
+					"lang":"pt"
+				},
+				{
+					"value":"Módulo principal do Menu Ação do Componente",
+					"lang":"pt_BR"
+				},
+				{
+					"value":"Modulul principal al Meniului de acţiune componentă.",
+					"lang":"ro"
+				},
+				{
+					"value":"Основной модуль меню действий компонентов",
+					"lang":"ru"
+				},
+				{
+					"value":"Hlavný modul ponuky akcií pre komponent.",
+					"lang":"sk"
+				},
+				{
+					"value":"Glavni modul menija Dejanja s komponentami.",
+					"lang":"sl"
+				},
+				{
+					"value":"Huvudmodul för komponentåtgärdsmeny",
+					"lang":"sv"
+				},
+				{
+					"value":"โมดูลหลัก Component Action Menu",
+					"lang":"th"
+				},
+				{
+					"value":"Bileşen İşlem Menüsü ana modülü",
+					"lang":"tr"
+				},
+				{
+					"value":"Головний модуль меню дій над компонентами.",
+					"lang":"uk"
+				},
+				{
+					"value":"“组件操作菜单”主模块。",
+					"lang":"zh"
+				},
+				{
+					"value":"元件動作功能表主要模組",
+					"lang":"zh_TW"
+				}
+			],
+			"descriptions": [
+				{
+					"value":"يتم تجميع كل وحدات البرامج المطلوبة لتكوين قائمة تصرفات المكون. ",
+					"lang":"ar"
+				},
+				{
+					"value":"Recopila tots els mòduls necessaris per crear el menú d'accions de component complet. ",
+					"lang":"ca"
+				},
+				{
+					"value":"Shromažďuje všechny moduly nezbytné k vytvoření kompletní nabídky akcí komponenty. ",
+					"lang":"cs"
+				},
+				{
+					"value":"Samler alle de moduler, der er kræves til den fulde udgave af Component Action Menu. ",
+					"lang":"da"
+				},
+				{
+					"value":"Stellt alle Module zusammen, die zur Fertigstellung des Komponentenaktionsmenüs erforderlich sind. ",
+					"lang":"de"
+				},
+				{
+					"value":"Συγκεντρώνει όλες τις λειτουργικές μονάδες που απαιτούνται για τη συγκρότηση του πλήρους μενού ενεργειών λειτουργικού τμήματος. ",
+					"lang":"el"
+				},
+				{
+					"value":"Gathers all the modules that are required to make up the complete Component Action Menu. ",
+					"lang":"en"
+				},
+				{
+					"value":"Recopila todos los módulos necesarios para formar el menú de acciones del componente completo. ",
+					"lang":"es"
+				},
+				{
+					"value":"Kerää yhteen kaikki moduulit, jotka tarvitaan komponentin toimintovalikossa. ",
+					"lang":"fi"
+				},
+				{
+					"value":"Rassemble tous les modules qui sont requis pour constituer le menu d'actions des composants complet. ",
+					"lang":"fr"
+				},
+				{
+					"value":"אוסף את כל המודולים הדרושים להרכבת תפריט פעולות רכיב שלם. ",
+					"lang":"he"
+				},
+				{
+					"value":"Sadrži sve module potrebne za izradu cjelovitog izbornika akcija komponente. ",
+					"lang":"hr"
+				},
+				{
+					"value":"Összegyűjti mindazokat a modulokat, amelyek szükségesek a teljes összetevőművelet-menü előállításához. ",
+					"lang":"hu"
+				},
+				{
+					"value":"Raccoglie tutti i moduli richiesti per creare il Menu azione del componente completo. ",
+					"lang":"it"
+				},
+				{
+					"value":"完全なコンポーネント・アクション・メニューを作成するために必要なモジュールをすべて収集します。 ",
+					"lang":"ja"
+				},
+				{
+					"value":"Толық Құрылымдар әрекеті мәзірін жасау үшін талап етілетін барлық модульдерді жинайды. ",
+					"lang":"kk"
+				},
+				{
+					"value":"전체 컴포넌트 수행 메뉴를 구성하는 데 필요한 모듈을 모두 수집합니다. ",
+					"lang":"ko"
+				},
+				{
+					"value":"Verzamelt alle modules die nodig zijn voor het samenstellen van het actiemenu voor componenten. ",
+					"lang":"nl"
+				},
+				{
+					"value":"Samler alle modulene som kreves for å produsere den fullstendige komponenthandlingsmenyen. ",
+					"lang":"no"
+				},
+				{
+					"value":"Gromadzi wszystkie moduły wymagane do utworzenia kompletnego menu działań komponentu. ",
+					"lang":"pl"
+				},
+				{
+					"value":"Reúne todos os módulos necessários para compor o Menu de acção de componentes completo. ",
+					"lang":"pt"
+				},
+				{
+					"value":"Reúne todos os módulos que são necessários para tornar o Menu de Ação do Componente completa. ",
+					"lang":"pt_BR"
+				},
+				{
+					"value":"Adună toate modulele ce sunt necesare pentru a constituii Meniul de acţiune componentă complet. ",
+					"lang":"ro"
+				},
+				{
+					"value":"Собирает все модули, необходимые для создания меню действий компонентов. ",
+					"lang":"ru"
+				},
+				{
+					"value":"Zhromažďuje všetky moduly, ktoré sú potrebné na vytvorenie úplnej ponuky akcií pre komponent. ",
+					"lang":"sk"
+				},
+				{
+					"value":"Zbere vse module, ki so potrebni za izdelavo menija Dejanja s komponentami. ",
+					"lang":"sl"
+				},
+				{
+					"value":"Alla moduler som krävs för en komplett komponentåtgärdsmeny. ",
+					"lang":"sv"
+				},
+				{
+					"value":"รวบรวมโมดูลทั้งหมดที่จำเป็นสำหรับประกอบเป็น Component Action Menu ทั้งหมด ",
+					"lang":"th"
+				},
+				{
+					"value":"Bileşen İşlem Menüsü'nün tamamını oluşturmak için gereken tüm modülleri toplar. ",
+					"lang":"tr"
+				},
+				{
+					"value":"Збирає всі модулі, необхідні для створення комплексного меню дій над компонентами. ",
+					"lang":"uk"
+				},
+				{
+					"value":"收集组成完整的“组件操作菜单”所需的所有模块。",
+					"lang":"zh"
+				},
+				{
+					"value":"收集組成完整的元件動作功能表所需的所有模組。",
+					"lang":"zh_TW"
+				}
+			]
+		}
+	]
+}

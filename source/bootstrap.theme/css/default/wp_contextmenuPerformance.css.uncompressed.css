@@ -1,0 +1,19 @@
+/*
+This file includes performance optimizations for the wp_contextmenu_css module.
+It is a way for a particular theme to overwrite image references and have them 
+point to icons from the master sprite.
+*/
+.wpthemeMenu div.horizontalMenuPointer {
+    background-image: url(../images/master.png);
+    background-position: 0 -1044px;
+}
+
+.wpthemeMenu div.verticalMenuPointer.left {
+    background-image: url(../images/master.png);
+    background-position: 0 -998px;
+}
+
+.wpthemeMenu div.verticalMenuPointer.right {
+    background-image: url(../images/master.png);
+    background-position: 0 -1021px;
+}

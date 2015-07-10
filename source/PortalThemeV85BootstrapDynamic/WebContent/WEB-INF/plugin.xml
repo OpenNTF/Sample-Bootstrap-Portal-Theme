@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="PortalThemeV85Bootstrap_dynamicContentSpots_85" name="8.5 Theme Modules" provider-name="IBM" version="1.0.0">
+    
+    <extension id="PortalThemeV85Bootstrap_dynamicContentSpots_85" point="com.ibm.portal.resourceaggregator.module">
+        <module id="PortalThemeV85Bootstrap_dynamicContentSpots_85">            
+			<title lang="en" value="Dynamic Content Spots for the 8.5 Theme"/>
+            <contribution type="dyn-cs">
+                <sub-contribution type="markup" ref-id="PortalThemeV85Bootstrap_footer">
+                    <uri value="res:{war:context-root}/themes/html/dynamicSpots/footer.jsp"/>
+                </sub-contribution>
+                <sub-contribution type="markup" ref-id="PortalThemeV85Bootstrap_crumbTrail">
+                    <uri value="res:{war:context-root}/themes/html/dynamicSpots/crumbTrail.jsp?rootClass=wpthemeCrumbTrail&amp;startLevel=2"/>
+                </sub-contribution>
+                <sub-contribution type="markup" ref-id="PortalThemeV85Bootstrap_topNav">
+                    <uri value="res:{war:context-root}/themes/html/dynamicSpots/navigation.jsp?rootClass=wpthemeHeaderNav&amp;rootLabel=Portal&amp;startLevel=0&amp;primeRoot=true"/>
+                </sub-contribution>
+                <sub-contribution type="markup" ref-id="PortalThemeV85Bootstrap_primaryNav">
+                    <uri value="mvc:res:{war:context-root}/themes/html/dynamicSpots/navigation.jsp?rootClass=wpthemePrimaryNav%2520wpthemeLeft&amp;rootLabel=Portal%2520Application&amp;startLevel=1,smartphone@,tablet@"/>
+                </sub-contribution>
+                <sub-contribution type="markup" ref-id="PortalThemeV85Bootstrap_secondaryNav">
+                    <uri value="mvc:res:{war:context-root}/themes/html/dynamicSpots/navigation.jsp?rootClass=wpthemeSecondaryNav&amp;startLevel=2&amp;rootLabel=Application&amp;levelsDisplayed=2,smartphone@,tablet@"/>
+                </sub-contribution>
+                <sub-contribution type="markup" ref-id="PortalThemeV85Bootstrap_sideNav">
+                    <uri value="mvc:res:{war:context-root}/themes/html/dynamicSpots/sideNavigation.jsp?startLevel=2,smartphone@,tablet@"/>
+                </sub-contribution>
+                <sub-contribution type="markup" ref-id="PortalThemeV85Bootstrap_mobileNav">
+                    <uri value="mvc:smartphone/tablet@res:{war:context-root}/themes/html/dynamicSpots/mobileNavigation.jsp"/>
+                </sub-contribution>
+                <sub-contribution type="markup" ref-id="PortalThemeV85Bootstrap_commonActions">
+                    <uri value="res:{war:context-root}/themes/html/dynamicSpots/commonActions.jsp"/>
+                </sub-contribution>
+                <sub-contribution type="markup" ref-id="PortalThemeV85Bootstrap_layout">
+                    <uri value="lm:template"/>
+                </sub-contribution>
+                <sub-contribution type="markup" ref-id="PortalThemeV85Bootstrap_toolbar">
+                    <uri value="mvc:dyn-cs:id:85toolbar,smartphone@,tablet@"/>
+                </sub-contribution>
+                <sub-contribution type="markup" ref-id="PortalThemeV85Bootstrap_head">
+                    <uri value="res:{war:context-root}/themes/html/dynamicSpots/head.jsp"/>
+                </sub-contribution>
+                <sub-contribution type="markup" ref-id="PortalThemeV85Bootstrap_status">
+                    <uri value="mc:wp_status_bar@res:{war:context-root}/themes/html/dynamicSpots/status.jsp"/>
+                </sub-contribution>
+                <sub-contribution type="markup" ref-id="PortalThemeV85Bootstrap_adminBar">
+                    <uri value="mc:wp_status_bar@res:{war:context-root}/themes/html/dynamicSpots/adminBar.jsp"/>
+                </sub-contribution>
+                <sub-contribution type="markup" ref-id="PortalThemeV85Bootstrap_mainNav">
+                    <uri value="mvc:res:{war:context-root}/themes/html/dynamicSpots/navigationBootstrap.jsp?startLevel=1"/>
+                </sub-contribution>
+            </contribution>
+        </module>
+    </extension>
+</plugin>

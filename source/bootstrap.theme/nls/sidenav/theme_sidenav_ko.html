@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html lang="ko" >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+<!-- rel=dynamic-content indicates an element that is replaced with the contents produced by the specified href. 
+	 dyn-cs:* URIs are resolved using the WP DynamicContentSpotMappings resource environment provider. These values can
+	 also be set using theme metadata if a theme is specified in the URI (e.g. @tl:oid:theme_unique_name). -->
+<link rel="dynamic-content" href="co:head">
+<link rel="dynamic-content" href="dyn-cs:id:85theme_head">
+<!-- rendering is delegated to the specified href for each locale -->
+</head>
+<body id="content" class="wpthemeSplitView lotusui30dojo tundra locale_ko">
+	
+	<div class="wpthemeFrame">
+		
+		<header role="banner">
+		
+			<!-- site toolbar -->
+			<a rel="dynamic-content" href="dyn-cs:id:85theme_toolbar"></a>
+		
+			<div class="wpthemeHeader">
+
+				<div class="wpthemeInner">
+					<div class="wpthemeLogo wpthemeLeft">
+						<span class="wpthemeAltText">IBM WebSphere Portal</span>
+					</div>
+					
+					<!-- renders the top navigation -->
+					<a rel="dynamic-content" href="dyn-cs:id:85theme_topNav"></a>
+					
+				</div>
+			</div><!-- end header -->
+			
+			<div class="wpthemeBanner">
+				<div class="wpthemeBannerInner">
+					<div class="wpthemeInner">
+						<a rel="dynamic-content" href="dyn-cs:id:wp_search_dynspot"></a>
+						<a rel="dynamic-content" href="dyn-cs:id:85theme_commonActions"></a>
+						<a rel="dynamic-content" href="dyn-cs:id:85theme_mobileNav"></a>
+						<div class="wpthemeClear"></div>
+					</div>
+				</div>
+			</div><!--end main banner-->
+			
+			<div class="wpthemeBanner wpthemeBannerPrimaryNavigation">
+				<div class="wpthemeBannerInner">
+					<div class="wpthemeInner">
+						<a rel="dynamic-content" href="dyn-cs:id:85theme_primaryNav"></a>
+						<div class="wpthemeClear"></div>
+					</div>
+				</div>
+			</div><!--end primary nav banner-->
+		</header>	
+		
+		<div class="wpthemeMainContent" role="main" aria-label="IBM WebSphere Portal">
+			<div class="wpthemeInner">
+				<a rel="dynamic-content" href="dyn-cs:id:85theme_status"></a>
+				<a rel="dynamic-content" href="dyn-cs:id:85theme_crumbTrail"></a>
+				<div class="wpthemeClear"></div>
+			
+				<div class="wpthemeSideNavigation wpthemeLeft" role="navigation" aria-label="Portal side navigation">
+					<a rel="dynamic-content" href="dyn-cs:id:85theme_sideNav"></a>
+				</div>
+
+			<!-- required - do not remove -->
+			<a rel="dynamic-content" href="state.portlet:portlet?include=windowState&include=portletMode&mime-type=text/html"></a>
+				
+				<div id="layoutContainers" class="wpthemeLayoutContainers wpthemeLayoutContainersHidden wpthemeLeft">		
+						<a rel="dynamic-content" href="dyn-cs:id:85theme_layout"></a>
+						<div class="wpthemeClear"></div>
+				</div>
+				
+				<div class="wpthemeClear"></div>
+			</div>
+		</div><!--end main content-->
+		
+		<footer class="wpthemeFooter" aria-label="IBM WebSphere Portal" role="contentinfo">
+			<div class="wpthemeInner">	
+				<a rel="dynamic-content" href="dyn-cs:id:85theme_footer"></a>
+				<div class="wpthemeClear"></div>
+			</div>
+		</footer><!-- page footer -->
+		
+	</div><!-- end frame -->
+		
+    <!-- This is responsible for bootstrapping the configuration for the javascript framework. 
+        This is located here instead of the head section to improve client performance. -->
+	<div class="wpthemeComplementaryContent" id="wpthemeComplementaryContent" role="region" aria-labelledby="wpthemeComplementaryContentText">
+		<span class="wpthemeAltText" id="wpthemeComplementaryContentText" >보조 컨텐츠</span>		
+		<a rel="dynamic-content" href="co:config"></a>
+	</div>
+</body>
+</html>

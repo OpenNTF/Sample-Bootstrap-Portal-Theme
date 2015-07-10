@@ -1,0 +1,295 @@
+{
+	"moduleIDs": [
+		"getting_started_module",
+		"wp_theme_portal_85",
+		"wp_dynamicContentSpots_85",
+		"wp_toolbar_host_view",
+		"wp_portlet_css",
+		"wp_one_ui",
+		"wp_one_ui_dijit",
+		"wp_legacy_layouts",
+		"wp_client_ext",
+		"wp_status_bar",
+		"wp_theme_menus",
+		"wp_theme_skin_region",
+		"wp_theme_high_contrast",
+		"wp_layout_windowstates",
+		"wp_portal",
+		"wp_tagging_rating_light",
+		"wp_analytics_aggregator",
+		"wp_oob_sample_styles",
+		"wp_liveobject_framework",
+		"wp_ic4_wai_resources",
+		"wp_draft_page_ribbon"
+	],
+	"deferredModuleIDs": [
+		"wp_toolbar_host_edit",
+		"wp_contextmenu_live_object",
+		"wp_content_targeting_cam",
+		"wcm_inplaceEdit",
+		"wp_skin_cam"
+	],
+	"metadata":{
+		"com.ibm.portal.Hidden":"true"
+	},
+	"titles": [
+		{
+			"value":"Portlet المستهدف للمحتويات",
+			"lang":"ar"
+		},
+		{
+			"value":"Portlet de destinació de contingut",
+			"lang":"ca"
+		},
+		{
+			"value":"Portlet cílení obsahu",
+			"lang":"cs"
+		},
+		{
+			"value":"Miniportalen Målretning af indhold",
+			"lang":"da"
+		},
+		{
+			"value":"Gestaltung von Inhalten für Zielgruppen – Portlet",
+			"lang":"de"
+		},
+		{
+			"value":"Μικροεφαρμογή πύλης στόχευσης περιεχομένου",
+			"lang":"el"
+		},
+		{
+			"value":"Content Targeting Portlet",
+			"lang":"en"
+		},
+		{
+			"value":"Portlet de destino de contenido",
+			"lang":"es"
+		},
+		{
+			"value":"Sisällön kohdistaminen -portaalisovelma",
+			"lang":"fi"
+		},
+		{
+			"value":"Portlet Ciblage de contenu",
+			"lang":"fr"
+		},
+		{
+			"value":"פורטלט ייעוד תוכן",
+			"lang":"he"
+		},
+		{
+			"value":"Portlet za ciljani sadržaj",
+			"lang":"hr"
+		},
+		{
+			"value":"Tartalomcélzás portlet",
+			"lang":"hu"
+		},
+		{
+			"value":"Portlet Assegnazione del contenuto",
+			"lang":"it"
+		},
+		{
+			"value":"コンテンツ・ターゲット決定ポートレット",
+			"lang":"ja"
+		},
+		{
+			"value":"Мазмұнды мақсаттау портлеті",
+			"lang":"kk"
+		},
+		{
+			"value":"컨텐츠 대상 포틀릿",
+			"lang":"ko"
+		},
+		{
+			"value":"Portlet Contenttargeting",
+			"lang":"nl"
+		},
+		{
+			"value":"Innholdstilpasningsportlett",
+			"lang":"no"
+		},
+		{
+			"value":"Portlet personalizowania treści",
+			"lang":"pl"
+		},
+		{
+			"value":"Portlet de direccionamento de conteúdo",
+			"lang":"pt"
+		},
+		{
+			"value":"Portlet de Destino de Conteúdo",
+			"lang":"pt_BR"
+		},
+		{
+			"value":"Portlet de ţintire conţinut",
+			"lang":"ro"
+		},
+		{
+			"value":"Портлет определения целевых объектов для материалов",
+			"lang":"ru"
+		},
+		{
+			"value":"Portlet Zacielenie obsahu",
+			"lang":"sk"
+		},
+		{
+			"value":"Portalski programček za ciljanje vsebine",
+			"lang":"sl"
+		},
+		{
+			"value":"Portlet för målanpassat innehåll",
+			"lang":"sv"
+		},
+		{
+			"value":"พอร์ตเล็ตการกำหนดเป้าหมายเนื้อหา",
+			"lang":"th"
+		},
+		{
+			"value":"İçerik Hedefleme Portal Uygulamacığı",
+			"lang":"tr"
+		},
+		{
+			"value":"Портлет правил призначення матеріалів",
+			"lang":"uk"
+		},
+		{
+			"value":"内容定位 portlet",
+			"lang":"zh"
+		},
+		{
+			"value":"內容定位 Portlet",
+			"lang":"zh_TW"
+		}
+	],
+	"descriptions": [
+		{
+			"value":"يتم استخدام ملف المواصفات هذا للصفحة التي تتضمن portlet المستهدف للمحتويات.",
+			"lang":"ar"
+		},
+		{
+			"value":"Aquest perfil s'utilitza per la pàgina que conté el portlet de destinació de contingut.",
+			"lang":"ca"
+		},
+		{
+			"value":"Tento profil se používá pro stránku obsahující portlet cílení obsahu.",
+			"lang":"cs"
+		},
+		{
+			"value":"Denne profil anvendes til siden, som indeholder miniportalen Målretning af indhold.",
+			"lang":"da"
+		},
+		{
+			"value":"Dieses Profil wird für die Seite verwendet, die das Portlet 'Gestaltung von Inhalten für Zielgruppen' enthält.",
+			"lang":"de"
+		},
+		{
+			"value":"Αυτό το προφίλ χρησιμοποιείται για τη σελίδα που περιέχει τη μικροεφαρμογή πύλης στόχευσης περιεχομένου.",
+			"lang":"el"
+		},
+		{
+			"value":"This profile is used for the page that contains the content targeting portlet.",
+			"lang":"en"
+		},
+		{
+			"value":"Este perfil se utiliza para la página que contiene el portlet de destino de contenido.",
+			"lang":"es"
+		},
+		{
+			"value":"Tätä profiilia käytetään Sisällön kohdistaminen -portaalisovelman sisältämälle sivulle.",
+			"lang":"fi"
+		},
+		{
+			"value":"Ce profil est utilisé pour la page qui contient le portlet de ciblage de contenu.",
+			"lang":"fr"
+		},
+		{
+			"value":"פרופיל זה משמש עבור הדף המכיל את פורטלט ייעוד התוכן.",
+			"lang":"he"
+		},
+		{
+			"value":"Ovaj profil se koristi za stranicu koja sadrži portlet za ciljani sadržaj.",
+			"lang":"hr"
+		},
+		{
+			"value":"A profil a Tartalomcélzás portletet tartalmazó oldalhoz használatos.",
+			"lang":"hu"
+		},
+		{
+			"value":"Questo profilo è utilizzato per la pagina che contiene il portlet di associazione contenuto.",
+			"lang":"it"
+		},
+		{
+			"value":"このプロファイルは、コンテンツ・ターゲット決定ポートレットを含むページに使用されます。",
+			"lang":"ja"
+		},
+		{
+			"value":"Бұл профайл мазмұнды мақсаттау портлетін қамтитын бет үшін қолданылады.",
+			"lang":"kk"
+		},
+		{
+			"value":"이 프로파일은 컨텐츠 대상 포틀릿이 포함된 페이지에 사용됩니다.",
+			"lang":"ko"
+		},
+		{
+			"value":"Dit profiel wordt gebruikt voor de pagina die de portlet voor contenttargeting bevat.",
+			"lang":"nl"
+		},
+		{
+			"value":"Denne profilen brukes for siden som inneholder innholdstilpasningsportletten.",
+			"lang":"no"
+		},
+		{
+			"value":"Ten profil jest używany dla strony zawierającej portlet personalizowania treści.",
+			"lang":"pl"
+		},
+		{
+			"value":"Este perfil é utilizado para a página que contém a portlet de direccionamento de conteúdo.",
+			"lang":"pt"
+		},
+		{
+			"value":"Este perfil é usado para a página que contém  o portlet de destino de conteúdo.",
+			"lang":"pt_BR"
+		},
+		{
+			"value":"Acest profil este folosit pentru pagina care conţine portletul de ţintire conţinut.",
+			"lang":"ro"
+		},
+		{
+			"value":"Этот профайл используется для страницы, содержащей портлет определения целевых объектов для материалов.",
+			"lang":"ru"
+		},
+		{
+			"value":"Tento profil sa používa pre stránku, ktorá obsahuje portlet zacielenia obsahu.",
+			"lang":"sk"
+		},
+		{
+			"value":"Ta profil se uporablja za stran, ki vsebuje portalski programček za ciljanje vsebine.",
+			"lang":"sl"
+		},
+		{
+			"value":"Profil för sidan som innehåller portleten för målanpassat innehåll.",
+			"lang":"sv"
+		},
+		{
+			"value":"โปรไฟล์นี้ใช้สำหรับเพจที่มีพอร์ตเล็ตการกำหนดเป้าหมายเนื้อหา",
+			"lang":"th"
+		},
+		{
+			"value":"Bu profil, içerik hedefleme portal uygulamacığını içeren sayfa için kullanılır.",
+			"lang":"tr"
+		},
+		{
+			"value":"Цей профайл використовується для сторінки, яка містить портлет правил призначення матеріалів.",
+			"lang":"uk"
+		},
+		{
+			"value":"此概要文件用于包含内容定位 portlet 的页面。",
+			"lang":"zh"
+		},
+		{
+			"value":"此設定檔用於包含內容定位 Portlet 的頁面。",
+			"lang":"zh_TW"
+		}
+	]
+}

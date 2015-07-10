@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+                            http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"  
+        version="2.0">
+    <description>
+    WebSphere Portal Themes Tag Libary
+    </description>
+    <tlib-version>8.0</tlib-version>
+    <short-name>portal-theme-ext</short-name>
+    <uri>http://www.ibm.com/xmlns/prod/websphere/portal/v8.0/portal-theme-ext</uri>
+    <tag>
+        <name>themeExtension</name>
+        <tag-class>com.ibm.wps.theme.plugin.tags.ThemeExtensionTag</tag-class>
+        <body-content>JSP</body-content>
+        <attribute>
+            <name>id</name>
+        </attribute>
+    </tag>
+    <tag>
+        <name>themeExtensionLoop</name>
+        <tag-class>com.ibm.wps.theme.plugin.tags.ThemeExtensionItemLoopTag</tag-class>
+        <tei-class>com.ibm.wps.theme.plugin.tags.ThemeExtensionItemLoopTag$TEI</tei-class>
+        <body-content>JSP</body-content>
+    </tag>
+    <tag>
+        <name>themeExtensionItemTooltip</name>
+        <tag-class>com.ibm.wps.theme.plugin.tags.ThemeExtensionItemTooltipTag</tag-class>
+        <body-content>JSP</body-content>
+    </tag>
+    <tag>
+        <name>themeExtensionItemText</name>
+        <tag-class>com.ibm.wps.theme.plugin.tags.ThemeExtensionItemTextTag</tag-class>
+        <body-content>JSP</body-content>
+    </tag>
+    <tag>
+        <name>themeExtensionItemUrl</name>
+        <tag-class>com.ibm.wps.theme.plugin.tags.ThemeExtensionItemUrlTag</tag-class>
+        <body-content>JSP</body-content>
+    </tag>
+    <tag>
+        <name>themeExtensionItemIconUrl</name>
+        <tag-class>com.ibm.wps.theme.plugin.tags.ThemeExtensionItemIconUrlTag</tag-class>
+        <body-content>JSP</body-content>
+		<attribute>
+            <name>state</name>
+			</attribute>
+    </tag>    
+    <tag>
+    	<name>themeExtensionRenderInclude</name>
+    	<tag-class>com.ibm.wps.theme.plugin.tags.ThemeExtensionRenderTag</tag-class>
+    	<body-content>JSP</body-content>
+   	</tag>
+   	<tag>
+		<description>get the theme policy for this page</description>
+		<name>initthemepolicy</name>
+		<tag-class>com.ibm.wps.theme.policy.tags.InitThemePolicyTag</tag-class>
+        <body-content>JSP</body-content>
+          <variable>
+            <name-given>portalThemePolicyMap</name-given>
+            <variable-class>java.util.Map</variable-class>
+            <declare>true</declare>
+            <scope>AT_END</scope>
+          </variable>
+          <variable>
+            <name-given>portalThemePolicyPath</name-given>
+            <variable-class>java.lang.String</variable-class>
+            <declare>true</declare>
+            <scope>AT_END</scope>
+          </variable>
+	</tag>
+</taglib>
+    
+    
+

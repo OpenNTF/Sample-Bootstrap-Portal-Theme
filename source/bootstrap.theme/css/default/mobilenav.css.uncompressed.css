@@ -1,0 +1,538 @@
+/* start exploit navigation */
+.wpthemeMobileNav {
+	/* mobile base */
+	-webkit-transition: max-height 0.5s ease;
+	-moz-transition: max-height 0.5s ease 0s;
+	transition: max-height 0.5s ease;
+	max-height: 100em;
+    width: 100%;
+	overflow: hidden;
+	background-color: #262626;
+    box-shadow: 3px 5px 8px #444;
+    clear: both;
+}
+
+.wpthemeMobileNav .wpthemeAccess {
+	padding: 0 !important;
+	left: 50%;
+}
+
+.wpthemeMobileNav ul.wpthemeExpandNav {
+	/* navigation lists */
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	max-height: 100em;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	overflow: hidden;
+	clear: both;
+}
+
+.wpthemeMobileNav li.wpthemeNavCollapsed > div > ul,
+.wpthemeMobileNav.wpthemeNavCollapsed {
+	/* collapsed navigation lists */
+	-webkit-transition: all 0.25s ease;
+	-moz-transition: all 0.25s ease;
+	transition: all 0.25s ease;
+	max-height: 0em;
+	visibility: hidden;
+}
+
+.wpthemeMobileNav.wpthemeMobileSide {
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+	max-height: none;
+	position: fixed;
+    width: 300px;
+	overflow-x: hidden;
+    overflow-y: auto;
+	z-index: 9999;
+    border: none;
+    background-color: #292929;
+    top: 61px;
+}
+
+.wpthemeMobileNav.wpthemeMobileSide.wpthemeNavCollapsed {
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+    border-style: none;
+}
+
+.wpthemeNavToggleBtn {
+	/* button to open/close navigation */
+    float: left;
+    width: 15%;
+    text-decoration: none !important;
+    padding: 6px 0;
+}
+
+.wpthemeNavToggleBtn:focus,
+.wpthemeNavToggleBtn:active {
+	/* button to open/close navigation, a11y */
+    outline: white dotted 1px;
+}
+
+.wpthemeNavToggleBtn img {
+    background-image: url("../images/master.png");
+    background-position: 0 -1273px;
+    width: 36px;
+    height: 36px;
+}
+
+.wpthemeNavToggleBtn.wpthemeNavOpened img {
+    background-position: 0 -1227px;
+}
+
+.wpthemeMobileNav.wpthemeMobileSide ul.wpthemeExpandNav .wpthemeNavListItem {
+	background-color: transparent;
+}
+
+.wpthemeMobileNav ul.wpthemeExpandNav .wpthemeNavListItem {
+	/* all li levels */
+	white-space: nowrap;
+}
+
+.wpthemeMobileNav.wpthemeMobileSide:nth-of-type(n),
+.wpthemeMobileNav.wpthemeMobileSide {
+	/* fourth+ levels background */
+	background-color: #4D4D4D;
+}
+
+.wpthemeMobileNav.wpthemeMobileSide:nth-of-type(n) .wpthemeNavListItem a {
+	/* fourth+ levels borders */
+	border-top: 1px solid #595959;
+	border-bottom: 1px solid #404040;
+}
+
+.wpthemeMobileNav.wpthemeMobileSide:nth-of-type(n) ul.wpthemeExpandNav {
+	/* fourth+ levels last border */
+	border-bottom: 1px solid #595959;
+}
+
+.wpthemeMobileNav > ul.wpthemeExpandNav > .wpthemeNavListItem,
+.wpthemeMobileNav.wpthemeMobileSide:nth-of-type(3) {
+	/* first level background */
+	background-color: #262626;
+}
+
+.wpthemeMobileNav > ul.wpthemeExpandNav > .wpthemeNavListItem a span {
+	/* first level phone indentation */
+	padding-left: 12px;
+	padding-right: 20px;
+}
+
+.wpthemeMobileNav > ul.wpthemeExpandNav > .wpthemeNavListItem.wpthemeSelected a span {
+	/* first level phone selected indentation */
+	padding-left: 6px;
+}
+
+.wpthemeMobileNav > ul.wpthemeExpandNav > .wpthemeNavListItem a,
+.wpthemeMobileNav.wpthemeMobileSide:nth-of-type(3) .wpthemeNavListItem a {
+	/* first level borders */
+	border-top: 1px solid #333;
+	border-bottom: 1px solid #1a1a1a;
+}
+
+.wpthemeMobileNav.wpthemeMobileSide ul.wpthemeExpandNav,
+#wpthemeNavRoot > ul.wpthemeExpandNav {
+	/* first level last border */
+	border-bottom: 1px solid #333;
+}
+
+.wpthemeMobileNav > ul.wpthemeExpandNav ul.wpthemeExpandNav .wpthemeNavListItem,
+.wpthemeMobileNav.wpthemeMobileSide:nth-of-type(5) {
+	/* second level background */
+	background-color: #333;
+}
+
+.wpthemeMobileNav > ul.wpthemeExpandNav ul.wpthemeExpandNav .wpthemeNavListItem a span {
+	/* second level phone indentation */
+	padding-left: 24px;
+}
+
+.wpthemeMobileNav > ul.wpthemeExpandNav ul.wpthemeExpandNav .wpthemeNavListItem.wpthemeSelected a span {
+	/* second level phone indentation */
+	padding-left: 18px;
+}
+
+.wpthemeMobileNav > ul.wpthemeExpandNav ul.wpthemeExpandNav .wpthemeNavListItem a,
+.wpthemeMobileNav.wpthemeMobileSide:nth-of-type(5) .wpthemeNavListItem a {
+	/* second level borders */
+	border-top: 1px solid #404040;
+	border-bottom: 1px solid #262626;
+}
+
+.wpthemeMobileNav.wpthemeMobileSide:nth-of-type(5) ul.wpthemeExpandNav {
+	/* second level last border */
+	border-bottom: 1px solid #404040;
+}
+
+.wpthemeMobileNav > ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav .wpthemeNavListItem,
+.wpthemeMobileNav.wpthemeMobileSide:nth-of-type(6) {
+	/* third level background */
+	background-color: #404040;
+}
+
+.wpthemeMobileNav > ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav .wpthemeNavListItem a span {
+	/* third level phone indentation */
+	padding-left: 36px;
+}
+
+.wpthemeMobileNav > ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav .wpthemeNavListItem.wpthemeSelected a span {
+	/* third level phone selected indentation */
+	padding-left: 30px;
+}
+
+.wpthemeMobileNav > ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav .wpthemeNavListItem a,
+.wpthemeMobileNav.wpthemeMobileSide:nth-of-type(6) .wpthemeNavListItem a {
+	/* third level borders */
+	border-top: 1px solid #4d4d4d;
+	border-bottom: 1px solid #333;
+}
+
+.wpthemeMobileNav.wpthemeMobileSide:nth-of-type(6) ul.wpthemeExpandNav {
+	/* third level last border */
+	border-bottom: 1px solid #4d4d4d;
+}
+
+.wpthemeMobileNav > ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav .wpthemeNavListItem {
+	/* fourth level background */
+	background-color: #4D4D4D;
+}
+
+.wpthemeMobileNav > ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav .wpthemeNavListItem a span {
+	/* fourth level phone indentation */
+	padding-left: 48px;
+}
+
+.wpthemeMobileNav > ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav .wpthemeNavListItem.wpthemeSelected a span {
+	/* fourth level phone selected indentation */
+	padding-left: 42px;
+}
+
+.wpthemeMobileNav > ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav .wpthemeNavListItem a span {
+	/* fifth level phone indentation */
+	padding-left: 60px;
+}
+
+.wpthemeMobileNav > ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav .wpthemeNavListItem.wpthemeSelected a span {
+	/* fifth level phone selected indentation */
+	padding-left: 54px;
+}
+
+.wpthemeMobileNav > ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav .wpthemeNavListItem a span {
+	/* sixth level phone indentation */
+	padding-left: 72px;
+}
+
+.wpthemeMobileNav > ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav .wpthemeNavListItem.wpthemeSelected a span {
+	/* sixth level phone selected indentation */
+	padding-left: 66px;
+}
+
+.wpthemeMobileNav > ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav .wpthemeNavListItem a {
+	/* fourth level borders */
+	border-top: 1px solid #595959;
+	border-bottom: 1px solid #404040;
+}
+
+.wpthemeMobileNav.wpthemeMobileSide:nth-of-type(n) .wpthemeNavListItem.wpthemeNavCollapsed a,
+.wpthemeMobileNav.wpthemeMobileSide:nth-of-type(n) .wpthemeNavListItem.wpthemeNavClose a {
+	/* all collapsed and close levels */
+    background-color: transparent;
+}
+
+.wpthemeMobileNav.wpthemeMobileSide:nth-of-type(n) .wpthemeNavListItem.wpthemeAncestor a {
+	/* all ancestor levels */
+    background-color: #1A1A1A;
+}
+
+.wpthemeMobileNav.wpthemeMobileSide:nth-of-type(n) .wpthemeNavListItem a:active,
+.wpthemeMobileNav.wpthemeMobileSide:nth-of-type(n) .wpthemeNavListItem a {
+	/* fourth+ levels on click and expanded */
+    background-color: #363636;
+}
+
+.wpthemeMobileNav > ul.wpthemeExpandNav .wpthemeNavListItem a:active,
+.wpthemeMobileNav.wpthemeMobileSide:nth-of-type(3) .wpthemeNavListItem a:active,
+.wpthemeMobileNav.wpthemeMobileSide:nth-of-type(3) .wpthemeNavListItem a {
+		/* first level on click and expanded */
+    background-color: #131313;
+}
+
+.wpthemeMobileNav > ul.wpthemeExpandNav ul.wpthemeExpandNav .wpthemeNavListItem a:active,
+.wpthemeMobileNav.wpthemeMobileSide:nth-of-type(5) .wpthemeNavListItem a:active,
+.wpthemeMobileNav.wpthemeMobileSide:nth-of-type(5) .wpthemeNavListItem a {
+		/* second level on click and expanded */
+    background-color: #242424;
+}
+
+.wpthemeMobileNav > ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav .wpthemeNavListItem a:active,
+.wpthemeMobileNav.wpthemeMobileSide:nth-of-type(6) .wpthemeNavListItem a:active,
+.wpthemeMobileNav.wpthemeMobileSide:nth-of-type(6) .wpthemeNavListItem a {
+		/* third level on click and expanded */
+    background-color: #2D2D2D;
+}
+
+.wpthemeMobileNav > ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav .wpthemeNavListItem a:active {
+	/* fourth level on click */
+    background-color: #363636;
+}
+
+.wpthemeMobileNav > ul.wpthemeExpandNav .wpthemeNavListItem.wpthemeSelected > a:active,
+.wpthemeMobileNav > ul.wpthemeExpandNav .wpthemeNavListItem.wpthemeAncestor > a:active {
+	/* all selected levels on click */
+    background-color: #000;
+}
+
+.wpthemeMobileNav ul.wpthemeExpandNav a,
+.wpthemeMobileNav ul.wpthemeExpandNav a:hover,
+.wpthemeMobileNav ul.wpthemeExpandNav a:active,
+.wpthemeMobileNav ul.wpthemeExpandNav a:focus {
+	/* first level anchors */
+	color: #ccc;
+	font-weight: bold;
+	text-decoration: none;
+	line-height: 3em;
+	font-size: 1.5em;
+	float: left;
+	margin-left: -1.8px;
+	width: 101%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	/* prevents fonts from adjusting to odd sizes in phone landscape mode */
+	body {
+		-webkit-text-size-adjust: none;
+	}
+}
+
+.wpthemeMobileNav ul.wpthemeExpandNav .wpthemeAncestor > a,
+.wpthemeMobileNav ul.wpthemeExpandNav .wpthemeAncestor > a:hover,
+.wpthemeMobileNav ul.wpthemeExpandNav .wpthemeAncestor > a:active,
+.wpthemeMobileNav ul.wpthemeExpandNav .wpthemeAncestor > a:focus  {
+	/* first level selected anchors */
+	color: #298ac3;
+	background-color: #1A1A1A;
+}
+
+.wpthemeMobileNav ul.wpthemeExpandNav .wpthemeSelected > a,
+.wpthemeMobileNav ul.wpthemeExpandNav .wpthemeSelected > a:hover,
+.wpthemeMobileNav ul.wpthemeExpandNav .wpthemeSelected > a:active,
+.wpthemeMobileNav ul.wpthemeExpandNav .wpthemeSelected > a:focus  {
+	/* first level selected anchors */
+	color: #5cbaf0;
+	background-color: #1A1A1A;
+	border-top: 1px solid black;
+	border-bottom: none;
+	border-right: 1px solid black !important;
+	border-left: 1px solid #323232 !important;
+}
+
+.wpthemeMobileNav ul.wpthemeExpandNav .wpthemeAncestor > a span {
+	/* first level selected anchors */
+	border-left: 6px solid #298ac3;
+	-webkit-border-image: -webkit-gradient(linear, 0 0, 0 100%, from(#177ab2), to(#0d5680)) 0 0 0 100%; 
+	-webkit-border-image: -webkit-linear-gradient(#177ab2, #0d5680) 0 0 0 100%; 
+	padding-top: 0.9em;
+	padding-bottom: 0.9em;
+}
+
+.wpthemeMobileNav ul.wpthemeExpandNav .wpthemeSelected > a span {
+	/* first level selected anchors */
+	border-left: 6px solid #5cbaf0;
+	-webkit-border-image: -webkit-gradient(linear, 0 0, 0 100%, from(#53c0ff), to(#1482c2)) 0 0 0 100%; 
+	-webkit-border-image: -webkit-linear-gradient(#53c0ff, #1482c2) 0 0 0 100%; 
+	padding-top: 0.9em;
+	padding-bottom: 0.9em;
+}
+
+.wpthemeMobileNav ul.wpthemeExpandNav .wpthemeHasChildren > a {
+	/* all level anchors */
+	border-right: 1px solid #404040;
+	margin-left: -2px;
+	width: 80%;
+}
+
+.wpthemeMobileNav.wpthemeMobileSide:nth-of-type(n) .wpthemeHasChildren a {
+	/* fourth+ levels anchors with children */
+	border-right: 1px solid #404040;
+}
+
+.wpthemeMobileNav > ul.wpthemeExpandNav .wpthemeHasChildren a,
+.wpthemeMobileNav.wpthemeMobileSide:nth-of-type(3) .wpthemeHasChildren a {
+	/* first level anchors with children */
+	border-right: 1px solid #1a1a1a;
+}
+
+.wpthemeMobileNav > ul.wpthemeExpandNav ul.wpthemeExpandNav .wpthemeHasChildren a,
+.wpthemeMobileNav.wpthemeMobileSide:nth-of-type(5) .wpthemeHasChildren a {
+	/* second level anchors with children */
+	border-right: 1px solid #262626;
+}
+
+.wpthemeMobileNav > ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav .wpthemeHasChildren a,
+.wpthemeMobileNav.wpthemeMobileSide:nth-of-type(6) .wpthemeHasChildren a {
+	/* third level anchors with children */
+	border-right: 1px solid #333;
+}
+
+.wpthemeMobileNav > ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav .wpthemeHasChildren a {
+	/* fourth level anchors with children */
+	border-right: 1px solid #404040;
+}
+
+/** If a child has children, but they are all hidden, there will be an expand button
+*** present, but there will be no children to expand.  Rather than take a performance
+*** hit in the JSP that creates the markup by looping through all children to make sure
+*** there are no hidden ones, the expand button is instead hidden when there are no
+*** children underneath it in the markup to show in the UI
+.wpthemeMobileNav ul.wpthemeExpandNav .wpthemeHasChildren > a.wpthemeExpandBtn:last-child {
+    display: none;
+}
+/** When there are no non-hidden children, the page link must stretch to 100% of the navigation width
+.wpthemeMobileNav ul.wpthemeExpandNav .wpthemeHasChildren > a:nth-last-child(2) {
+    width: 100%;
+} DOES NOT WORK FOR TABLET, ONLY SMARTPHONE */
+
+.wpthemeMobileNav ul.wpthemeExpandNav .wpthemeHasChildren > a.wpthemeExpandBtn {
+	/* expand/collapse button, all n levels */
+    float: right;
+    margin: 0 -2px 0 0;
+    width: 20%;
+    text-overflow: clip;
+}
+
+.wpthemeMobileNav.wpthemeMobileSide:nth-of-type(n) .wpthemeHasChildren a.wpthemeExpandBtn {
+	/* expand/collapse button, fourth+ levels */
+    border-left: 1px solid #595959;
+}
+
+.wpthemeMobileNav > ul.wpthemeExpandNav .wpthemeHasChildren a.wpthemeExpandBtn,
+.wpthemeMobileNav.wpthemeMobileSide:nth-of-type(3) .wpthemeHasChildren a.wpthemeExpandBtn {
+	/* expand/collapse button, first level */
+    border-left: 1px solid #333;
+}
+
+.wpthemeMobileNav > ul.wpthemeExpandNav ul.wpthemeExpandNav .wpthemeHasChildren a.wpthemeExpandBtn,
+.wpthemeMobileNav.wpthemeMobileSide:nth-of-type(5) .wpthemeHasChildren a.wpthemeExpandBtn {
+	/* expand/collapse button, second level */
+    border-left: 1px solid #404040;
+}
+
+.wpthemeMobileNav > ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav .wpthemeHasChildren a.wpthemeExpandBtn,
+.wpthemeMobileNav.wpthemeMobileSide:nth-of-type(6) .wpthemeHasChildren a.wpthemeExpandBtn {
+	/* expand/collapse button, third level */
+    border-left: 1px solid #4d4d4d;
+}
+
+.wpthemeMobileNav > ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav ul.wpthemeExpandNav .wpthemeHasChildren a.wpthemeExpandBtn {
+	/* expand/collapse button, fourth level */
+    border-left: 1px solid #595959;
+}
+
+.wpthemeMobileNav ul.wpthemeExpandNav .wpthemeNavListItem.wpthemeAncestor > a {
+	/* all li a levels */
+	border-top: 1px solid #000 !important;
+	border-right: 1px solid #000 !important;
+	border-bottom: none !important;
+}
+
+.wpthemeMobileNav ul.wpthemeExpandNav .wpthemeNavListItem.wpthemeAncestor > a.wpthemeExpandBtn {
+	/* all li a levels */
+	border-left: 1px solid #232323;
+}
+
+.wpthemeMobileNav .wpthemeNavListItem .wpthemeExpandBtn img {
+	/* all n levels, open */
+	background-image: url("../images/master.png");
+	width: 36px;
+	height: 36px;
+	background-position: -12px -1181px;
+    margin: 0 35%;
+}
+
+.wpthemeMobileNav .wpthemeNavListItem.wpthemeNavCollapsed .wpthemeExpandBtn img {
+	/* all n levels, closed */
+	background-position: -12px -1089px;
+}
+
+.wpthemeMobileNav.wpthemeMobileSide .wpthemeNavListItem .wpthemeExpandBtn img {
+	width: 36px;
+	height: 36px;
+	background-position: -14px -1135px;
+	background-image: url("../images/master.png");
+}
+
+.wpthemeMobileNav .wpthemeNavClose {
+	/* close and search LIs */
+	white-space: nowrap;
+}
+
+.wpthemeMobileNav ul.wpthemeExpandNav .wpthemeNavClose a,
+.wpthemeMobileNav ul.wpthemeExpandNav .wpthemeNavClose a:hover,
+.wpthemeMobileNav ul.wpthemeExpandNav .wpthemeNavClose a:active,
+.wpthemeMobileNav ul.wpthemeExpandNav .wpthemeNavClose a:focus {
+	/* close li text */
+	float: right;
+	text-align: right;
+	width: 100%;
+	line-height: 2em;
+}
+
+.wpthemeMobileNav ul.wpthemeExpandNav .wpthemeNavClose a span {
+	/* close li text */
+	margin-right: 15px;
+}
+
+.wpthemeMobileNav ul.wpthemeExpandNav .wpthemeNavClose a img {
+	/* close li text */
+	width: 18px;
+	height: 18px;
+	background-position: 0 -1061px;
+	background-image: url("../images/master.png");
+    margin: 0 10px 4px;
+}
+
+.wpthemeMobileNav li.wpthemeNavSearch {
+	padding: 7px 10px;
+	border-bottom: 1px solid #1a1a1a;
+}
+
+.wpthemeSearch {
+	/* hides desktop-only search input in banner */
+    display: none;
+}
+
+.wpthemeMobileNav .wpthemeSearch {
+	display: block;
+	border-color: #ccc;
+	border-radius: 20px;
+    font-size: 1.5em;
+    height: 1.3em;
+    margin: 8px auto;
+	padding: 2px 6px;
+    width: 220px;
+    background-color: #EEEEEE;
+}
+
+.wpthemeMobileNav .wpthemeSearch input.wpthemeSearchText {
+    color: #8F8F8F;
+    float: left;
+    padding-top: 0;
+    width: 188px;
+    margin-top: 2px;
+}
+
+.wpthemeMobileNav .wpthemeSearch input.wpthemeSearchButton {
+	float: right;
+	background-position: 0 -218px;
+	padding: 5px 2px;
+}
+/* end exploit navigation */

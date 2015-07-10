@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE taglib PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN"
+                "http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd">
+<taglib>
+    <tlib-version>8.0</tlib-version>
+    <jsp-version>1.2</jsp-version>
+    <short-name>WebSphere Portal Managed Pages Support Tag Library</short-name>
+    <uri>http://www.ibm.com/xmlns/prod/websphere/portal/v8.0/portal-managed-pages-support</uri>
+    <description>This JSP tag library defines tags for use with WCM managed pages in themes.</description>
+    
+    <tag>
+        <name>currentProjectUUID</name>
+        <tag-class>com.ibm.wps.mpages.tags.CurrentProjectUUIDTag</tag-class>
+        <body-content>empty</body-content>
+        <description>
+            Print out the UUID of the current project (ProjectIdentificationService#getProjectUUID()).
+            If there is no current project this does not print anything.
+        </description>
+        <attribute>
+        	<name>var</name>
+        	<required>false</required>
+        	<description>
+        	    If defined the result will be written to a PageContext attribute as String.
+        	</description>
+        </attribute>
+    </tag>
+    
+    <tag>
+        <name>currentProject</name>
+        <tag-class>com.ibm.wps.mpages.tags.CurrentProjectTag</tag-class>
+        <body-content>empty</body-content>
+        <description>
+            Get the currently active project as PageContext variable.
+            If no Project is defined the variable will not be set (is null).
+        </description>
+        <attribute>
+        	<name>var</name>
+        	<required>true</required>
+        	<description>
+        	    Result will be written to a PageContext variable.
+        	    The result object implements com.ibm.workplace.wcm.api.Project
+        	    and com.ibm.portal.Localized.
+        	</description>
+        </attribute>
+    </tag>
+    
+    <tag>
+        <name>recentProject</name>
+        <tag-class>com.ibm.wps.mpages.tags.RecentProjectTag</tag-class>
+        <body-content>empty</body-content>
+        <description>
+            Get the recent project as PageContext variable.
+            If there is no recent Project available the variable will not be set (is null).
+        </description>
+        <attribute>
+        	<name>var</name>
+        	<required>true</required>
+        	<description>
+        	    Result will be written to a PageContext variable with type
+        	    com.ibm.workplace.wcm.api.Project.
+        	</description>
+        </attribute>
+    </tag>
+    
+    <tag>
+        <name>currentPageDraftUUID</name>
+        <tag-class>com.ibm.wps.mpages.tags.CurrentPageDraftUUIDTag</tag-class>
+        <body-content>empty</body-content>
+        <description>
+            Print out the UUID of the current pages draft if there is any. 
+            The current page is looked up with currentNavNode request attribute.
+            If there is no draft this does not print anything.
+        </description>
+        <attribute>
+        	<name>var</name>
+        	<required>false</required>
+        	<description>
+        	    If defined the result will be written to a PageContext attribute as String.
+        	</description>
+        </attribute>
+    </tag>
+    
+    <tag>
+        <name>managedPagesEnabled</name>
+        <tag-class>com.ibm.wps.mpages.tags.ManagedPagesEnabledTag</tag-class>
+        <body-content>empty</body-content>
+        <description>
+            Prints true if managed pages is enabled. Prints false otherwise.
+        </description>
+        <attribute>
+        	<name>var</name>
+        	<required>false</required>
+        	<description>
+        	    If defined the result will be written to a PageContext attribute.
+        	</description>
+        </attribute>
+    </tag>
+    
+    <tag>
+        <name>isApprover</name>
+        <tag-class>com.ibm.wps.mpages.tags.IsApproverTag</tag-class>
+        <body-content>empty</body-content>
+        <description>
+            Prints out true if the current user has approver access to the current navigation node. Prints out false otherwise.
+        </description>
+        <attribute>
+        	<name>var</name>
+        	<required>false</required>
+        	<description>
+        	    If defined the result will be written to a PageContext attribute as String.
+        	</description>
+        </attribute>
+    </tag>
+</taglib>

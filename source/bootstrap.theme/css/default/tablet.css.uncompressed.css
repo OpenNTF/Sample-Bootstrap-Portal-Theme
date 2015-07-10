@@ -1,0 +1,245 @@
+/* we are always extending to 100% of the screen width on devices */
+.wpthemeFrame {
+	min-width: 320px;
+}
+
+.wpthemeInner,
+.wpthemeSecondaryNav { 
+	width: 100%;
+}
+
+.wpthemeBannerPrimaryNavigation {
+	display: none;
+}
+
+.wpthemeHeader {
+	display: none;
+	overflow-x: auto;
+    overflow-y: hidden;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    border-bottom: 1px solid #292929;
+}
+
+.wpthemeHeader .wpthemeHeaderNav ul li a:link, 
+.wpthemeHeader .wpthemeHeaderNav ul li a:visited, 
+.wpthemeHeader .wpthemeHeaderNav ul li a:active {
+	padding: 0 13px;
+}
+
+.wpthemeHeader .wpthemeNavContainer1 {
+   	font-size: 1.3em;
+	width: 100%;
+}
+
+.wpthemeHeaderNav ul {
+	line-height: 1.8em;
+}
+
+.wpthemeMainContent{
+	min-height: 25px;
+}
+
+.wpthemeCommonActions.wpthemeRight {
+	padding-right: 5px;
+	line-height: 1.64;
+}
+
+#wpthemeUserName, #wpthemeSignUp {
+    padding: 0 8px;
+}
+
+#wpthemeLogout, #wpthemeLogin {
+    padding: 8px 0;
+}
+
+#logoutlink, #wpthemeLogin a {
+    background: -moz-linear-gradient(center top , #5C5C5C 0%, #272727 100%) repeat scroll 0 0 transparent;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5C5C5C), color-stop(100%,#272727)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #5C5C5C 0%,#272727 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #5C5C5C 0%,#272727 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, #5C5C5C 0%,#272727 100%); /* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5C5C5C', endColorstr='#272727',GradientType=0 ); /* IE6-9 */
+	background: linear-gradient(top, #5C5C5C 0%,#272727 100%); /* W3C */
+    border: 2px solid #202020;
+    color: #CACACA;
+    float: right;
+    margin: 0 10px;
+    padding: 2px 8px;
+    width: auto;
+    white-space: nowrap;
+}
+
+.wpthemeCommonActions.wpthemeLeft {
+	/* IBM logo */
+	margin-left: 25%;
+    position: absolute;
+    width: 50%;
+}
+
+.wpthemeCommonActions.wpthemeLeft li {
+	/* IBM logo centered */
+	width: 100%;
+}
+	
+.wpthemeBanner ul.wpthemeCommonActions li .wpthemeBranding {
+    margin: 12px 0;
+    padding: 0;
+}
+	
+.wpthemeCommonActions .wpthemeBranding img {
+    background-image: url("../images/master.png");
+    width: 71px;
+    height: 26px;
+    background-position: 0 -890px;
+    margin: 0 auto;
+}
+
+.wpthemeCommonActions li {
+	padding: 0;
+}
+	
+.wpthemeBanner ul.wpthemeCommonActions > li > span,
+.wpthemeBanner ul.wpthemeCommonActions li a,
+.wpthemeBanner ul.wpthemeCommonActions li a:link,
+.wpthemeBanner ul.wpthemeCommonActions li a:visited,
+.wpthemeBanner ul.wpthemeCommonActions li a:hover,
+.wpthemeBanner ul.wpthemeCommonActions li a:active,
+.wpthemeBanner ul.wpthemeCommonActions li a:focus {
+	width: 100%;
+	margin: 0;
+   	text-align: center;
+   	border: none;
+   	font-size: 1.3em;
+}
+
+#wpthemeUserName a,
+#wpthemeSignUp a {
+   	padding: 12px 0;
+}
+	
+.wpthemeBannerInner {
+	border-bottom: none;
+	background: -moz-linear-gradient(center top , #404040 0%, #262626 100%) repeat scroll 0 0 transparent; /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#404040), color-stop(100%,#262626)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #404040 0%,#262626 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #404040 0%,#262626 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, #404040 0%,#262626 100%); /* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#404040', endColorstr='#262626',GradientType=0 ); /* IE6-9 */
+	background: linear-gradient(top, #404040 0%,#262626 100%); /* W3C */
+}
+
+.wpthemeBanner .wpthemeMobileBorder {
+	border-bottom: 3px solid #008ABF;
+	clear: both;
+}
+	
+.wpthemeBanner ul.wpthemeCommonActions li a.wpthemeTopNavToggleBtn {
+	/* button to open/close top navigation */
+    text-decoration: none !important;
+    padding: 7px 0;
+}
+
+.wpthemeTopNavToggleBtn:focus,
+.wpthemeTopNavToggleBtn:active {
+	/* button to open/close navigation, a11y */
+    outline: white dotted 1px;
+}
+
+.wpthemeTopNavToggleBtn img {
+	width: 36px;
+	height: 36px;
+	background-position: -6px -1365px;
+    background-image: url("../images/master.png");
+}
+
+.wpthemeTopNavToggleBtn.wpthemeTopNavOpened img {
+    background-position: -6px -1319px;
+}
+
+.wpthemeFooter {
+	margin: 0px 20px 20px 20px;
+}
+
+.wpthemeFooter li {
+    margin: 8px 0;
+}
+	
+.wpthemeFooterCol {
+	width: 100%;
+	padding: 0;
+	margin-top: 15px;
+}
+
+.wpthemeFooterCol h3 {
+	margin: 0;
+	font-size: 1.4em;
+}
+	
+.wpthemeFooter a, 
+.wpthemeFooter a:visited, 
+.wpthemeFooter a:hover, 
+.wpthemeFooter a:active, 
+.wpthemeFooter a:focus {
+	font-size: 1.5em;
+	color: #000;
+}
+
+@media screen and (min-width:691px)
+{
+	.wpthemeFooterCol {
+		width: 33%;
+	}
+}
+
+@media screen and (min-width:601px) and (max-width:690px)
+{
+	.wpthemeFooterCol {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width:620px)
+{
+	#wpthemeUserName {
+		display: none;
+	}
+}
+
+@media screen and (max-width:719px)
+{
+	.wpthemeCommonActions.wpthemeLeft {
+		/* IBM logo */
+		margin-left: 35%;
+		width: 30%;
+	}
+}
+
+@media screen and (min-width:720px) and (max-width:820px)
+{
+	.wpthemeCommonActions.wpthemeLeft {
+		/* IBM logo */
+		margin-left: 30%;
+		width: 40%;
+	}
+}
+
+/* Sidenav styles */
+.wpthemeSplitView .wpthemeFrame {
+	 min-width: 320px;
+}
+.wpthemeSplitView .wpthemeMainContent > div {
+ 	width: initial;
+}
+ 
+.wpthemeSplitView .wpthemeLayoutContainers {
+ 	width: auto;
+}
+ 
+.wpthemeLayoutContainers.wpthemeLeft {
+	float: none;
+}
+ 
+.wpthemeSideNavigation.wpthemeLeft {
+	float: none;
+}

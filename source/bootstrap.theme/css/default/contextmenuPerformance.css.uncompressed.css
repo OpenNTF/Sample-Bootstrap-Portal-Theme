@@ -1,0 +1,9 @@
+/*
+This file includes performance optimizations for the wp_simple contextmenu_css module.
+It is a way for a particular theme to overwrite image references and have them 
+point to icons from the master sprite.
+*/
+.wpthemeMenuBorder .wpthemeMenuNotchBorder {
+    background-image: url(../images/master.png);
+    background-position: 30px -111px;
+}

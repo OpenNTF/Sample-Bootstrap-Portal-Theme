@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="" >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- rel=dynamic-content indicates an element that is replaced with the contents produced by the specified href. 
+	 dyn-cs:* URIs are resolved using the WP DynamicContentSpotMappings resource environment provider. These values can
+	 also be set using theme metadata if a theme is specified in the URI (e.g. @tl:oid:theme_unique_name). -->
+<link rel="dynamic-content" href="co:head">
+<link rel="dynamic-content" href="dyn-cs:id:85theme_head">
+
+</head>
+<body class="lotusui30dojo tundra locale_ wpthemePlain" >
+	<div class="lotusFrame">   
+		<div class="lotusMain" id="lotusMain">		
+			<div id="layoutContainers" role="main" aria-label="IBM WebSphere Portal">	
+				<a rel="dynamic-content" href="dyn-cs:id:85theme_layout"></a>
+			</div>
+		</div><!--end main-->
+	</div><!--end frame-->
+	<!-- This is responsible for bootstrapping the configuration for the javascript framework. 
+		This is located here instead of the head section to improve client performance. -->
+	<div class="wpthemeComplementaryContent" id="wpthemeComplementaryContent" role="region" aria-labelledby="wpthemeComplementaryContentText">
+		<span class="wpthemeAltText" id="wpthemeComplementaryContentText" >Complementary Content</span>		
+		<a rel="dynamic-content" href="co:config"></a>
+	</div>
+</body>
+</html>

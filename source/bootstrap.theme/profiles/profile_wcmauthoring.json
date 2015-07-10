@@ -1,0 +1,301 @@
+{
+	"moduleIDs": [
+		"wp_theme_portal_85",
+		"wp_dynamicContentSpots_85",
+		"wp_toolbar_host_view",
+		"wp_portlet_css",
+		"wp_one_ui",
+		"wp_one_ui_dijit",
+		"wp_theme_menus",
+		"wp_theme_skin_region",
+		"wp_theme_high_contrast",
+		"wp_portal",
+		"wp_status_bar",
+		"dojo",
+		"dojo_dom",
+		"dijit",
+		"dijit_menu",
+		"dijit_app",
+		"dijit_form",
+		"dijit_tree",
+		"dijit_layout_basic",
+		"dojox_layout_basic",
+		"wp_liveobject_framework",
+		"wp_sametime_proxy",
+		"wp_dialog_main",
+		"wp_draft_page_ribbon"
+	],
+	"deferredModuleIDs": [
+		"wp_toolbar_host_edit",
+		"wp_federated_documents_picker",
+		"wp_wcm_modal_dialog",
+		"wp_contextmenu_live_object",
+		"wp_content_targeting_cam",
+		"wcm_inplaceEdit",
+		"wp_skin_cam",
+		"wp_content_mapping_picker"
+	],
+	"metadata":{
+		"com.ibm.portal.Hidden":"true"
+	},
+	"titles": [
+		{
+			"value":"تأليف محتويات",
+			"lang":"ar"
+		},
+		{
+			"value":"Creació personalitzada del contingut",
+			"lang":"ca"
+		},
+		{
+			"value":"Tvorba obsahu",
+			"lang":"cs"
+		},
+		{
+			"value":"Indhold - redigering",
+			"lang":"da"
+		},
+		{
+			"value":"Authoring für Inhalt",
+			"lang":"de"
+		},
+		{
+			"value":"Σύνταξη περιεχομένου",
+			"lang":"el"
+		},
+		{
+			"value":"Content Authoring",
+			"lang":"en"
+		},
+		{
+			"value":"Creación de contenido",
+			"lang":"es"
+		},
+		{
+			"value":"Sisällön luonti",
+			"lang":"fi"
+		},
+		{
+			"value":"Création de contenu",
+			"lang":"fr"
+		},
+		{
+			"value":"עיצוב תוכן",
+			"lang":"he"
+		},
+		{
+			"value":"Stvaranje sadržaja",
+			"lang":"hr"
+		},
+		{
+			"value":"Tartalomszerzés",
+			"lang":"hu"
+		},
+		{
+			"value":"Sviluppo contenuto",
+			"lang":"it"
+		},
+		{
+			"value":"コンテンツ・オーサリング",
+			"lang":"ja"
+		},
+		{
+			"value":"Мазмұн жасау",
+			"lang":"kk"
+		},
+		{
+			"value":"컨텐츠 작성",
+			"lang":"ko"
+		},
+		{
+			"value":"Contentauthoring",
+			"lang":"nl"
+		},
+		{
+			"value":"Innholdsredigering",
+			"lang":"no"
+		},
+		{
+			"value":"Tworzenie danych",
+			"lang":"pl"
+		},
+		{
+			"value":"Autoria de conteúdo",
+			"lang":"pt"
+		},
+		{
+			"value":"Autoria de Conteúdo",
+			"lang":"pt_BR"
+		},
+		{
+			"value":"Creaţie conţinut",
+			"lang":"ro"
+		},
+		{
+			"value":"Создание материалов",
+			"lang":"ru"
+		},
+		{
+			"value":"Tvorba obsahu",
+			"lang":"sk"
+		},
+		{
+			"value":"Avtoring vsebine",
+			"lang":"sl"
+		},
+		{
+			"value":"Innehållsproduktion",
+			"lang":"sv"
+		},
+		{
+			"value":"การสร้างเนื้อหา",
+			"lang":"th"
+		},
+		{
+			"value":"İçerik Yazma",
+			"lang":"tr"
+		},
+		{
+			"value":"Створення вмісту",
+			"lang":"uk"
+		},
+		{
+			"value":"内容编写",
+			"lang":"zh"
+		},
+		{
+			"value":"內容編寫",
+			"lang":"zh_TW"
+		}
+	],
+	"descriptions": [
+		{
+			"value":"يحتوي ملف المواصفات هذا على مجموعة وحدات البرامج الكاملة المطلوبة لتكوين وتحرير محتويات الانترنت.",
+			"lang":"ar"
+		},
+		{
+			"value":"Aquest perfil disposa del conjunt complet de mòduls necessari per crear i editar el contingut web.",
+			"lang":"ca"
+		},
+		{
+			"value":"Tento profil má úplnou sadu modulů nezbytnou k vytvoření a úpravě webového obsahu.",
+			"lang":"cs"
+		},
+		{
+			"value":"Denne profil indeholder de moduler, der bruges til at oprette og redigere webindhold.",
+			"lang":"da"
+		},
+		{
+			"value":"Dieses Profil verfügt über den vollständigen Satz von Modulen, die erforderlich sind, um Webinhalte zu erstellen und zu bearbeiten.",
+			"lang":"de"
+		},
+		{
+			"value":"Αυτό το προφίλ περιέχει το πλήρες σύνολο των λειτουργικών μονάδων που απαιτούνται για τη δημιουργία και την τροποποίηση διαδικτυακού περιεχομένου.",
+			"lang":"el"
+		},
+		{
+			"value":"This profile has the complete set of modules required to create and edit web content.",
+			"lang":"en"
+		},
+		{
+			"value":"Este perfil contiene el conjunto completo de módulos necesarios para crear y editar contenido web.",
+			"lang":"es"
+		},
+		{
+			"value":"Tässä profiilissa on täydellinen joukko moduuleja, joita tarvitaan Web-sisällön luomiseen ja muokkaamiseen.",
+			"lang":"fi"
+		},
+		{
+			"value":"Ce profil contient l'ensemble complet des modules requis pour créer et modifier du contenu Web.",
+			"lang":"fr"
+		},
+		{
+			"value":"פרופיל זה כולל את מערך המודולים השלם הדרוש ליצירה ולעריכה של תוכן רשת.",
+			"lang":"he"
+		},
+		{
+			"value":"Ovaj profil sadrži potpuni skup modula potrebnih za kreiranje i uređivanje Web sadržaja.",
+			"lang":"hr"
+		},
+		{
+			"value":"Ez a profil minden olyan modult tartalmaz, amely webes tartalom létrehozásához és szerkesztéséhez szükséges.",
+			"lang":"hu"
+		},
+		{
+			"value":"Questo profilo contiene l'insieme completo di moduli richiesti per creare e modificare il contenuto Web.",
+			"lang":"it"
+		},
+		{
+			"value":"このプロファイルには、Web コンテンツの作成および編集をするために必要な、完全なモジュール・セットが含まれています。",
+			"lang":"ja"
+		},
+		{
+			"value":"Бұл профайл веб мазмұнын құру және өңдеу үшін талап етілген модульдердің толық жинағын иеленеді.",
+			"lang":"kk"
+		},
+		{
+			"value":"이 프로파일에는 웹 컨텐츠를 작성 및 편집하는 데 필요한 전체 모듈 세트가 있습니다.",
+			"lang":"ko"
+		},
+		{
+			"value":"Dit profiel beschikt over de volledige set modules die vereist zijn voor het maken en bewerken van webcontent.",
+			"lang":"nl"
+		},
+		{
+			"value":"Denne profilen inneholder et fullstendig sett med moduler som er nødvendige for å opprette og redigere webinnhold.",
+			"lang":"no"
+		},
+		{
+			"value":"Ten profil zawiera pełny zestaw modułów wymaganych do tworzenia i edytowania treści WWW.",
+			"lang":"pl"
+		},
+		{
+			"value":"Este perfil tem o conjunto completo de módulos requerido para criar e editar conteúdo da Web.",
+			"lang":"pt"
+		},
+		{
+			"value":"Este perfil tem o conjunto completo de módulos necessários para criar e editar conteúdo da web.",
+			"lang":"pt_BR"
+		},
+		{
+			"value":"Acest profil are setul complet de module necesar pentru a crea şi edita conţinut web.",
+			"lang":"ro"
+		},
+		{
+			"value":"Этот профайл содержит полный набор модулей, необходимых для создания и изменения веб-материалов.",
+			"lang":"ru"
+		},
+		{
+			"value":"Tento profil má úplnú množinu modulov, ktoré sú potrebné na vytváranie a upravovanie webového obsahu.",
+			"lang":"sk"
+		},
+		{
+			"value":"Ta profil ima celotni nabor modulov, potrebnih za izdelavo in urejanje spletne vsebine.",
+			"lang":"sl"
+		},
+		{
+			"value":"Profil med en full moduluppsättning för att skapa och ändra webbinnehåll.",
+			"lang":"sv"
+		},
+		{
+			"value":"โปรไฟล์นี้มีชุดที่สมบูรณ์ของโมดูลที่จำเป็นเพื่อสร้างและแก้ไขเนื้อหาเว็บ",
+			"lang":"th"
+		},
+		{
+			"value":"Bu profil, web içeriklerini yaratmak ve düzenlemek için eksiksiz bir modül kümesi içerir.",
+			"lang":"tr"
+		},
+		{
+			"value":"Цей профайл містить повний набір модулів, необхідних для створення й редагування вмісту веб-сторінок.",
+			"lang":"uk"
+		},
+		{
+			"value":"此概要文件具有创建和编辑 Web 内容所需的完整模块集。",
+			"lang":"zh"
+		},
+		{
+			"value":"此設定檔具有建立及編輯 Web 內容所需的完整模組集。",
+			"lang":"zh_TW"
+		}
+	]
+}

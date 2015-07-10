@@ -1,0 +1,283 @@
+/*** BODY & DOCUMENT ***/
+body {
+	background-color: #050505;    
+	color: #222;
+	font: 75%/1.5 Arial,Helvetica,sans-serif;
+	margin: 0;
+	padding: 0;
+}
+	
+.wptheme_ie7 body { 
+	position: relative;
+}
+
+body.locale_ja, .locale_ja * {
+	font-family: "MS UI Gothic","MS PGothic","Apple Gothic",Arial,Helvetica,sans-serif;
+}
+
+body.lotusui30dojo {
+	color: #fff;
+}
+
+a, a:active { 
+	color: #10498F; 
+	text-decoration: none;
+}
+
+a:hover, a:focus { 
+	color: #05386B; 
+	text-decoration: underline;
+}
+
+img {
+	border: 0 none; 
+	vertical-align: middle;
+}
+
+article, aside, footer, header, hgroup,  nav, section {display:block} /*html 5 elements*/
+/*** end BODY & DOCUMENT ***/
+
+/*** UTILITY ***/
+.wpthemeInner, .wpthemeSecondaryNav {margin: 0 auto;}
+.wpthemeLeft {float: left;}
+.wpthemeRight {float: right;}
+.wpthemeClear {clear: both;}
+.wpthemeDisplayNone {display: none;}
+.wpthemeOverflowAuto {overflow: auto;}
+.wpthemeUnderlineText:hover, .wpthemeUnderlineText:focus {text-decoration:underline; cursor:pointer;}
+
+/* Accesibility */
+.wpthemeAccess {position: absolute; top: -9000px;}
+.wpthemeAltText { display: none;}
+.wpthemeImagesOff .wpthemeAltText {display: block;}
+/*** end UTILITY ***/
+
+/*** HEADER ***/
+.wpthemeHeader {
+    background-color: #424142;
+    padding: 5px 0;
+    overflow: hidden;
+    text-align: left;
+}
+
+/* Logo - DISABLED - remove "display:none" to enable logo */
+.wpthemeLogo {
+	display: none;
+    background-image: url("../images/master.png");
+	background-position:0 -758px;
+	width:95px;
+	height:18px;
+	margin-top: 5px;
+}
+
+/*** Top Navigation - 800theme_topNav dynamic spot ***/
+.wpthemeHeader .wpthemeNavContainer1 {
+	float: left;
+}
+
+.wpthemeHeaderNav ul {
+    padding: 0 0 0 5px;
+	margin: 0;
+	line-height: 2.1em;
+}
+
+.wpthemeHeaderNav ul li {
+    margin: 0;
+    font-size: 0.9em;
+    color: #fff;
+    padding: 0px 2px;
+}
+
+.wpthemeHeaderNav ul li a, 
+.wpthemeHeaderNav ul li a:active {
+	color: #fff;
+	font-weight: normal;
+	padding: 3px 13px;
+}
+
+.wpthemeHeader .wpthemeHeaderNav ul li a:hover, 
+.wpthemeHeader .wpthemeHeaderNav ul li a:focus, 
+.wpthemeHeader .wpthemeHeaderNav ul li.wpthemeSelected a {
+	color: #fff;
+	text-decoration: none;
+	background-color: #666;
+}
+/*** end HEADER ***/
+
+/*** BANNER ***/
+.wpthemeBannerPrimaryNavigation {
+	background: none repeat scroll 0 0 #0000FF;
+    border-bottom: 1px solid #0075A3;
+    padding: 0 0 2px;
+}
+
+/*** SUB-BANNER ***/
+.wpthemeSecondaryBanner {
+	background: #fff; 
+	margin: 0;
+	padding: 0;
+}
+
+/* secondary nav - 800theme_secondaryNav dynamic spot */
+.wpthemeSecondaryNav{
+	clear: both;
+}
+
+.wpthemeSecondaryNav ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.wpthemeSecondaryNav li{
+    border-color: #D2D2D2;
+    border-width: 0 1px;
+	border-style: solid;
+    margin: 0 -1px 0 0;
+}
+
+.wpthemeSecondaryNav a, 
+.wpthemeSecondaryNav a:active {
+	color: #10498F;
+	margin: 6px 20px 6px 0; 
+	padding: 0 0 0 20px; 
+	display: block;
+}
+
+.wpthemeSecondaryNav a:hover,
+.wpthemeSecondaryNav a:focus {
+	color: #05386B;
+	text-decoration: none;
+}
+
+.wpthemeSecondaryBanner .wpthemeNavContainer1{
+	background: #f8f8f8; 
+	background: -moz-linear-gradient(top, #f8f8f8 0%, #f8f8f8 84%, #e7e7e7 94%, #d2d2d2 100%); 
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(84%,#f8f8f8), color-stop(94%,#e7e7e7), color-stop(100%,#d2d2d2)); 
+	background: -webkit-linear-gradient(top, #f8f8f8 0%,#f8f8f8 84%,#e7e7e7 94%,#d2d2d2 100%); 
+	background: -o-linear-gradient(top, #f8f8f8 0%,#f8f8f8 84%,#e7e7e7 94%,#d2d2d2 100%); 
+	background: -ms-linear-gradient(top, #f8f8f8 0%,#f8f8f8 84%,#e7e7e7 94%,#d2d2d2 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f8', endColorstr='#d2d2d2',GradientType=0 ); 
+	background: linear-gradient(top, #f8f8f8 0%,#f8f8f8 84%,#e7e7e7 94%,#d2d2d2 100%); 
+	margin: 0; 
+	padding: 0;
+}
+
+.wpthemeSecondaryBanner .wpthemeNavContainer1 .wpthemeSelected  {
+	background-color: #FFFFFF;
+}
+
+.wpthemeSecondaryBanner .wpthemeNavContainer2{
+	border-bottom: 1px solid #e7e7e7; 
+	background: #fff;
+}
+
+.wpthemeSecondaryBanner .wpthemeNavContainer2 .wpthemeSecondaryNav li, 
+.wpthemeSecondaryBanner .wpthemeNavContainer2 .wpthemeSecondaryNav .wpthemeFirst,
+.wpthemeSecondaryBanner .wpthemeNavContainer2 .wpthemeSecondaryNav a.wpthemeFirst a,
+.wpthemeSecondaryBanner .wpthemeNavContainer2 .wpthemeSecondaryNav a.wpthemeFirst:active {
+	border: 0;
+}
+
+.wpthemeSecondaryBanner .wpthemeNavContainer2 .wpthemeSecondaryNav a, 
+.wpthemeSecondaryBanner .wpthemeNavContainer2 .wpthemeSecondaryNav a:active {
+	border-left: 1px solid #D2D2D2;
+}
+
+.wpthemeSecondaryBanner .wpthemeNavContainer2 .wpthemeSelected  {
+	font-weight: bold;
+}
+/*** end SUB-BANNER ***/
+
+/*** NAVIGATION CRUMB TRAIL ***/
+
+.wpthemeInner .wpthemeCrumbTrail a {
+	color: #fff;
+	font-weight: normal;
+}
+
+.wpthemeInner .wpthemeCrumbTrail a :hover, 
+.wpthemeInner .wpthemeCrumbTrail a :focus {
+	color: #fff;
+	text-decoration: underline;
+}
+
+/*** end NAVIGATION CRUMB TRAIL ***/
+
+
+
+
+/*** MAIN ***/
+.wpthemeMainContent{
+	color: #bbb;
+	background: #000; 
+	min-height: 500px;
+}
+
+.wpthemeControlHeader a.wpthemeIcon img {
+	display: block;
+	background-position:0 -290px;
+	opacity: 1;
+	-moz-opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+.wpthemeControlHeader a.wpthemeIcon.contextMenuInSkinIcon img{
+	background-position:0 -1518px;
+}
+/*** end MAIN ***/
+
+
+.wpthemeFooter a,
+.wpthemeFooter a:hover,
+.wpthemeFooter a:active,
+.wpthemeFooter a:focus {
+	color: #fff;
+	font-weight: normal;
+}
+
+.wpthemeFooter {
+    margin: 0;
+    padding: 0 20px;
+    color: black;
+}
+
+/* start mobile */
+.wpthemeMobileNav ul.wpthemeExpandNav .wpthemeAncestor > a,
+.wpthemeMobileNav ul.wpthemeExpandNav .wpthemeAncestor > a:hover,
+.wpthemeMobileNav ul.wpthemeExpandNav .wpthemeAncestor > a:active,
+.wpthemeMobileNav ul.wpthemeExpandNav .wpthemeAncestor > a:focus  {
+	/* ancestor anchors */
+	color: #000033;
+}
+
+.wpthemeMobileNav ul.wpthemeExpandNav .wpthemeSelected > a,
+.wpthemeMobileNav ul.wpthemeExpandNav .wpthemeSelected > a:hover,
+.wpthemeMobileNav ul.wpthemeExpandNav .wpthemeSelected > a:active,
+.wpthemeMobileNav ul.wpthemeExpandNav .wpthemeSelected > a:focus  {
+	/* selected anchors */
+	color: #00008A;
+}
+
+.wpthemeMobileNav ul.wpthemeExpandNav .wpthemeAncestor > a span {
+	/* ancestor border */
+	border-left: 6px solid #000033;
+	-webkit-border-image: -webkit-gradient(linear, 0 0, 0 100%, from(#000070), to(#00000D)) 0 0 0 100%; 
+	-webkit-border-image: -webkit-linear-gradient(#000070, #00000D) 0 0 0 100%; 
+}
+
+.wpthemeMobileNav ul.wpthemeExpandNav .wpthemeSelected > a span {
+	/* selected border */
+	border-left: 6px solid #00008A;
+	-webkit-border-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0202A8), to(#000036)) 0 0 0 100%; 
+	-webkit-border-image: -webkit-linear-gradient(#0202A8, #000036) 0 0 0 100%;
+}
+
+.wpthemeBanner .wpthemeMobileBorder {
+	border-bottom: 2px solid #0000FF;
+}
+/* end mobile */
+
+.edit-mode .wpthemeCol {
+    border: 1px dotted #777;
+}

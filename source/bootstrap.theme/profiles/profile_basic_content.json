@@ -1,0 +1,292 @@
+{
+	"moduleIDs": [
+		"getting_started_module",
+		"wp_theme_portal_85",
+		"wp_dynamicContentSpots_85",
+		"wp_toolbar_host_view",
+		"wp_portlet_css",
+		"wp_client_ext",
+		"wp_status_bar",
+		"wp_theme_menus",
+		"wp_theme_skin_region",
+		"wp_theme_high_contrast",
+		"wp_layout_windowstates",
+		"wp_portal",
+		"wp_tagging_rating_light",
+		"wp_analytics_aggregator",
+		"wp_oob_sample_styles",
+		"wp_ic4_wai_resources",
+		"wp_worklight_ext",
+		"wp_liveobject_framework",
+		"wp_sametime_proxy",
+		"wp_draft_page_ribbon"
+	],
+	"deferredModuleIDs": [
+		"wp_toolbar_host_edit",
+		"wp_analytics_tags",
+		"wp_contextmenu_live_object",
+		"wp_content_targeting_cam",
+		"wcm_inplaceEdit",
+		"wp_skin_cam"
+	],
+	"titles": [
+		{
+			"value":"المحتويات الأساسية",
+			"lang":"ar"
+		},
+		{
+			"value":"Contingut bàsic",
+			"lang":"ca"
+		},
+		{
+			"value":"Základní obsah",
+			"lang":"cs"
+		},
+		{
+			"value":"Basisindhold",
+			"lang":"da"
+		},
+		{
+			"value":"Basisinhalt",
+			"lang":"de"
+		},
+		{
+			"value":"Βασικό περιεχόμενο",
+			"lang":"el"
+		},
+		{
+			"value":"Basic Content",
+			"lang":"en"
+		},
+		{
+			"value":"Contenido básico",
+			"lang":"es"
+		},
+		{
+			"value":"Perussisältö",
+			"lang":"fi"
+		},
+		{
+			"value":"Contenu de base",
+			"lang":"fr"
+		},
+		{
+			"value":"תוכן בסיסי",
+			"lang":"he"
+		},
+		{
+			"value":"Osnovni sadržaj",
+			"lang":"hr"
+		},
+		{
+			"value":"Alap tartalom",
+			"lang":"hu"
+		},
+		{
+			"value":"Contenuto base",
+			"lang":"it"
+		},
+		{
+			"value":"基本コンテンツ",
+			"lang":"ja"
+		},
+		{
+			"value":"Негізгі мазмұн",
+			"lang":"kk"
+		},
+		{
+			"value":"기본 컨텐츠",
+			"lang":"ko"
+		},
+		{
+			"value":"Basiscontent",
+			"lang":"nl"
+		},
+		{
+			"value":"Grunnleggende innhold",
+			"lang":"no"
+		},
+		{
+			"value":"Treść podstawowa",
+			"lang":"pl"
+		},
+		{
+			"value":"Conteúdo básico",
+			"lang":"pt"
+		},
+		{
+			"value":"Conteúdo Básico",
+			"lang":"pt_BR"
+		},
+		{
+			"value":"Conţinut de bază",
+			"lang":"ro"
+		},
+		{
+			"value":"Базовые материалы",
+			"lang":"ru"
+		},
+		{
+			"value":"Základný obsah",
+			"lang":"sk"
+		},
+		{
+			"value":"Osnovna vsebina",
+			"lang":"sl"
+		},
+		{
+			"value":"Basinnehåll",
+			"lang":"sv"
+		},
+		{
+			"value":"เนื้อหาระดับต้น",
+			"lang":"th"
+		},
+		{
+			"value":"Temel İçerik",
+			"lang":"tr"
+		},
+		{
+			"value":"Базові матеріали",
+			"lang":"uk"
+		},
+		{
+			"value":"基本内容",
+			"lang":"zh"
+		},
+		{
+			"value":"基本內容",
+			"lang":"zh_TW"
+		}
+	],
+	"descriptions": [
+		{
+			"value":"يحتوي ملف المواصفات هذا على كل شيء مطلوب لمشاهدة وتحرير المحتويات بالاضافة الى الامكانيات مثل التعليم بشارة والتقييم، التمثيل البياني للبيانات الاجتماعية وبطاقة الشخص.",
+			"lang":"ar"
+		},
+		{
+			"value":"Aquest perfil conté tot el necessari per visualitzar i editar el contingut així com funcions com ara l'Etiquetatge i classificació, la Targeta de persona i la Representació social. ",
+			"lang":"ca"
+		},
+		{
+			"value":"Tento profil obsahuje vše, co je nezbytné k zobrazení a úpravě obsahu, stejně jako takové schopnosti, jako např. použití značek a hodnocení, karta osoby a vykreslení dat ze sociálních sítí.",
+			"lang":"cs"
+		},
+		{
+			"value":"Denne profil indeholder alt, der kræves til fremvisning og redigering af indhold foruden muligheder for emneordsangivelse og vurdering, personkort og social gengivelse.",
+			"lang":"da"
+		},
+		{
+			"value":"Dieses Profil enthält alle Elemente, die für die Anzeige und Bearbeitung von Inhalten erforderlich sind, sowie Funktionen wie Tagging und Bewertung, Personenkarte und gemeinschaftliche Darstellung.",
+			"lang":"de"
+		},
+		{
+			"value":"Αυτό το προφίλ περιέχει όλα τα απαραίτητα αντικείμενα για την προβολή και την τροποποίηση περιεχομένου, καθώς και για δυνατότητες όπως η προσθήκη προσδιοριστικών και αξιολογήσεων, κάρτα χρήστη και η εμφάνιση περιεχομένου κοινωνικής δικτύωσης.",
+			"lang":"el"
+		},
+		{
+			"value":"This profile contains everything required for viewing and editing content as well as capabilities such as tagging&rating, person card and social rendering.",
+			"lang":"en"
+		},
+		{
+			"value":"Este perfil contiene todo lo necesario para visualizar y editar el contenido, así como funciones como Codificación y valoración, Tarjeta personal y Representación social. ",
+			"lang":"es"
+		},
+		{
+			"value":"Tämä profiili sisältää kaiken, mitä tarvitaan sisällön tarkasteluun ja muokkaukseen sekä tunnisteiden lisäykseen, arviointiin, henkilökortteihin ja sosiaaliseen hahmonnukseen.",
+			"lang":"fi"
+		},
+		{
+			"value":"Ce profil contient tous les éléments requis pour l'affichage et l'édition de contenu ainsi que des capacités telles que l'étiquetage et l'évaluation, carte personnelle et rendu social.",
+			"lang":"fr"
+		},
+		{
+			"value":"פרופיל זה כולל את כל מה שנחוץ להצגה ולעריכה של תוכן, וכן יכולות כגון תיוג ודירוג, כרטיס אדם והצגה חברתית.",
+			"lang":"he"
+		},
+		{
+			"value":"Ovaj profil sadrži sve što je potrebno za pregled i uređivanje sadržaja i mogućnosti poput označavanja i ocjenjivanja, karticu osobe i društveno prikazivanje.",
+			"lang":"hr"
+		},
+		{
+			"value":"Ez a profil tartalmaz mindent, ami szükséges a tartalom megjelenítéséhez és szerkesztéséhez, valamint olyan képességeket, mint a címkézés és az értékelés, a személyes kártya és a közösségi előállítás.",
+			"lang":"hu"
+		},
+		{
+			"value":"Questo profilo contiene tutto ciò che serve per visualizzare e modificare il contenuto, oltre alle capability come tag&valutazione, scheda persona e rendering sociale.",
+			"lang":"it"
+		},
+		{
+			"value":"このプロファイルには、タグ付けと評価、ユーザー・カード、ソーシャル・レンダリングなどの機能のほか、コンテンツの表示および編集に必要なあらゆるものが含まれます。",
+			"lang":"ja"
+		},
+		{
+			"value":"Бұл профайл tagging&rating, жеке кәртішке және әлеуметтік шығару сияқты мүмкіндіктерді қамтитын көрініс пен өңдеу үшін талап етілетін кез келгенін қамтиды.",
+			"lang":"kk"
+		},
+		{
+			"value":"이 프로파일에는 태그 지정 및 등급 지정, 개인 카드, 소셜 렌더링 등의 기능 및 컨텐츠를 보고 편집하는 데 필요한 사항이 모두 포함되어 있습니다.",
+			"lang":"ko"
+		},
+		{
+			"value":"Dit profiel bevat alles wat nodig is voor het bekijken en bewerken van content en daarnaast functionaliteit zoals tagging & beoordeling, persoonskaarten en social rendering.",
+			"lang":"nl"
+		},
+		{
+			"value":"Denne profilen inneholder alt som er nødvendig for å vise og redigere innhold, og funksjonalitet som merking og vurdering, personkort og sosial gjengivelse.",
+			"lang":"no"
+		},
+		{
+			"value":"Ten profil zawiera wszystkie elementy wymagane do wyświetlania i edytowania treści oraz możliwości, takie jak oznaczanie i ocenianie, wizytówki i wyświetlanie społecznościowe.",
+			"lang":"pl"
+		},
+		{
+			"value":"Este perfil contém todos os itens requeridos para visualizar e editar conteúdo, bem como capacidade como atribuição de etiquetas e avaliação, cartão de pessoa e apresentação social. ",
+			"lang":"pt"
+		},
+		{
+			"value":"Este perfil contém tudo que é necessário para visualizar e editar conteúdo, bem como capacidades de identificação e classificação, cartão pessoal e renderização social.",
+			"lang":"pt_BR"
+		},
+		{
+			"value":"Acest profil conţine tot ce este necesar pentru vizualizarea şi editarea conţinutului, precum şi capabilităţi cum ar fi marcarea prin tag şi evaluarea, cardul de persoană şi randarea socială.",
+			"lang":"ro"
+		},
+		{
+			"value":"Этот профайл содержит все необходимое для просмотра и редактирования материалов, а также различные функции, например, функции тегов и рейтинга, личной карточки и социального вывода.",
+			"lang":"ru"
+		},
+		{
+			"value":"Tento profil obsahuje všetko potrebné na prezeranie a úpravu obsahu, ako aj schopnosti, ako napríklad značkovanie a hodnotenie, karty osoby a sociálne renderovanie.",
+			"lang":"sk"
+		},
+		{
+			"value":"Ta profil vsebuje vse potrebno za ogledovanje in urejanje vsebine, kot tudi zmožnosti, kot so označevanje in ocenjevanje, osebne vizitke ter družabno upodabljanje.",
+			"lang":"sl"
+		},
+		{
+			"value":"Profil med det som krävs för att öppna och redigera innehåll samt funktioner för märkning, gradering, personkort och rendering av sociala objekt.",
+			"lang":"sv"
+		},
+		{
+			"value":"โปรไฟล์นี้มีทุกสิ่งที่จำเป็นสำหรับการดูและแก้ไขเนื้อหาพร้อมกับความสามารถอื่นๆ เช่น การแท็ก&การลงคะแนน, นามบัตรและการแสดงผลทางสังคม",
+			"lang":"th"
+		},
+		{
+			"value":"Bu profil, içerik görüntülemek ve düzenlemek için gereken tüm araçların yanı sıra, etiketleme, değerleme, kişi kartı ve sosyal görsel gerçekleştirme gibi yetenekleri de içerir.",
+			"lang":"tr"
+		},
+		{
+			"value":"Цей профайл містить усе необхідне для перегляду й редагування матеріалів, а також такі можливості, як призначення тегів та рейтингу, особисті картки та вивід матеріалів соціальних мереж.",
+			"lang":"uk"
+		},
+		{
+			"value":"此概要文件包含查看和编辑内容以及诸如标记和评分、人员卡和社交呈现所需的一切内容。",
+			"lang":"zh"
+		},
+		{
+			"value":"此設定檔包含檢視及編輯內容所需的所有內容，以及標記與評比、人員卡和社交呈現之類的功能。",
+			"lang":"zh_TW"
+		}
+	]
+}

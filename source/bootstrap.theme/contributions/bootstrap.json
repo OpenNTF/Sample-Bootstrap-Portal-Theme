@@ -1,0 +1,49 @@
+   {
+        "modules": [
+            {
+                "id":"bootstrap",
+                "contributions": [
+                    {
+                        "type":"config",
+                        "sub-contributions": [
+                            {
+                                "type":"js",
+                                "uris": [
+                                    {
+                                        "value":"/bootstrap-3.2.0-dist/js/jquery.1.11.1.min.js"
+                                    }
+                                ]
+                            },
+                            {
+                                "type":"js",
+                                "uris": [
+                                    {
+                                        "value":"/bootstrap-3.2.0-dist/js/bootstrap.min.js"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type":"head",
+                        "sub-contributions": [
+                            {
+                                "type":"css",
+                                "uris": [
+                                    {
+                                        "value":"/bootstrap-3.2.0-dist/css/bootstrap.min.css"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "titles": [
+                    {
+                        "value":"Boostrap Module",
+                        "lang":"en"
+                    }
+                ]
+            }
+        ]
+    }

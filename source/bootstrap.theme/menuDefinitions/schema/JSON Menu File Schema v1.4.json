@@ -1,0 +1,78 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "IBM WebSphere Portal JSON Menu Definition schema",
+    "description": "A schema for use in a validator tool, to validate the syntax of WebSphere Portal JSON Menu Framework menu definitions",
+    "type": "array",
+    "items" : {
+        "$ref" : "#/definitions/menuItemDefinitions" 
+    },
+    "definitions" : {
+        "menuItemDefinitions" : {
+            "type" : "object",
+            "minProperties" : 1,
+            "properties" : {
+                "type" : {"type" : "string" },
+                "titles" : {"$ref" : "#/definitions/titlesOrDescriptions"},
+                "descriptions" : {"$ref" : "#/definitions/titlesOrDescriptions"},  
+                "metadata" : {"$ref" : "#/definitions/metadata"}, 
+                "id" : { "type" : "string" }, 
+                "itemClass" : { "type" : "string" },
+                "enabled" : { "type" : "boolean" },
+                "enableFn" : { "type" : "string" },                                 
+                "actionUrl" : { "type" : "string",
+                                "format" : "uri"}, 
+                "actionHttpMethod" : { "type" : "string" },
+                "actionFn" : {"type" : "string"},
+                "visibilityFn" : {"type" : "string"},                                                                     
+                "moduleArgs" : {"type" : "string"},
+                "moduleId" : { "type" : "string" },
+                "markupId" : { "type" : "string" }
+            },
+            "anyOf" : [
+                {
+                    "properties" : {
+                        "type" : { "enum" : ["Separator", "Submenu"] }
+                    }
+                },{
+                    "properties" : {
+                        "type" : { "enum" : ["Header"] }
+                    },
+                    "required" : ["titles"]
+                },{
+                    "properties" : {
+                        "type" : { "enum" : ["StaticMenuitem"] }
+                    },
+                    "required" : ["id", "titles"]
+                },{
+                    "properties" : {
+                        "type" : { "enum" : ["DynamicMenuitem", "ModuleRef"] }
+                    },
+                    "required" : ["id"]
+                }
+            ],
+            "required" : ["type"],
+            "additionalProperties" : false
+        },
+        "titlesOrDescriptions" : {
+            "type" : "array",
+            "items" : {
+                "type" : "object",
+                "minProperties" : 2,
+                "properties" : {
+                    "lang" : {"type" : "string"} ,
+                    "value" : {"type" : "string"}
+                },
+                "required" : ["lang", "value"],
+                "additionalProperties" : false,
+                "uniqueItems" : true
+            }
+        },
+        "metadata" : {
+            "minProperties" : 1,
+            "additionalProperties" : false,
+            "patternProperties" : {
+                "[^metadata]" : {}
+            }
+        }
+    }          
+}

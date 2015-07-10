@@ -1,0 +1,13 @@
+.wpthemeMenu .wpthemeMenuInlineList li {
+    border-right: 1px solid #CCC;
+}
+
+.wpthemeMenu .wpthemeMenuInlineList li.wpthemeFirst {
+    padding-left: 3px;
+    margin-left: 4px;
+}
+
+.wpthemeMenu .wpthemeMenuInlineList li.wpthemeLast {
+    padding-right: 7px;
+    border-right: 0px;
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<request type="update" version="8.0.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PortalConfig_8.0.0.xsd">
+    <portal action="locate">
+
+	<skin action="update" active="true" default="false" domain="rel" objectid="ibm.portal.PortalTheme85BootstrapStandardCustom" uniquename="ibm.portal.PortalTheme85BootstrapStandardCustom" resourceroot="ibm.portal.PortalTheme85BootstrapStandardCustom" context-root="/bootstrap.theme" type="default">
+		<localedata locale="en">
+			<title>Portal Theme  V8.5 Bootstrap - Standard</title>
+		</localedata>
+		<parameter name="com.ibm.portal.skintype" type="string" update="set"><![CDATA[template]]></parameter>
+    <parameter name="com.ibm.portal.skin.template.ref" type="string" update="set"><![CDATA[dav:fs-type1/themes/bootstrap.theme/skins/Standard/]]></parameter>
+		<parameter name="com.ibm.portal.skin.template.file.name.html" type="string" update="set"><![CDATA[skin.html]]></parameter>
+	</skin>
+
+	<skin action="update" active="true" default="false" domain="rel" objectid="ibm.portal.PortalTheme85BootstrapNoSkinCustom" uniquename="ibm.portal.PortalTheme85BootstrapNoSkinCustom" resourceroot="ibm.portal.PortalTheme85BootstrapNoSkinCustom" context-root="/bootstrap.theme" type="default">
+		<localedata locale="en">
+			<title>Portal Theme  V8.5 Bootstrap - NoSkin</title>
+		</localedata>
+		<parameter name="com.ibm.portal.skintype" type="string" update="set"><![CDATA[template]]></parameter>
+    <parameter name="com.ibm.portal.skin.template.ref" type="string" update="set"><![CDATA[dav:fs-type1/themes/bootstrap.theme/skins/NoSkin/]]></parameter>
+		<parameter name="com.ibm.portal.skin.template.file.name.html" type="string" update="set"><![CDATA[skin.html]]></parameter>
+	</skin>
+
+	<skin action="update" active="true" default="false" domain="rel" objectid="ibm.portal.PortalTheme85BootstrapHiddenCustom" uniquename="ibm.portal.PortalTheme85BootstrapHiddenCustom" resourceroot="ibm.portal.PortalTheme85BootstrapHiddenCustom" context-root="/bootstrap.theme" type="default">
+		<localedata locale="en">
+			<title>Portal Theme  V8.5 Bootstrap - Hidden</title>
+		</localedata>
+		<parameter name="com.ibm.portal.skintype" type="string" update="set"><![CDATA[template]]></parameter>
+    <parameter name="com.ibm.portal.skin.template.ref" type="string" update="set"><![CDATA[dav:fs-type1/themes/bootstrap.theme/skins/Hidden/]]></parameter>
+		<parameter name="com.ibm.portal.skin.template.file.name.html" type="string" update="set"><![CDATA[skin.html]]></parameter>
+	</skin>
+
+
+        <skin action="locate" domain="rel" objectid="ibm.portal.PortalTheme85BootstrapStandardCustom.objectID" uniquename="ibm.portal.PortalTheme85BootstrapStandardCustom"/>
+        <skin action="locate" domain="rel" objectid="ibm.portal.PortalTheme85BootstrapNoSkinCustom.objectID" uniquename="ibm.portal.PortalTheme85BootstrapNoSkinCustom"/>
+ 	<skin action="locate" domain="rel" objectid="ibm.portal.PortalTheme85BootstrapHiddenCustom.objectID" uniquename="ibm.portal.PortalTheme85BootstrapHiddenCustom"/>
+
+        <theme action="update" active="true" context-root="/bootstrap.theme" default="false" defaultskinref="ibm.portal.PortalTheme85BootstrapHiddenCustom.objectID" domain="rel"  resourceroot="dynamicSpots" uniquename="bootstrap.theme">
+            <localedata locale="en">
+                <title>Portal Theme  V8.5 Bootstrap</title>
+            </localedata>
+
+            <allowed-skin skin="ibm.portal.PortalTheme85BootstrapStandardCustom.objectID" update="set"/>
+            <allowed-skin skin="ibm.portal.PortalTheme85BootstrapNoSkinCustom.objectID" update="set"/>
+	    <allowed-skin skin="ibm.portal.PortalTheme85BootstrapHiddenCustom.objectID" update="set"/>
+
+ 	    <parameter name="com.ibm.portal.theme.dnd.sources" type="string" update="set"><![CDATA[ibmDndColumn:com.ibm.pb.dnd.layout.LayoutColumnSource:vertical,ibmDndRow:com.ibm.pb.dnd.layout.LayoutRowSource:horizontal]]></parameter>
+            <parameter name="com.ibm.portal.theme.aggregationmodes" type="string" update="set"><![CDATA[ssa]]></parameter>
+
+            <parameter name="com.ibm.portal.layout.template.href" type="string" update="set"><![CDATA[dav:fs-type1/themes/bootstrap.theme/layout-templates/2ColumnEqual/]]></parameter>
+            <parameter name="com.ibm.portal.theme.template.ref" type="string" update="set"><![CDATA[dav:fs-type1/themes/bootstrap.theme/]]></parameter>
+            <parameter name="resourceaggregation.profile" type="string" update="set"><![CDATA[profiles/profile_deferred_bootstrap.json]]></parameter>
+        </theme>
+
+    </portal>
+</request>

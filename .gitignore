@@ -6,3 +6,5 @@ source/PortalThemeV85BootstrapDynamic/.gitignore
 source/PortalThemeV85BootstrapDynamic/.project
 source/PortalThemeV85BootstrapDynamic/.settings
 .project
+source/bootstrap.theme/.hashs
+source/bootstrap.theme/.settings
